@@ -11,15 +11,15 @@
         <meta content="" name="author"/>
 
         <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,500,600,700" rel="stylesheet" type="text/css">
         <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/base.css" rel="stylesheet" type="text/css"/>
 <!--        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
 
         <!-- PAGE LEVEL PLUGIN STYLES -->
         <link href="css/animate.css" rel="stylesheet">
         <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
-        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Caveat&display=swap" rel="stylesheet">
 
         <!-- THEME STYLES -->
         <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
@@ -33,41 +33,65 @@
     <body>
 
         <!--========== HEADER ==========-->
-        <header class="header navbar-fixed-top" style="width:100%; background-color: #fff;">
+        <header class="header navbar-fixed-top" style="width:100%; ">
             <!-- Navbar -->
             <nav class="navbar" role="navigation"  style="border-bottom: none">
                 <div class="container-full-width" style="padding-left: 30px; padding-right: 30px;">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="menu-container">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
-
                         <!-- Logo -->
                         <div class="logo">
-                            <a class="logo-wrap" href="index.html" style="font-family: 'Caveat', serif; font-size: 20px;">
-                                <img class="logo-img logo-img-main" style="width: 300px; max-height: 100px; height: 100px"  src="img/totally-healthcare-logo.jpg" alt="Totally Healthcare Logo">
-<!--                                <img class="logo-img logo-img-active" src="img/totally-healthcare-logo.jpg" alt="Totally Healthcare Logo">-->
+                            <a class="logo-wrap" href="index.html">
+                                <img class="logo-img logo-img-main" style="max-width: 300px;"
+                                     src="img/thc-logo-trans-white.png" alt="Totally Healthcare Logo"
+                                >
+                                <img class="logo-img logo-img-active" style="max-width: 300px;"
+                                     src="img/thc-logo-trans-blue.png"
+                                     alt="Totally Healthcare Logo"
+                                >
                             </a>
                         </div>
                         <!-- End Logo -->
-                    </div>
+                        <!--                    </div>-->
+                        <!--                    <div class="menu-container">-->
+                        <span class=" navbar-nav navbar-right dropdown " style="padding-top: 25px">
+                            <a class="dropdown-toggle"
+                               data-toggle="dropdown"
+                               href="#"
+                               role="button"
+                               aria-haspopup="true"
+                               aria-expanded="false"
+                               style="color: rgba(31, 50, 93,1); font-size: 40px;">
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-collapse" >
-                        <div class="menu-container">
-                            <ul class="navbar-nav navbar-right" >
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="">About</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="">Insourcing</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="">Specialities</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="">Governance</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="">Working For Us</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="">Patients</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="">Contact Us</a></li>
-                            </ul>
-                        </div>
+                                <i class="glyphicon glyphicon-menu-hamburger"></i>
+                                <span class="sr-only">Menu</span>
+                            </a>
+                                <ul class="dropdown-menu">
+                                    <div class="container-small" style="padding: 20px;">
+                                    <div class="row">
+                                    <div class="col-md-6">
+                                        <li><a class="active" href="index.html">Home</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Insourcing</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Specialities</a></li>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <li><a href="#">Governance</a></li>
+                                            <li role="separator" class="divider"></li>
+                                        <li><a href="#">Working For Us</a></li>
+                                            <li role="separator" class="divider"></li>
+                                        <li><a href="#">Patients</a></li>
+                                            <li role="separator" class="divider"></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        </div>
+                                 </div>
+                                </div>
+                                </ul>
+
+                        </span>
                     </div>
                     <!-- End Navbar Collapse -->
                 </div>
@@ -78,47 +102,18 @@
 
         <!--========== SLIDER ==========-->
         <div class="container-full-width" >
-            <div style="position: absolute; top:0; left:0; display:flex; width:100%; height:1080px; justify-content: flex-start; flex-direction: column">
-                <h1 style="-webkit-font-smoothing: antialiased; font-weight: bolder; font-family: Hind, sans-serif; color:white; text-align: center; margin-top:400px; z-index: 10; letter-spacing: 2px; margin-bottom:0;">TOTALLY HEALTHCARE<span style="color: #76C6C3; font-size: 60px;">.</span></h1>
-                <p style="-webkit-font-smoothing: antialiased; margin-top: -15px; font-family: 'Hind', serif;font-weight:lighter; color:#ddd; z-index: 10;  font-size: 13px; text-align: center; letter-spacing: 1px;">MAKING IT BETTER</p>
+            <div style="position: absolute; top:0; left:0; display:flex; width:100%; height:100%; justify-content: flex-start; flex-direction: column">
+<!--                <h1 style="-webkit-font-smoothing: antialiased; font-weight: bolder; font-family: Hind, sans-serif; color:white; text-align: center; margin-top:400px; z-index: 10; letter-spacing: 2px; margin-bottom:0;">TOTALLY HEALTHCARE<span style="color: #76C6C3; font-size: 60px;">.</span></h1>-->
+<!--                <p style="-webkit-font-smoothing: antialiased; margin-top: -15px; font-family: 'Hind', serif;font-weight:lighter; color:#ddd; z-index: 10;  font-size: 13px; text-align: center; letter-spacing: 1px;">MAKING IT BETTER</p>-->
         </div>
-            <div class="dimmer" style="position:absolute; height: 100%; background-color: rgba(0,0,0,0.35); width:100%"></div>
-            <video width="100%" height="100%" alt="Slider Image" autoplay="autoplay" loop="loop" muted="true" preload="auto">
-                    <source src="https://s3.amazonaws.com/ditto-site/new-vignettes.mp4" type="video/mp4">
-                    <!-- <source src="movs/totallyhealthcare-colourised.mp4" type="video/mp4"> -->
+            <div class="dimmer" style="position:absolute; height: 100%; background-color: rgba(0,0,0,0.25); width:100%"></div>
+            <video width="100%" height="100%" alt="Slider Image" autoplay="autoplay" loop="loop" muted="muted" preload="auto">
+<!--                    <source src="https://s3.amazonaws.com/ditto-site/new-vignettes.mp4" type="video/mp4">-->
+                 <source src="movs/totallyhealthcare-colourised.mp4" type="video/mp4">
             </video>
         </div>
-
-
-<!--        <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">-->
-<!--            <div class="container">-->
-<!--                &lt;!&ndash; Indicators &ndash;&gt;-->
-<!--                <ol class="carousel-indicators">-->
-<!--                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
-<!--                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
-<!--                </ol>-->
-<!--            </div>-->
-
-<!--            &lt;!&ndash; Wrapper for slides &ndash;&gt;-->
-<!--            <div class="carousel-inner" role="listbox">-->
-<!--                <div class="item active">-->
-<!--&lt;!&ndash;                    <div class="dimmer" style="position:absolute; height: 1080px; background-color: rgba(0,0,0,0.5); width:100%"></div>&ndash;&gt;-->
-<!--                   -->
-<!--                    <div class="container">-->
-<!--                    <div class="carousel-centered">-->
-<!--                        <div class="margin-b-40">-->
-<!--                            <h1 class="carousel-title" Totally Healthcare</h1>-->
-<!--                            <p>Making it better</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-        <!--========== SLIDER ==========-->
-
         <!--========== PAGE LAYOUT ==========-->
-        <!-- Service -->
+        <!-- USPs -->
         <div class="bg-color-sky-light" data-auto-height="true">
             <div class="content-lg container">
                 <div class="row row-space-1 margin-b-2">
@@ -166,359 +161,9 @@
                     </div>
                 </div>
                 <!--// end row -->
-
-<!--                <div class="row row-space-1">-->
-<!--                    <div class="col-sm-4 sm-margin-b-2">-->
-<!--                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">-->
-<!--                            <div class="service" data-height="height">-->
-<!--                                <div class="service-element">-->
-<!--                                    <i class="service-icon icon-notebook"></i>-->
-<!--                                </div>-->
-<!--                                <div class="service-info">-->
-<!--                                    <h3>Useful Documentation</h3>-->
-<!--                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>-->
-<!--                                </div>-->
-<!--                                <a href="#" class="content-wrapper-link"></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-sm-4 sm-margin-b-2">-->
-<!--                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">-->
-<!--                            <div class="service" data-height="height">-->
-<!--                                <div class="service-element">-->
-<!--                                    <i class="service-icon icon-speedometer"></i>-->
-<!--                                </div>-->
-<!--                                <div class="service-info">-->
-<!--                                    <h3>Fast Delivery</h3>-->
-<!--                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>-->
-<!--                                </div>-->
-<!--                                <a href="#" class="content-wrapper-link"></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-sm-4">-->
-<!--                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">-->
-<!--                            <div class="service" data-height="height">-->
-<!--                                <div class="service-element">-->
-<!--                                    <i class="service-icon icon-badge"></i>-->
-<!--                                </div>-->
-<!--                                <div class="service-info">-->
-<!--                                    <h3>Free Plugins</h3>-->
-<!--                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>-->
-<!--                                </div>-->
-<!--                                <a href="#" class="content-wrapper-link"></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                &lt;!&ndash;// end row &ndash;&gt;-->
             </div>
         </div>
-        <!-- End Service -->
-
-<!--        &lt;!&ndash; Latest Products &ndash;&gt;-->
-<!--        <div class="content-lg container">-->
-<!--            <div class="row margin-b-40">-->
-<!--                <div class="col-sm-6">-->
-<!--                    <h2>Latest Products</h2>-->
-<!--                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            &lt;!&ndash;// end row &ndash;&gt;-->
-
-<!--            <div class="row">-->
-<!--                &lt;!&ndash; Latest Products &ndash;&gt;-->
-<!--                <div class="col-sm-4 sm-margin-b-50">-->
-<!--                    <div class="margin-b-20">-->
-<!--                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">-->
-<!--                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <h4><a href="#">Triangle Roof</a> <span class="text-uppercase margin-l-20">Management</span></h4>-->
-<!--                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>-->
-<!--                    <a class="link" href="#">Read More</a>-->
-<!--                </div>-->
-<!--                &lt;!&ndash; End Latest Products &ndash;&gt;-->
-
-<!--                &lt;!&ndash; Latest Products &ndash;&gt;-->
-<!--                <div class="col-sm-4 sm-margin-b-50">-->
-<!--                    <div class="margin-b-20">-->
-<!--                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">-->
-<!--                            <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <h4><a href="#">Curved Corners</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>-->
-<!--                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>-->
-<!--                    <a class="link" href="#">Read More</a>-->
-<!--                </div>-->
-<!--                &lt;!&ndash; End Latest Products &ndash;&gt;-->
-
-<!--                &lt;!&ndash; Latest Products &ndash;&gt;-->
-<!--                <div class="col-sm-4 sm-margin-b-50">-->
-<!--                    <div class="margin-b-20">-->
-<!--                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">-->
-<!--                            <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <h4><a href="#">Bird On Green</a> <span class="text-uppercase margin-l-20">Design</span></h4>-->
-<!--                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>-->
-<!--                    <a class="link" href="#">Read More</a>-->
-<!--                </div>-->
-<!--                &lt;!&ndash; End Latest Products &ndash;&gt;-->
-<!--            </div>-->
-<!--            &lt;!&ndash;// end row &ndash;&gt;-->
-<!--        </div>-->
-<!--        &lt;!&ndash; End Latest Products &ndash;&gt;-->
-
-<!--        &lt;!&ndash; Clients &ndash;&gt;-->
-<!--        <div class="bg-color-sky-light">-->
-<!--            <div class="content-lg container">-->
-<!--                &lt;!&ndash; Swiper Clients &ndash;&gt;-->
-<!--                <div class="swiper-slider swiper-clients">-->
-<!--                    &lt;!&ndash; Swiper Wrapper &ndash;&gt;-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                        <div class="swiper-slide">-->
-<!--                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">-->
-<!--                        </div>-->
-<!--                        <div class="swiper-slide">-->
-<!--                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">-->
-<!--                        </div>-->
-<!--                        <div class="swiper-slide">-->
-<!--                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">-->
-<!--                        </div>-->
-<!--                        <div class="swiper-slide">-->
-<!--                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">-->
-<!--                        </div>-->
-<!--                        <div class="swiper-slide">-->
-<!--                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">-->
-<!--                        </div>-->
-<!--                        <div class="swiper-slide">-->
-<!--                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    &lt;!&ndash; End Swiper Wrapper &ndash;&gt;-->
-<!--                </div>-->
-<!--                &lt;!&ndash; End Swiper Clients &ndash;&gt;-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        &lt;!&ndash; End Clients &ndash;&gt;-->
-
-<!--        &lt;!&ndash; Testimonials &ndash;&gt;-->
-<!--        <div class="content-lg container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-sm-9">-->
-<!--                    <h2>Customer Reviews</h2>-->
-
-<!--                    &lt;!&ndash; Swiper Testimonials &ndash;&gt;-->
-<!--                    <div class="swiper-slider swiper-testimonials">-->
-<!--                        &lt;!&ndash; Swiper Wrapper &ndash;&gt;-->
-<!--                        <div class="swiper-wrapper">-->
-<!--                            <div class="swiper-slide">-->
-<!--                                <blockquote class="blockquote">-->
-<!--                                    <div class="margin-b-20">-->
-<!--                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.-->
-<!--                                    </div>-->
-<!--                                    <div class="margin-b-20">-->
-<!--                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor incididunt dolore magna consequat siad minim aliqua.-->
-<!--                                    </div>-->
-<!--                                    <p><span class="fweight-700 color-link">Joh Milner</span>, Metronic Customer</p>-->
-<!--                                </blockquote>-->
-<!--                            </div>-->
-<!--                            <div class="swiper-slide">-->
-<!--                                <blockquote class="blockquote">-->
-<!--                                    <div class="margin-b-20">-->
-<!--                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.-->
-<!--                                    </div>-->
-<!--                                    <div class="margin-b-20">-->
-<!--                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.-->
-<!--                                    </div>-->
-<!--                                    <p><span class="fweight-700 color-link">Alex Clarson</span>, Metronic Customer</p>-->
-<!--                                </blockquote>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End Swiper Wrapper &ndash;&gt;-->
-
-<!--                        &lt;!&ndash; Pagination &ndash;&gt;-->
-<!--                        <div class="swiper-testimonials-pagination"></div>-->
-<!--                    </div>-->
-<!--                    &lt;!&ndash; End Swiper Testimonials &ndash;&gt;-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            &lt;!&ndash;// end row &ndash;&gt;-->
-<!--        </div>-->
-<!--        &lt;!&ndash; End Testimonials &ndash;&gt;-->
-
-<!--        &lt;!&ndash; Pricing &ndash;&gt;-->
-<!--        <div class="bg-color-sky-light">-->
-<!--            <div class="content-lg container">-->
-<!--                <div class="row row-space-1">-->
-<!--                    <div class="col-sm-4 sm-margin-b-2">-->
-<!--                        &lt;!&ndash; Pricing &ndash;&gt;-->
-<!--                        <div class="pricing">-->
-<!--                            <div class="margin-b-30">-->
-<!--                                <i class="pricing-icon icon-chemistry"></i>-->
-<!--                                <h3>Starter Kit <span> - $</span> 49</h3>-->
-<!--                                <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>-->
-<!--                            </div>-->
-<!--                            <ul class="list-unstyled pricing-list margin-b-50">-->
-<!--                                <li class="pricing-list-item">Basic Features</li>-->
-<!--                                <li class="pricing-list-item">Up to 5 products</li>-->
-<!--                                <li class="pricing-list-item">50 Users Panels</li>-->
-<!--                            </ul>-->
-<!--                            <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End Pricing &ndash;&gt;-->
-<!--                    </div>-->
-<!--                    <div class="col-sm-4 sm-margin-b-2">-->
-<!--                        &lt;!&ndash; Pricing &ndash;&gt;-->
-<!--                        <div class="pricing pricing-active">-->
-<!--                            <div class="margin-b-30">-->
-<!--                                <i class="pricing-icon icon-badge"></i>-->
-<!--                                <h3>Professional <span> - $</span> 149</h3>-->
-<!--                                <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>-->
-<!--                            </div>-->
-<!--                            <ul class="list-unstyled pricing-list margin-b-50">-->
-<!--                                <li class="pricing-list-item">Basic Features</li>-->
-<!--                                <li class="pricing-list-item">Up to 100 products</li>-->
-<!--                                <li class="pricing-list-item">100 Users Panels</li>-->
-<!--                            </ul>-->
-<!--                            <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End Pricing &ndash;&gt;-->
-<!--                    </div>-->
-<!--                    <div class="col-sm-4">-->
-<!--                        &lt;!&ndash; Pricing &ndash;&gt;-->
-<!--                        <div class="pricing">-->
-<!--                            <div class="margin-b-30">-->
-<!--                                <i class="pricing-icon icon-shield"></i>-->
-<!--                                <h3>Advanced <span> - $</span> 249</h3>-->
-<!--                                <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>-->
-<!--                            </div>-->
-<!--                            <ul class="list-unstyled pricing-list margin-b-50">-->
-<!--                                <li class="pricing-list-item">Extended Features</li>-->
-<!--                                <li class="pricing-list-item">Unlimited products</li>-->
-<!--                                <li class="pricing-list-item">Unlimited Users Panels</li>-->
-<!--                            </ul>-->
-<!--                            <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End Pricing &ndash;&gt;-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                &lt;!&ndash;// end row &ndash;&gt;-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        &lt;!&ndash; End Pricing &ndash;&gt;-->
-
-<!--        &lt;!&ndash; Promo Section &ndash;&gt;-->
-<!--        <div class="promo-section overflow-h">-->
-<!--            <div class="container">-->
-<!--                <div class="clearfix">-->
-<!--                    <div class="ver-center">-->
-<!--                        <div class="ver-center-aligned">-->
-<!--                            <div class="promo-section-col">-->
-<!--                                <h2>Our Clients</h2>-->
-<!--                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>-->
-<!--                                <p>Ipsum dolor sit amet consectetur adipiscing elit sed tempor incididut ut sead laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="promo-section-img-right">-->
-<!--                <img class="img-responsive" src="img/970x970/01.jpg" alt="Content Image">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        &lt;!&ndash; End Promo Section &ndash;&gt;-->
-
-<!--        &lt;!&ndash; Work &ndash;&gt;-->
-<!--        <div class="bg-color-sky-light overflow-h">-->
-<!--            <div class="content-lg container">-->
-<!--                <div class="row margin-b-40">-->
-<!--                    <div class="col-sm-6">-->
-<!--                        <h2>Showcase</h2>-->
-<!--                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                &lt;!&ndash;// end row &ndash;&gt;-->
-
-<!--                &lt;!&ndash; Masonry Grid &ndash;&gt;-->
-<!--                <div class="masonry-grid">-->
-<!--                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>-->
-<!--                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8">-->
-<!--                        &lt;!&ndash; Work &ndash;&gt;-->
-<!--                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">-->
-<!--                            <div class="work-overlay">-->
-<!--                                <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">-->
-<!--                            </div>-->
-<!--                            <div class="work-content">-->
-<!--                                <h3 class="color-white margin-b-5">Art Of Coding</h3>-->
-<!--                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>-->
-<!--                            </div>-->
-<!--                            <a class="content-wrapper-link" href="#"></a>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End Work &ndash;&gt;-->
-<!--                    </div>-->
-<!--                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">-->
-<!--                        &lt;!&ndash; Work &ndash;&gt;-->
-<!--                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".2s">-->
-<!--                            <div class="work-overlay">-->
-<!--                                <img class="full-width img-responsive" src="img/397x400/01.jpg" alt="Portfolio Image">-->
-<!--                            </div>-->
-<!--                            <div class="work-content">-->
-<!--                                <h3 class="color-white margin-b-5">Clean Design</h3>-->
-<!--                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>-->
-<!--                            </div>-->
-<!--                            <a class="content-wrapper-link" href="#"></a>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End Work &ndash;&gt;-->
-<!--                    </div>-->
-<!--                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">-->
-<!--                        &lt;!&ndash; Work &ndash;&gt;-->
-<!--                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".3s">-->
-<!--                            <div class="work-overlay">-->
-<!--                                <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">-->
-<!--                            </div>-->
-<!--                            <div class="work-content">-->
-<!--                                <h3 class="color-white margin-b-5">Clean Design</h3>-->
-<!--                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>-->
-<!--                            </div>-->
-<!--                            <a class="content-wrapper-link" href="#"></a>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End Work &ndash;&gt;-->
-<!--                    </div>-->
-<!--                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">-->
-<!--                        &lt;!&ndash; Work &ndash;&gt;-->
-<!--                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".4s">-->
-<!--                            <div class="work-overlay">-->
-<!--                                <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">-->
-<!--                            </div>-->
-<!--                            <div class="work-content">-->
-<!--                                <h3 class="color-white margin-b-5">Clean Design</h3>-->
-<!--                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>-->
-<!--                            </div>-->
-<!--                            <a class="content-wrapper-link" href="#"></a>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End Work &ndash;&gt;-->
-<!--                    </div>-->
-<!--                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">-->
-<!--                        &lt;!&ndash; Work &ndash;&gt;-->
-<!--                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".5s">-->
-<!--                            <div class="work-overlay">-->
-<!--                                <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">-->
-<!--                            </div>-->
-<!--                            <div class="work-content">-->
-<!--                                <h3 class="color-white margin-b-5">Clean Design</h3>-->
-<!--                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>-->
-<!--                            </div>-->
-<!--                            <a class="content-wrapper-link" href="#"></a>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; End Work &ndash;&gt;-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                &lt;!&ndash; End Masonry Grid &ndash;&gt;-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        &lt;!&ndash; End Work &ndash;&gt;-->
+        <!-- End USP -->
 <!--        &lt;!&ndash;========== END PAGE LAYOUT ==========&ndash;&gt;-->
 
         <!--========== FOOTER ==========-->
@@ -531,7 +176,7 @@
                             <!-- List -->
                             <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Home</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">About Us</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="about.html">About Us</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Insourcing</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Specialities</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Governance</a></li>
