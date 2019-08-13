@@ -356,8 +356,11 @@ fieldset[disabled] .btn-theme {
   	[Service]
 ------------------------------------------------------------------*/
 .service {
-  background: #fff;
+  background: #40acb6;
   padding: 50px;
+  color: #fff;
+
+
 }
 
 .service .service-element,
@@ -373,7 +376,7 @@ fieldset[disabled] .btn-theme {
 .service .service-icon {
   display: block;
   font-size: 30px;
-  color: #999caa;
+  color: #fff;
   margin-bottom: 30px;
 }
 
@@ -772,7 +775,7 @@ fieldset[disabled] .btn-theme {
 /* Page On Scroll */
 @media (min-width: 992px) {
   .page-on-scroll .header .navbar {
-    background: #002b70;
+    background: #444444;
     border-bottom-color: #f0f0f0;
     transition-duration: 300ms;
     transition-property: all;
@@ -1537,4 +1540,12 @@ fieldset[disabled] .btn-theme {
 
 .height-400 {
   height: 400px !important;
+}
+
+.totally-grey {
+  color: #444444;
+}
+
+.white {
+  color: #fff;
 }

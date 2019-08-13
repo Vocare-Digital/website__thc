@@ -22,7 +22,7 @@
         <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
 
         <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/layout.css" rel="stylesheet" type="text/css"/>
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
@@ -41,12 +41,12 @@
                 <div class="menu-container">
                     <!-- Logo -->
                     <div class="logo">
-                        <a class="logo-wrap" href="index.html">
+                        <a class="logo-wrap" href="index-old.html">
                             <img class="logo-img logo-img-main" style="max-width: 300px;"
                                  src="img/thc-logo-trans-white.png" alt="Totally Healthcare Logo"
                             >
                             <img class="logo-img logo-img-active" style="max-width: 300px;"
-                                 src="img/thc-logo-trans-blue.png"
+                                 src="img/thc-logo-trans-white.png"
                                  alt="Totally Healthcare Logo"
                             >
                         </a>
@@ -54,23 +54,29 @@
                     <!-- End Logo -->
                     <!--                    </div>-->
                     <!--                    <div class="menu-container">-->
-                    <span class=" navbar-nav navbar-right dropdown " style="padding-top: 25px">
+                    <span class="navbar-nav navbar-right dropdown" style="padding-top: 1.25%">
                             <a class="dropdown-toggle"
                                data-toggle="dropdown"
                                href="#"
                                role="button"
                                aria-haspopup="true"
                                aria-expanded="false"
-                               style="color: rgba(31, 50, 93,1); font-size: 40px;">
-
+                               style="color: rgba(255,255,255,1); font-size: 40px;
+                                    display: -webkit-flex;
+                                    display: flex;
+                                    -webkit-justify-content: center;
+                                    justify-content: center;
+                                    -webkit-align-items: center;
+                                    align-items: center;">
                                 <i class="glyphicon glyphicon-menu-hamburger"></i>
+                                <span style="color: rgba(255,255,255,1); font-size: 20px; padding-right: 5px">menu</span>
                                 <span class="sr-only">Menu</span>
                             </a>
                                 <ul class="dropdown-menu">
                                     <div class="container-small" style="padding: 20px;">
                                     <div class="row">
                                     <div class="col-md-6">
-                                        <li><a class="active" href="index.html">Home</a></li>
+                                        <li><a class="active" href="index-old.html">Home</a></li>
                                         <li role="separator" class="divider"></li>
                                         <li><a href="about.html">About</a></li>
                                         <li role="separator" class="divider"></li>
@@ -105,10 +111,10 @@
 <!--                <h1 style="-webkit-font-smoothing: antialiased; font-weight: bolder; font-family: Hind, sans-serif; color:white; text-align: center; margin-top:400px; z-index: 10; letter-spacing: 2px; margin-bottom:0;">TOTALLY HEALTHCARE<span style="color: #76C6C3; font-size: 60px;">.</span></h1>-->
 <!--                <p style="-webkit-font-smoothing: antialiased; margin-top: -15px; font-family: 'Hind', serif;font-weight:lighter; color:#ddd; z-index: 10;  font-size: 13px; text-align: center; letter-spacing: 1px;">MAKING IT BETTER</p>-->
         </div>
-            <div class="dimmer" style="position:absolute; height: 100%; background-color: rgba(0,0,0,0.25); width:100%"></div>
-            <video width="100%" height="100%" alt="Slider Image" autoplay="autoplay" loop="loop" muted="muted" preload="auto">
+            <div class="dimmer" style="position:absolute; height: 1070px; background-color: rgba(0,0,0,0.25); width:100%"></div>
+            <video width="100%"   alt="Slider Image" loop="loop" muted="muted" autoplay="autoplay" preload="auto">
 <!--                    <source src="https://s3.amazonaws.com/ditto-site/new-vignettes.mp4" type="video/mp4">-->
-                 <source src="movs/totallyhealthcare-colourised.mp4" type="video/mp4">
+                 <source src="movs/totallyhealthcare-new.mp4" type="video/mp4">
             </video>
         </div>
         <!--========== PAGE LAYOUT ==========-->
@@ -123,8 +129,16 @@
                                     <i class="service-icon icon-chemistry"></i>
                                 </div>
                                 <div class="service-info">
-                                    <h3>Insourcing</h3>
-                                    <p class="margin-b-5">Insourcing is the practical use of NHS or HSE hospital facilities at times and in places where space and equipment are not being used to optimal levels</p>
+                                    <h3 class="totally-grey">Outpatients</h3>
+                                    <p class="margin-b-5 totally-grey">
+                                        <ul>
+                                            <li>Gastroenterology</li>
+                                            <li>Opthalmology</li>
+                                            <li>Dermatology</li>
+                                            <li>Orthopaedics</li>
+                                            <li>ENT and audiology</li>
+                                        </ul>
+                                    </p>
                                 </div>
                                 <a href="#" class="content-wrapper-link"></a>
                             </div>
@@ -137,8 +151,13 @@
                                     <i class="service-icon icon-screen-tablet"></i>
                                 </div>
                                 <div class="service-info">
-                                    <h3>Strategy</h3>
-                                    <p class="margin-b-5">Totally Healthcare are the market-leaders in delivering patient waiting times in all specialties throughout the UK and Ireland</p>
+                                    <h3 class="totally-grey">Diagnostics</h3>
+                                    <p class="margin-b-5 totally-grey">
+                                        <ul>
+                                            <li>Symptomatic</li>
+                                            <li>Endoscopy</li>
+                                    <li>Bowel cancer screening</li>
+                                        </ul></p>
                                 </div>
                                 <a href="#" class="content-wrapper-link"></a>
                             </div>
@@ -151,8 +170,17 @@
                                     <i class="service-icon icon-badge"></i>
                                 </div>
                                 <div class="service-info">
-                                    <h3>Vision</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                    <h3 class="totally-grey">Surgery</h3>
+                                    <p class="margin-b-5 totally-grey">
+                                        <ul>
+                                        <li>Cataracts</li>
+                                        <li>Glaucoma</li>
+                                        <li>Oculoplastics</li>
+                                        <li>Laser and Intravitreal Therapies</li>
+                                        <li>Minor ops</li>
+                                        <li>Cataract and Oculoplastic surgery</li>
+                                </ul>
+                                    </p>
                                 </div>
                                 <a href="#" class="content-wrapper-link"></a>
                             </div>
