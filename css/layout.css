@@ -15,7 +15,7 @@ body {
 p {
   font-size: 15px;
   font-weight: 400;
-  font-family: Hind, sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #a6a7aa;
   line-height: 1.4;
   margin-bottom: 15px;
@@ -26,12 +26,12 @@ li,
 li a {
   font-size: 16px;
   font-weight: 500;
-  font-family: Hind, sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #515769;
 }
 
 a {
-  font-family: Hind, sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #81848f;
   outline: 0;
 }
@@ -46,7 +46,7 @@ a:focus, a:hover, a:active {
   position: relative;
   font-size: 13px;
   font-weight: 600;
-  font-family: Hind, sans-serif;
+  font-family: 'Lato', sans-serif;
   text-transform: uppercase;
 }
 
@@ -63,13 +63,13 @@ a:focus, a:hover, a:active {
 span {
   font-size: 14px;
   font-weight: 400;
-  font-family: Hind, sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #bfc1c7;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: Hind, sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #515769;
   line-height: 1.4;
   margin: 0 0 15px;
@@ -151,7 +151,7 @@ h4 {
   position: relative;
   font-size: 17px;
   font-weight: 400;
-  font-family: Hind, sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #a6a7aa;
   line-height: 1.4;
   border-left: none;
@@ -356,8 +356,11 @@ fieldset[disabled] .btn-theme {
   	[Service]
 ------------------------------------------------------------------*/
 .service {
-  background: #fff;
+  background: #40acb6;
   padding: 50px;
+  color: #fff;
+
+
 }
 
 .service .service-element,
@@ -373,7 +376,7 @@ fieldset[disabled] .btn-theme {
 .service .service-icon {
   display: block;
   font-size: 30px;
-  color: #999caa;
+  color: #fff;
   margin-bottom: 30px;
 }
 
@@ -598,7 +601,7 @@ fieldset[disabled] .btn-theme {
 
 .header .logo-img {
   display: inline-block;
-  width: 85px;
+  /*width: 85px;*/
   height: auto;
   max-width: 100%;
   max-height: 100%;
@@ -655,7 +658,7 @@ fieldset[disabled] .btn-theme {
   display: block;
   font-size: 13px;
   font-weight: 600;
-  font-family: Hind, sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #fff;
   text-transform: uppercase;
   line-height: 55px;
@@ -675,7 +678,7 @@ fieldset[disabled] .btn-theme {
   left: 0;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #004e72;
   opacity: 0;
   content: " ";
   transition-duration: 400ms;
@@ -688,7 +691,7 @@ fieldset[disabled] .btn-theme {
   /* Bootstrap collapse of navigation with a maximum width: 991px
     (Change it to any breakpoint you want to be collapsed) */
   .header {
-    background: #fff;
+    background: #004e72;
   }
   .header .navbar-toggle {
     display: block;
@@ -772,7 +775,7 @@ fieldset[disabled] .btn-theme {
 /* Page On Scroll */
 @media (min-width: 992px) {
   .page-on-scroll .header .navbar {
-    background: #fff;
+    background: #444444;
     border-bottom-color: #f0f0f0;
     transition-duration: 300ms;
     transition-property: all;
@@ -1537,4 +1540,12 @@ fieldset[disabled] .btn-theme {
 
 .height-400 {
   height: 400px !important;
+}
+
+.totally-grey {
+  color: #444444;
+}
+
+.white {
+  color: #fff;
 }
