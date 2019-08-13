@@ -31,7 +31,7 @@
         <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
 
         <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/layout.css" rel="stylesheet" type="text/css"/>
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
@@ -41,21 +41,20 @@
     <!-- BODY -->
     <body>
 
-    <!--========== HEADER ==========-->
     <header class="header navbar-fixed-top" style="width:100%; ">
         <!-- Navbar -->
         <nav class="navbar" role="navigation"  style="border-bottom: none">
-            <div class="container-full-width" style="padding-left: 30px; padding-right: 30px;">
+            <div class="container" style="padding-left: 30px; padding-right: 30px;">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="menu-container">
                     <!-- Logo -->
                     <div class="logo">
-                        <a class="logo-wrap" href="index-old.html">
-                            <img class="logo-img logo-img-main" style="max-width: 300px;"
+                        <a class="logo-wrap" href="index.html">
+                            <img class="logo-img logo-img-main" style="max-width: 350px;"
                                  src="img/thc-logo-trans-white.png" alt="Totally Healthcare Logo"
                             >
-                            <img class="logo-img logo-img-active" style="max-width: 300px;"
-                                 src="img/thc-logo-trans-blue.png"
+                            <img class="logo-img logo-img-active" style="max-width: 350px;"
+                                 src="img/thc-logo-trans-white.png"
                                  alt="Totally Healthcare Logo"
                             >
                         </a>
@@ -63,16 +62,22 @@
                     <!-- End Logo -->
                     <!--                    </div>-->
                     <!--                    <div class="menu-container">-->
-                    <span class=" navbar-nav navbar-right dropdown " style="padding-top: 25px">
+                    <span class="navbar-nav navbar-right dropdown" style="padding-top: 1.85%">
                             <a class="dropdown-toggle"
                                data-toggle="dropdown"
                                href="#"
                                role="button"
                                aria-haspopup="true"
                                aria-expanded="false"
-                               style="color: rgba(31, 50, 93,1); font-size: 40px;">
-
+                               style="color: rgba(255,255,255,1); font-size: 40px;
+                                    display: -webkit-flex;
+                                    display: flex;
+                                    -webkit-justify-content: center;
+                                    justify-content: center;
+                                    -webkit-align-items: center;
+                                    align-items: center;">
                                 <i class="glyphicon glyphicon-menu-hamburger"></i>
+                                <span style="color: rgba(255,255,255,1); font-size: 20px; padding-right: 5px">menu</span>
                                 <span class="sr-only">Menu</span>
                             </a>
                                 <ul class="dropdown-menu">
@@ -107,7 +112,6 @@
         </nav>
         <!-- Navbar -->
     </header>
-        <!--========== END HEADER ==========-->
 
         <!--========== PARALLAX ==========-->
         <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
