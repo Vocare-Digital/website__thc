@@ -31,11 +31,9 @@
 .burger-menu {
     background-color: #002b70;
     padding: 20px;
-}
-
-.burger-menu > li, a {
     color: white !important;
 }
+
 
 .dropdown-header {
     color: white;
@@ -48,4 +46,8 @@
 
 .parallax-window {
     background-color: rgba(0, 43, 112, 0.25);
+}
+
+.burger-menu-link {
+    color: white;
 }
