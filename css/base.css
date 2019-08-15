@@ -26,3 +26,28 @@
 .container-small, .container-large {
     max-width: 100%;
 }
+
+
+.burger-menu {
+    background-color: #002b70;
+    padding: 20px;
+    color: white !important;
+}
+
+
+.dropdown-header {
+    color: white;
+    font-size: 13px;
+}
+
+.moving-boxes  {
+    color: white !important;
+}
+
+.parallax-window {
+    background-color: rgba(0, 43, 112, 0.25);
+}
+
+.burger-menu-link {
+    color: white;
+}
