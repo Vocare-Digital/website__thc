@@ -29,7 +29,7 @@
 
 
 .burger-menu {
-    background-color: #002b70;
+    background-color: #003868;
     padding: 20px;
     color: white !important;
 }
@@ -44,10 +44,14 @@
     color: white !important;
 }
 
-.parallax-window {
-    background-color: rgba(0, 43, 112, 0.25);
+.dimmer-blue {
+    background-color: rgba(0, 43, 112, 0.5);
 }
 
 .burger-menu-link {
     color: white;
+}
+
+.footer-dimmer {
+    background-color: rgba(0, 43, 112, 0.5) !important;
 }
