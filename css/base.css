@@ -26,3 +26,18 @@
 .container-small, .container-large {
     max-width: 100%;
 }
+
+
+.burger-menu {
+    background-color: #002b70;
+    padding: 20px;
+}
+
+.burger-menu > em, li, li a {
+    color: white !important;
+}
+
+.dropdown-header {
+    color: white;
+    font-size: 13px;
+}
