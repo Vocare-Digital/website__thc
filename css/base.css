@@ -33,11 +33,19 @@
     padding: 20px;
 }
 
-.burger-menu > em, li, li a {
+.burger-menu > li, a {
     color: white !important;
 }
 
 .dropdown-header {
     color: white;
     font-size: 13px;
+}
+
+.moving-boxes  {
+    color: white !important;
+}
+
+.parallax-window {
+    background-color: rgba(0, 43, 112, 0.25);
 }
