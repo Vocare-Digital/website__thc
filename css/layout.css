@@ -16,7 +16,7 @@ p {
   font-size: 15px;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
-  color: #a6a7aa;
+  color: #666;
   line-height: 1.4;
   margin-bottom: 15px;
 }
@@ -152,7 +152,7 @@ h4 {
   font-size: 17px;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
-  color: #a6a7aa;
+  color: #666;
   line-height: 1.4;
   border-left: none;
   margin-left: 20px;
@@ -461,9 +461,13 @@ fieldset[disabled] .btn-theme {
   background: url(../img/1920x1080/03.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
+
 }
 
+
+
 .footer .footer-seperator {
+
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -890,7 +894,7 @@ fieldset[disabled] .btn-theme {
   height: 50px;
   font-size: 14px;
   font-weight: 400;
-  color: #a6a7aa;
+  color: #666;
   background: #fafafa;
   border: none;
   box-shadow: none;
@@ -899,15 +903,15 @@ fieldset[disabled] .btn-theme {
 }
 
 .form-control::-moz-placeholder {
-  color: #a6a7aa;
+  color: #666;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #a6a7aa;
+  color: #666;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #a6a7aa;
+  color: #666;
 }
 
 .form-control:focus {
@@ -1151,7 +1155,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .color-subtitle {
-  color: #a6a7aa;
+  color: #666;
 }
 
 .color-link {
@@ -1182,7 +1186,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .bg-color-subtitle {
-  background: #a6a7aa;
+  background: #666;
 }
 
 .bg-color-link {
