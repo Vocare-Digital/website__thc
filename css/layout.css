@@ -458,7 +458,9 @@ fieldset[disabled] .btn-theme {
   	[Footer]
 ------------------------------------------------------------------*/
 .footer {
-  background: url(../img/1920x1080/03.jpg) no-repeat;
+  /*background: url(../img/1920x1080/03.jpg) no-repeat;*/
+  /*background: url(../img/backgrounds/hostpitalbed.jpg) no-repeat;*/
+  background: url(../img/backgrounds/AdobeStock_240773988_Preview.jpeg) no-repeat;
   background-size: cover;
   background-position: center center;
 
