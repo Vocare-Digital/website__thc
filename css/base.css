@@ -63,3 +63,8 @@
 .table-purple {
     background-color: #e7e7ff !important;
 }
+
+.spec-list {
+    font-size: 25px !important;
+    font-weight: bolder !important;
+}
