@@ -460,7 +460,7 @@ fieldset[disabled] .btn-theme {
 .footer {
   /*background: url(../img/1920x1080/03.jpg) no-repeat;*/
   /*background: url(../img/backgrounds/hostpitalbed.jpg) no-repeat;*/
-  background: url(../img/backgrounds/AdobeStock_240773988_Preview.jpeg) no-repeat;
+  background: url(../img/backgrounds/equipment-bw.png) no-repeat;
   background-size: cover;
   background-position: center center;
 
@@ -484,6 +484,8 @@ fieldset[disabled] .btn-theme {
 
 .footer .footer-list-link {
   color: #cbd3e1;
+  font-weight: bolder;
+  font-size: 18px
 }
 
 .footer .footer-list-link:hover {
@@ -965,7 +967,8 @@ fieldset[disabled] .btn-theme {
   font-weight: 700;
   color: #fff;
   line-height: 1.1;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  letter-spacing: 2px;
 }
 
 @media (max-width: 768px) {
