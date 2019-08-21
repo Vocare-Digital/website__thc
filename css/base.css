@@ -45,7 +45,8 @@
 }
 
 .dimmer-blue {
-    background-color: rgba(0, 78, 114, 0.80);
+    /* background-color: rgba(26,146,206, 0.80); */
+    background-color: rgba(22, 169, 143, 0.80);
     /*background-color: rgba(0, 56, 81, 0.89);*/
 }
 
@@ -54,7 +55,7 @@
 }
 
 .footer-dimmer {
-    background-color: rgba(0, 43, 112, 0.5) !important;
+    background-color: rgba(26,146,206, 0.80) !important;
 }
 
 .table-orange {

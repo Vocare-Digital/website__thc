@@ -356,7 +356,8 @@ fieldset[disabled] .btn-theme {
   	[Service]
 ------------------------------------------------------------------*/
 .service {
-  background: #2db9c6;
+  /*background: #2db9c6;*/
+  background: #1A92CE;
   padding: 50px;
   color: #fff;
 
