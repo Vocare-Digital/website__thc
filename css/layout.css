@@ -968,7 +968,7 @@ fieldset[disabled] .btn-theme {
   font-weight: 700;
   color: #fff;
   line-height: 1.1;
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
   letter-spacing: 2px;
 }
 
