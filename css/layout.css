@@ -16,7 +16,7 @@ p {
   font-size: 20px;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  color: #666;
+  color: #282828;
   line-height: 1.4;
   margin-bottom: 15px;
 }
@@ -70,9 +70,13 @@ span {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
-  color: #515769;
+  color: #24305e;
   line-height: 1.4;
   margin: 0 0 15px;
+}
+
+h1 {
+  color: #0C0032 !important;
 }
 
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
@@ -356,12 +360,10 @@ fieldset[disabled] .btn-theme {
   	[Service]
 ------------------------------------------------------------------*/
 .service {
-  /*background: #2db9c6;*/
-  background: #1A92CE;
+  background: rgb(0, 136, 122);
+  /*background: #1A92CE;*/
   padding: 50px;
   color: #fff;
-
-
 }
 
 .service .service-element,
@@ -966,7 +968,7 @@ fieldset[disabled] .btn-theme {
 .carousel-title {
   font-size: 80px;
   font-weight: 700;
-  color: #fff;
+  color: #fff !important;
   line-height: 1.1;
   /*text-transform: lowercase;*/
   letter-spacing: 2px;
