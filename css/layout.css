@@ -70,13 +70,9 @@ span {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
-  color: #24305e;
+  color: #44318D;
   line-height: 1.4;
   margin: 0 0 15px;
-}
-
-h1 {
-  color: #0C0032 !important;
 }
 
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
