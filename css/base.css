@@ -42,6 +42,9 @@
 
 .moving-boxes  {
     color: white !important;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 .dimmer-blue {

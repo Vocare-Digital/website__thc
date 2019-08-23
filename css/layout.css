@@ -358,8 +358,10 @@ fieldset[disabled] .btn-theme {
 .service {
   background: rgb(0, 136, 122);
   /*background: #1A92CE;*/
-  padding: 50px;
   color: #fff;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
 }
 
 .service .service-element,
@@ -897,7 +899,7 @@ fieldset[disabled] .btn-theme {
   height: 50px;
   font-size: 14px;
   font-weight: 400;
-  color: #666;
+  color: #ffffff;
   background: #fafafa;
   border: none;
   box-shadow: none;
@@ -906,32 +908,32 @@ fieldset[disabled] .btn-theme {
 }
 
 .form-control::-moz-placeholder {
-  color: #666;
+  color: #fff;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #666;
+  color: #fff;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #666;
+  color: #fff;
 }
 
 .form-control:focus {
-  color: #515769;
+  color: #30235c;
   box-shadow: none;
 }
 
 .form-control:focus::-moz-placeholder {
-  color: #515769;
+  color: #30235c;
 }
 
 .form-control:focus:-ms-input-placeholder {
-  color: #515769;
+  color: #30235c;
 }
 
 .form-control:focus::-webkit-input-placeholder {
-  color: #515769;
+  color: #30235c;
 }
 
 /*------------------------------------------------------------------
@@ -1203,6 +1205,7 @@ fieldset[disabled] .btn-theme {
 
 .bg-color-sky-light {
   background: #fff;
+
 }
 
 /*------------------------------------------------------------------
