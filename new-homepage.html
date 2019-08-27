@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Site Properties -->
+    <title>Totally Healthcare</title>
+
+    <!-- You MUST include jQuery before Fomantic -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        body * {
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        .ui.menu .item img.logo {
+            margin-right: 1.5em;
+        }
+        .main.container {
+            margin-top: 7em;
+        }
+        .wireframe {
+            margin-top: 2em;
+        }
+        .ui.footer.segment {
+            margin: 5em 0em 0em;
+            padding: 5em 0em;
+        }
+        .ui.menu .item>img:not(.ui) {
+            width: 15em;
+        }
+
+        .hero {
+            background: url("assets/images/hero.jpg") center no-repeat;
+            width: 100%;
+            height: 601px;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 30%;
+            right: 23%;
+            -ms-transform: translateY(0);
+            transform: translateY(0);
+            z-index: 1;
+            color: #44318d;
+        }
+        .ui.move.reveal .hidden.content{
+            -webkit-transform: translateX(-100%)!important;
+            -ms-transform: translateX(-100%)!important;
+            transform: translateX(-100%)!important;
+        }
+        .ui.move.reveal:hover .hidden.content{
+            -webkit-transform: translateX(1%)!important;
+            -ms-transform: translateX(1%)!important;
+            transform: translateX(1%)!important;
+        }
+        .ui.move.reveal>.content {
+            display: block!important;
+        }
+        .green-box {
+            background-color: #38cb7a !important;
+        }
+        .white {
+            color: #fff !important;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+<!-- nav bar -->
+<div class="ui top six item fixed menu">
+    <div class="ui container">
+        <a href="#" class="header item">
+<!--            <img class="logo" src="assets/images/thc-logo-trans-white.png">-->
+            <i class="heartbeat icon"></i>
+            Totally Healthcare
+        </a>
+        <a href="#" class="item">Home</a>
+        <a class="item" href="#">Why choose us?</a>
+        <a class="item" href="#">Specialties</a>
+        <a class="item" href="#">Working with us</a>
+        <a class="item" href="#">Contact us</a>
+    </div>
+</div>
+<!-- end of nav bar -->
+
+<!-- start of hero -->
+<div class="hero">
+    <div class="ui container">
+        <h1 class="hero-text">Totally Healthcare <br> Some text to fill out the hero space </h1>
+    </div>
+</div>
+<!-- end of hero -->
+
+<!-- start of three green boxes -->
+<div class="ui main container">
+    <div class="ui three column grid ">
+        <div class="column">
+            <a class="ui card green-box" href="specialties.html">
+                <div class="content">
+                    <div class="center aligned description">
+                        <p class="white">Some text describing the specialties we provide</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="center aligned header white">Specialties</div>
+                </div>
+            </a>
+        </div>
+        <div class="column">
+            <a class="ui card green-box" href="how-we-work.html">
+                <div class="content">
+                    <div class="center aligned description">
+                        <p class="white">Some text describing how we provide our insourcing</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="center aligned header white">How we do it</div>
+                </div>
+            </a>
+        </div>
+        <div class="column">
+            <a class="ui card green-box" href="insourcing.html">
+                <div class="content">
+                    <div class="center aligned description">
+                        <p class="white">Some text describing why someone should pick Totally Healthcare</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="center aligned header white">Why choose us?</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- end of three green boxes -->
+
+<!-- start of footer -->
+<div class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+        <img src="assets/images/logo.png" class="ui centered mini image">
+        <div class="ui horizontal inverted small divided link list">
+            <a class="item" href="#">Site Map</a>
+            <a class="item" href="#">Contact Us</a>
+            <a class="item" href="#">Terms and Conditions</a>
+            <a class="item" href="#">Privacy Policy</a>
+        </div>
+    </div>
+</div>
+<!-- end of the footer -->
+</body>
+
+</html>
+<!-- end of the page right here -->
