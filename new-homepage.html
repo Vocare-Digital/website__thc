@@ -15,11 +15,26 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.css">
     <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 
     <style type="text/css">
         body * {
-            font-family: 'Noto Sans', sans-serif;
+            font-family: 'Quicksand', sans-serif;
+        }
+        header {
+            font-family: 'Quicksand', sans-serif !important;
+        }
+
+        .ui.items>.item>.content>.header {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            color: rgba(0, 0, 0, .85);
+        }
+
+        .ui.statistic>.value, .ui.statistics .statistic>.value {
+            font-family: 'Quicksand', sans-serif;
+            text-transform: uppercase;
+            text-align: center;
         }
 
         .ui.menu .item img.logo {
@@ -48,11 +63,12 @@
         .hero-text {
             position: absolute;
             top: 30%;
-            right: 23%;
+            right: 10%;
             -ms-transform: translateY(0);
             transform: translateY(0);
             z-index: 1;
             color: #44318d;
+            font-size: 3em;
         }
         .ui.move.reveal .hidden.content{
             -webkit-transform: translateX(-100%)!important;
@@ -68,18 +84,19 @@
             display: block!important;
         }
         .green-box {
-            background-color: #0fcb46 !important;
+            background-color: #77a6f7 !important;
         }
         .white {
             color: #fff !important;
         }
 
         .stripe {
-            background-color: #0C0032 !important;
+            background-color: #00887A  !important;
             color: #fff;
         }
         .stripe.padding {
             margin-top: 50px;
+            padding-top: 25px;
         }
         .infographic-stat {
             min-width: 150px;
@@ -95,6 +112,49 @@
       .top.container {
         margin-top: -4em;
       }
+
+        .le-purp {
+            color: #44318D !important;
+        }
+
+        .info-banner {
+            /*margin: 2em;*/
+            /*padding: 1em;*/
+            margin-top: 2em;
+            margin-bottom: 2em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            background-color: #00887A  !important;
+            color: #fff;
+        }
+
+        .info-banner .circle {
+            display: inline-block;
+        }-
+
+        .info-banner .circle div {
+            padding-left: 2em;
+        }
+
+        .info-banner .circle:before {
+            content: '';
+            background-color: #00887A  !important;
+            color: #fff;
+            border-radius: 500%;
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            top: -28px;
+            z-index: -1;
+            -webkit-box-shadow: 7px 7px 5px 3px rgba(204,204,204,1);
+            -moz-box-shadow: 7px 7px 5px 3px rgba(204,204,204,1);
+            box-shadow: 7px 7px 5px 3px rgba(204,204,204,1);
+        }
+
+        .info-banner .content {
+            display: inline-block;
+            margin-left: 3em;
+        }
     </style>
 
 </head>
@@ -121,7 +181,7 @@
 <!-- start of hero -->
 <div class="hero">
     <div class="ui container">
-        <h1 class="hero-text">Totally Healthcare <br> Some text to fill out the hero space </h1>
+        <h1 class="hero-text le-purp">Totally Healthcare <br> Everything starts with the patient </h1>
     </div>
 </div>
 <!-- end of hero -->
@@ -167,70 +227,38 @@
         </div>
     </div>
 </div>
-
 <!-- end of three green boxes -->
-<!-- striped content -->
-<!--<div class="ui container">-->
-    <div class="ui basic segment stripe padding">
+
+<!-- rosette content -->
+<div style="position: relative; margin-top: 4em !important">
+    <div class="info-banner">
         <div class="ui container">
-        <div class="ui inverted relaxed divided items">
-            <div class="item">
-                <div class="ui inverted horizontal statistic infographic-stat">
-                    <div class="value">
-                        94%
-                    </div>
-                </div>
-                <div class="middle aligned content">
-                    <p class="header white" style="float: none; font-size: 2.7em; margin-left: 20px;">of patients said their appointment time suited them</p>
-                </div>
+        <div class="circle">
+            <div>
+                <h1 style="padding-left: 1em;">100%</h1>
             </div>
-<!--            <div class="item">-->
-<!--                <div class="ui inverted horizontal statistic infographic-stat">-->
-<!--                    <div class="value">-->
-<!--                        100%-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="middle aligned content">-->
-<!--                    <p class="header white" style="float: none; font-size: 2.7em; margin-left: 20px;">of patients felt unit staff attented well to their needs</p>-->
-<!--                </div>-->
-<!--            </div>-->
-
-<!--            <div class="item">-->
-<!--                <div class="ui inverted horizontal statistic infographic-stat">-->
-<!--                    <div class="value">-->
-<!--                        100%-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="middle aligned content">-->
-<!--                    <p class="header white" style="float: none; font-size: 2.7em; margin-left: 20px;">of patients felt they were treated with diginity and respect</p>-->
-<!--                </div>-->
-<!--            </div>-->
-
-<!--            <div class="item">-->
-<!--                <div class="ui inverted horizontal statistic infographic-stat">-->
-<!--                    <div class="value">-->
-<!--                        100%-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="middle aligned content">-->
-<!--                    <p class="header white" style="float: none; font-size: 2.7em; margin-left: 20px;">of patients said the quality of care was either excellent or very good</p>-->
-<!--                </div>-->
-<!--            </div>-->
+        </div>
+        <div class="content">
+            <h1>of our patients rated our service as either excellent or very good</h1>
         </div>
         </div>
     </div>
-<!-- end of striped content -->
+</div>
+<!-- end of rosette content -->
 
 <!-- start of more content -->
 <div class="ui main container">
-    <div class="ui two column grid">
+    <div class="ui  grid">
         <div class="row">
-        <div class="column">
-            <p style="font-size: 2.7em; color: #337ab7">Everything starts with the patient</p>
+        <div class="five wide column">
+            <p style="font-size: 2.7em;" class="le-purp">Everything starts with the patient</p>
         </div>
-        <div class="column">
-            <h1>Why choose us?</h1>
-            <p>With over 10 years experience working in 100 hospitals helping over 620,000 patients Totally Healthcare's Managing Director, Marie-Lee, is committed to helping you reduce your patient waiting times</p>
+            <div class="one wide column">
+
+            </div>
+        <div class="ten wide column">
+            <h1 class="heading le-purp">Why choose us?</h1>
+            <p>With more than 14 years experience working in 100 hospitals helping over 620,000 patients Totally Healthcare's Managing Director, Marie-Lee, is committed to helping you reduce your patient waiting times</p>
             <p>Totally Healthcare support Trusts/Hospitals to deliver patient waiting time initiatives across specialties throughout the UK and Ireland.
                 Our Management and clinical team have more than 40 years of healthcare experience within insourcing in the UK and Republic of Ireland and have helped treat more than 620,000 patients across all specialties.</p>
             <a href="#" style="float: right;">Find out more ></a>
@@ -258,48 +286,26 @@
 </div>
 <!-- end of more content -->
 
-<div class="ui basic segment stripe padding">
-    <div class="ui container">
-        <div class="ui inverted relaxed divided items">
-                        <div class="item">
-                            <div class="ui inverted horizontal statistic infographic-stat">
-                                <div class="value">
-                                    100%
-                                </div>
-                            </div>
-                            <div class="middle aligned content">
-                                <p class="header white" style="float: none; font-size: 2.7em; margin-left: 20px;">of patients felt unit staff attented well to their needs</p>
-                            </div>
-                        </div>
-
-            <!--            <div class="item">-->
-            <!--                <div class="ui inverted horizontal statistic infographic-stat">-->
-            <!--                    <div class="value">-->
-            <!--                        100%-->
-            <!--                    </div>-->
-            <!--                </div>-->
-            <!--                <div class="middle aligned content">-->
-            <!--                    <p class="header white" style="float: none; font-size: 2.7em; margin-left: 20px;">of patients felt they were treated with diginity and respect</p>-->
-            <!--                </div>-->
-            <!--            </div>-->
-
-            <!--            <div class="item">-->
-            <!--                <div class="ui inverted horizontal statistic infographic-stat">-->
-            <!--                    <div class="value">-->
-            <!--                        100%-->
-            <!--                    </div>-->
-            <!--                </div>-->
-            <!--                <div class="middle aligned content">-->
-            <!--                    <p class="header white" style="float: none; font-size: 2.7em; margin-left: 20px;">of patients said the quality of care was either excellent or very good</p>-->
-            <!--                </div>-->
-            <!--            </div>-->
+<!-- rosette content -->
+<div style="position: relative; margin-top: 4em !important">
+    <div class="info-banner">
+        <div class="ui container">
+            <div class="circle">
+                <div>
+                    <h1 style="padding-left: 1em;">100%</h1>
+                </div>
+            </div>
+            <div class="content">
+                <h1>of our patients felt the unit staff attended well to their needs</h1>
+            </div>
         </div>
     </div>
 </div>
+<!-- end of rosette content -->
 
 <div class="ui main container">
     <div class="row">
-            <h1 class="header" style="padding-bottom: .5em;">Specialties</h1>
+            <h1 class="header le-purp" style="padding-bottom: .5em;">Specialties</h1>
             <div class="ui four cards">
                 <div class="card">
                     <div class="content green-box ">
@@ -380,9 +386,41 @@
             <a href="#" style="float: right;">Find out more ></a>
         </div>
     </div>
-
 </div>
 
+<!-- rosette content -->
+<div style="position: relative; margin-top: 4em !important">
+    <div class="info-banner">
+        <div class="ui container">
+            <div class="circle">
+                <div>
+                    <h1 style="padding-left: 1em;">100%</h1>
+                </div>
+            </div>
+            <div class="content">
+                <h1>of our patients felt they were treated with dignity and respect</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of rosette content -->
+
+<div class="ui main container">
+    <div class="row">
+        <div class="ui grid">
+            <div class="ten wide column">
+                <h1 class="header le-purp">Working with us</h1>
+                <p>Here at Totally Healthcare we are always looking to increase our team of highly skilled professionals to meet the extremely high demand for contracts across the UK and Ireland. If you are interested in providing excellent patient care alongside a supportive team of experienced healthcare professionals, please contact a member of the team at <a href="mailto:recruitment@totallyhealthcarelimited.com">recruitment@totallyhealthcarelimited.com</a> who will discuss the registration requirements with you and are there to support you through the process.</p>
+            </div>
+            <div class="one wide column">
+
+            </div>
+            <div class="five wide column">
+                <p style="font-size: 2.7em;" class="le-purp">Everything starts with the patient</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- start of footer -->
 <div class="ui inverted vertical footer segment" style="margin-top: 8em;">
