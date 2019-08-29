@@ -1,242 +1,309 @@
+
 <!DOCTYPE html>
+<html>
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-<html lang="en" class="no-js">
-    <!-- BEGIN HEAD -->
-    <head>
-        <meta charset="utf-8"/>
-        <title>Totally Healthcare</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="Simon Darke" name="author"/>
+    <!-- Site Properties -->
+    <title>Totally Healthcare</title>
 
-        <!-- GLOBAL MANDATORY STYLES -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/base.css" rel="stylesheet" type="text/css"/>
-<!--        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <!-- You MUST include jQuery before Fomantic -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.js"></script>
 
-        <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="css/animate.css" rel="stylesheet">
-        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 
-        <!-- THEME STYLES -->
-        <link href="css/layout.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/base.css">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
-    </head>
-    <!-- END HEAD -->
+</head>
+<body>
 
-    <!-- BODY -->
-    <body>
 
-    <!--========== HEADER ==========-->
-    <header class="header navbar-fixed-top" style="width:100%; ">
-        <!-- Navbar -->
-        <nav class="navbar" role="navigation"  style="border-bottom: none">
-            <div class="container" style="padding-left: 30px; padding-right: 30px;">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="menu-container">
-                    <!-- Logo -->
-                    <div class="logo">
-                        <a class="logo-wrap" href="index.html">
-                            <img class="logo-img logo-img-main" style="max-width: 350px;"
-                                 src="img/thc-logo-trans-white.png" alt="Totally Healthcare Logo"
-                            >
-                            <img class="logo-img logo-img-active" style="max-width: 350px;"
-                                 src="img/thc-logo-trans-white.png"
-                                 alt="Totally Healthcare Logo"
-                            >
-                        </a>
+<!-- nav bar -->
+<div class="ui top six item fixed menu">
+    <div class="ui container">
+        <a href="#" class="header item">
+<!--            <img class="logo" src="assets/images/thc-logo-trans-white.png">-->
+            <i class="heartbeat icon"></i>
+            Totally Healthcare
+        </a>
+        <a href="#" class="item">Home</a>
+        <a class="item" href="#">Why choose us?</a>
+        <a class="item" href="#">Specialties</a>
+        <a class="item" href="people.html">People</a>
+        <a class="item" href="#">Contact us</a>
+    </div>
+</div>
+<!-- end of nav bar -->
+
+<!-- start of hero -->
+<div class="hero">
+    <div class="ui container">
+        <h1 class="hero-text le-purp">Totally Healthcare <br> Everything starts with the patient </h1>
+    </div>
+</div>
+<!-- end of hero -->
+
+<!-- start of three green boxes -->
+<div class="ui top container">
+    <div class="ui three column grid ">
+        <div class="column">
+            <a class="ui card green-box" href="specialties.html">
+                <div class="content">
+                    <div class="center aligned description">
+                        <p class="white">Some text describing the specialties we provide</p>
                     </div>
-                    <!-- End Logo -->
-                    <!--                    </div>-->
-                    <!--                    <div class="menu-container">-->
-                    <span class="navbar-nav navbar-right dropdown" style="padding-top: 1.85%">
-                            <a class="dropdown-toggle"
-                               data-toggle="dropdown"
-                               href="#"
-                               role="button"
-                               aria-haspopup="true"
-                               aria-expanded="false"
-                               style="color: rgba(255,255,255,1); font-size: 40px;
-                                    display: -webkit-flex;
-                                    display: flex;
-                                    -webkit-justify-content: center;
-                                    justify-content: center;
-                                    -webkit-align-items: center;
-                                    align-items: center;">
-                                <i class="glyphicon glyphicon-menu-hamburger"></i>
-                                <span style="color: rgba(255,255,255,1); font-size: 20px; padding-right: 5px">menu</span>
-                                <span class="sr-only">Menu</span>
-                            </a>
-                                <ul class="dropdown-menu burger-menu">
-                                    <div class="container ">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <li><a class="burger-menu-link" href="index.html">Home</a></li>
-                                                <li role="separator" class="divider"></li>
-                                                <li><a  class="burger-menu-link" href="about.html">About us</a></li>
-                                                <li role="separator" class="divider"></li>
-                                                <li><a  class="burger-menu-link" href="insourcing.html">Why choose us</a></li>
-                                                <li role="separator" class="divider"></li>
-                                                <li><a class="burger-menu-link" href="specialties.html">Specialties</a></li>
-                                                <li role="separator" class="divider"></li>
-                                                <li><a class="burger-menu-link" href="how-we-work.html">How we do it</a></li>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <li><a class="burger-menu-link" href="quality-and-governance.html">Quality and governance</a></li>
-                                                <li role="separator" class="divider"></li>
-                                                <li><a class="burger-menu-link" href="team.html">Team</a></li>
-                                                <li role="separator" class="divider"></li>
-                                                <li><a class="burger-menu-link" href="staffing.html">Working for us</a></li>
-                                                <li role="separator" class="divider"></li>
-                                                <li><a class="burger-menu-link" href="contactus.html">Contact us</a></li>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </ul>
-                        </span>
                 </div>
-                <!-- End Navbar Collapse -->
+                <div class="extra content">
+                    <div class="center aligned header white">What</div>
+                </div>
+            </a>
+        </div>
+        <div class="column">
+            <a class="ui card green-box" href="how-we-work.html">
+                <div class="content">
+                    <div class="center aligned description">
+                        <p class="white">Some text describing how we provide our insourcing</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="center aligned header white">How</div>
+                </div>
+            </a>
+        </div>
+        <div class="column">
+            <a class="ui card green-box" href="insourcing.html">
+                <div class="content">
+                    <div class="center aligned description">
+                        <p class="white">Some text describing why someone should pick Totally Healthcare</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="center aligned header white">Outcome</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- end of three green boxes -->
+
+<!-- rosette content -->
+<div style="position: relative; margin-top: 4em !important">
+    <div class="info-banner">
+        <div class="ui container">
+        <div class="circle">
+            <div>
+                <h1>100%</h1>
             </div>
-        </nav>
-        <!-- Navbar -->
-    </header>
-
-        <!--========== SLIDER ==========-->
-        <div class="container-full-width" style="background-color: #51565C">
-            <div style="position: absolute; top:0; left:0; display:flex; width:100%; height:100%; justify-content: flex-start; flex-direction: column">
         </div>
-            <video alt="Totally Healthcare Main Video" loop="loop" muted="muted" autoplay="autoplay" preload="auto">
-                    <source src="movs/main_video.mp4" type="video/mp4">
-            </video>
+        <div class="content">
+            <h1>of our patients rated our service as either excellent or very good</h1>
         </div>
-        <!--========== PAGE LAYOUT ==========-->
-        <!-- USPs -->
+        </div>
+    </div>
+</div>
+<!-- end of rosette content -->
 
-    <div class="container">
+<!-- start of more content -->
+<div class="ui main container">
+    <div class="ui  grid">
         <div class="row">
-                <div class="col-sm-12" style="padding-top: 10px">
-                    <h1 class="text-center" style="font-size: 40px">Helping you reduce your patient waiting times <br /> with the most experienced insourcing team</h1>
+        <div class="five wide column">
+            <p style="font-size: 2.7em;" class="le-purp">Everything starts with the patient</p>
+        </div>
+            <div class="one wide column">
+
+            </div>
+        <div class="ten wide column">
+            <h1 class="heading le-purp">About Totally Healthcare</h1>
+            <p>Totally Healthcare support Trusts/Hospitals to deliver patient waiting time initiatives across specialties throughout the UK and Ireland.</p>
+            <p>Our Management and clinical team have more than 40 years of healthcare experience within insourcing in the UK and Republic of Ireland and have helped treat more than 620,000 patients across all specialties.</p>
+            <p>Totally Healthcare is part of Totally plc – one of England’s leading healthcare providers, working across more than 230 locations nationwide to address the challenges of increased demand on health services by delivering high-quality care.</p>
+
+        </div>
+        </div>
+    </div>
+    <div class="ui grid" style="margin: 6em 0;">
+        <div class="left aligned row">
+            <h1 class="header">Why choose us?</h1>
+        </div>
+        <div class="centered row">
+            <div class="three wide column">
+                <h3 class="light-blue">Patient Centred Processes</h3>
+                <p>Patients are at the heart of our insourcing service solutions</p>
+            </div>
+            <div class="column"></div>
+            <div class="three wide column">
+                <h3 class="light-blue">Clinical Effectiveness</h3>
+                <p>Our clinical teams are highly skilled and trained</p>
+            </div>
+            <div class="column"></div>
+            <div class="three wide column">
+                <h3 class="light-blue">Cost Effective Solutions</h3>
+                <p>We have improvement objectives to streamline processes and reduce spend</p>
+            </div>
+        </div>
+        <div class="right aligned row">
+            <a href="#">Find out more</a>
+        </div>
+    </div>
+</div>
+<!-- end of more content -->
+
+<!-- rosette content -->
+<div style="position: relative; margin-top: 4em !important">
+    <div class="info-banner">
+        <div class="ui container">
+            <div class="circle">
+                <div>
+                    <h1>100%</h1>
+                </div>
+            </div>
+            <div class="content">
+                <h1>of our patients felt the unit staff attended well to their needs</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of rosette content -->
+
+<div class="ui main container">
+    <div class="row">
+            <h1 class="header le-purp" style="padding-bottom: .5em;">Specialties</h1>
+            <div class="ui four cards">
+                <div class="card">
+                    <div class="content green-box ">
+                        <div class="header white">Gastroenterology</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="content green-box">
+                        <div class="header white">Ophthalmology</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="content green-box">
+                        <div class="header white">Dermatology</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="content green-box">
+                        <div class="header white">ENT and audiology</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="content green-box">
+                        <div class="header white">Urology</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="content green-box">
+                        <div class="header white">Orthopaedics</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="content green-box">
+                        <div class="header white">Anaesthetics</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="content green-box">
+                        <div class="header white">Rheumatology</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="content green-box">
+                        <div class="header white">Plastic</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="content green-box">
+                        <div class="header white">Respiratory</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="content green-box">
+                        <div class="header white">Symptomatic endoscopy</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="content green-box">
+                        <div class="header white">Colonoscopy</div>
+                    </div>
                 </div>
         </div>
     </div>
 
-        <div class="bg-color-sky-light" data-auto-height="true">
-            <div class="content-lg container">
-                <div class="row" >
+    <div class="row">
+        <div class="column" style="margin-top: .5em">
+            <a href="#" style="float: right;">Find out more ></a>
+        </div>
+    </div>
+</div>
+
+<!-- rosette content -->
+<div style="position: relative; margin-top: 4em !important">
+    <div class="info-banner">
+        <div class="ui container">
+            <div class="circle">
+                <div>
+                    <h1>100%</h1>
                 </div>
-                <div class="row row-space-1 margin-b-2">
-                    <div class="col-sm-4 sm-margin-b-2">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <div class="service" data-height="height">
-                                <h1 class="moving-boxes text-center">Outpatients, Diagnostics and Surgery</h1>
-                                <a href="specialties.html" class="content-wrapper-link"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 sm-margin-b-2">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <div class="service" data-height="height">
-                                <h1 class="moving-boxes text-center">Why choose us</h1>
-                                <a href="insourcing.html" class="content-wrapper-link"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 sm-margin-b-2">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <div class="service" data-height="height">
-                                <h1 class="moving-boxes text-center">How we do it</h1>
-                                <a href="how-we-work.html" class="content-wrapper-link"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--// end row -->
+            </div>
+            <div class="content">
+                <h1>of our patients felt they were treated with dignity and respect</h1>
             </div>
         </div>
-        <!-- End USP -->
-        <!--========== FOOTER ==========-->
-        <footer class="footer ">
-            <!-- Links -->
-            <div class="footer-seperator dimmer-blue">
-                <div class="content-lg container">
-                    <div class="row">
-                        <div class="col-sm-2 sm-margin-b-50">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="index.html">Home</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="about.html">About us</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="insourcing.html">Why choose us</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="specialties.html">Specialties</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="how-we-work.html">How we do it</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="quality-and-governance.html">Quality and governance</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="team.html">Team</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="staffing.html">Working for us</a></li>
-                                <!--                                <li class="footer-list-item"><a class="footer-list-link" href="#">Latest news</a></li>-->
-                                <li class="footer-list-item"><a class="footer-list-link" href="contactus.html">Contact us</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-4 sm-margin-b-30">
-                        </div>
-                        <div class="col-sm-5 sm-margin-b-30">
-                            <h2 class="color-white">Contact Us</h2>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
-                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
-                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
-                            <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
+    </div>
+</div>
+<!-- end of rosette content -->
+
+<div class="ui main container">
+    <div class="row">
+        <div class="ui grid">
+            <div class="ten wide column">
+                <h1 class="header le-purp">Working with us</h1>
+                <p>Here at Totally Healthcare we are always looking to increase our team of highly skilled professionals to meet the extremely high demand for contracts across the UK and Ireland. If you are interested in providing excellent patient care alongside a supportive team of experienced healthcare professionals, please contact a member of the team at <a href="mailto:recruitment@totallyhealthcarelimited.com">recruitment@totallyhealthcarelimited.com</a> who will discuss the registration requirements with you and are there to support you through the process.</p>
             </div>
-            <!-- End Links -->
+            <div class="one wide column">
 
-            <!-- Copyright -->
-            <div class="content container-full-width dimmer-blue">
-                <div class="row ">
-                    <div class="col-xs-6">
-                        Logo Here
-                    </div>
-                    <div class="col-xs-6 text-right">
-                        <p class="margin-b-0">Totally PLC &copy; 2019</p>
-                    </div>
-                </div>
-                <!--// end row -->
             </div>
-            <!-- End Copyright -->
-        </footer>
-        <!--========== END FOOTER ==========-->
+            <div class="five wide column">
+                <p style="font-size: 2.7em;" class="le-purp">Everything starts with the patient</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+<!-- start of footer -->
+<div class="ui inverted vertical footer segment" style="margin-top: 8em;">
+    <div class="ui center aligned container">
+        <img src="assets/images/logo.png" class="ui centered mini image">
+        <div class="ui horizontal inverted small divided link list">
+            <a class="item" href="#">Site Map</a>
+            <a class="item" href="#">Contact Us</a>
+            <a class="item" href="#">Terms and Conditions</a>
+            <a class="item" href="#">Privacy Policy</a>
+        </div>
+    </div>
+</div>
+<!-- end of the footer -->
+</body>
 
-        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-        <!-- CORE PLUGINS -->
-        <script src="vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-
-        <!-- PAGE LEVEL PLUGINS -->
-        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-
-        <!-- PAGE LEVEL SCRIPTS -->
-        <script src="js/layout.min.js" type="text/javascript"></script>
-        <script src="js/components/wow.min.js" type="text/javascript"></script>
-        <script src="js/components/swiper.min.js" type="text/javascript"></script>
-        <script src="js/components/masonry.min.js" type="text/javascript"></script>
-
-    </body>
-    <!-- END BODY -->
 </html>
+<!-- end of the page right here -->
