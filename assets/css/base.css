@@ -106,6 +106,7 @@ header {
 
 .top.container .card {
   min-width: 100%;
+  min-height: 120px;
 }
 
 .le-purp {
