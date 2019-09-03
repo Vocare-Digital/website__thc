@@ -16,7 +16,26 @@
     <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/base.css">
+    <style>
+        .why_choose_us__infographic__card
+        {
+            background-color: #77a6f7 !important;
+            height: 10em;
+        }
+        .why_choose_us__infographic__card__content {
+            display: flex;
+            align-items: center;
+            text-align: center;
 
+        }
+        .why_choose_us__infographic__symbols {
+            display:flex !important;
+            align-items: center !important;
+            font-size: 7em !important;
+            margin-top: -0.25em !important;
+        }ß
+
+    </style>
 </head>
 <body>
 
@@ -55,7 +74,7 @@
 <!-- end of nav bar -->
 <div class="ui  container" style="padding-top: 50px; padding-bottom: 25px;">
     <h1 class="le-purp" id="people-title">Why Choose Us?</h1>
-    <img src="https://via.placeholder.com/1168x601" alt="why choose us">
+    <img src="https://via.placeholder.com/1168x601" alt="why choose us" class="ui fluid image">
 </div>
 
 <a name="what"></a>
@@ -68,9 +87,9 @@
 
 
 <a name="how"></a>
-<div class="ui main container">
+<div class="ui main  container">
     <h1 class="header le-purp">How we do it</h1>
-        <div class="ui four column grid">
+        <div class="ui four column stackable grid">
             <div class="column">
                 <h3 class="ui center aligned header le-purp">
                     Identify Requirements
@@ -107,9 +126,49 @@
 </div>
 
 <a name="pcp"></a>
-<div class="ui main container" >
+<div class="ui main container">
     <h1 class="header le-purp">Why choose us?</h1>
-        <h3 class="le-purp">Step One: Patient Centred Processes</h3>
+
+    <div class="ui five column stackable middle aligned grid">
+        <div class="row">
+            <div class="column" >
+                <div class="ui fluid card why_choose_us__infographic__card ">
+                    <div class="content why_choose_us__infographic__card__content" >
+                        <div class="header white">
+                            Patient Centred Processes
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="column why_choose_us__infographic__symbols">
+                <p class="le-purp">+</p>
+            </div>
+            <div class="column">
+                <div class="ui fluid card why_choose_us__infographic__card">
+                    <div class="content why_choose_us__infographic__card__content">
+                        <div class="header white">
+                            Clinical Effectiveness
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="column why_choose_us__infographic__symbols">
+                <p class="le-purp">=</p>
+            </span>
+            <div class="column">
+                <div class="ui fluid card why_choose_us__infographic__card">
+                    <div class="content why_choose_us__infographic__card__content">
+                        <div class="header white">
+                            Cost Effective Solutions
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="le-purp">Step One: Patient Centred Processes</h3>
         <p>
             <ul>
                 <li>Patients are at the heart of our insourcing service solutions</li>
