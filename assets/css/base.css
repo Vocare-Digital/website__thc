@@ -27,8 +27,8 @@ header {
     margin-top: 2em;
 }
 .ui.footer.segment {
-    margin: 5em 0em 0em;
-    padding: 5em 0em;
+    margin: 1.5em 0em 0em;
+    padding: 1.5em 0em;
 }
 .ui.menu .item>img:not(.ui) {
     width: 15em;
@@ -47,7 +47,7 @@ header {
 .hero-text {
     position: absolute;
     top: 20%;
-    right: 10%;
+    right: 7%;
     -ms-transform: translateY(0);
     transform: translateY(0);
     z-index: 1;
@@ -75,7 +75,7 @@ header {
     display: block!important;
 }
 .green-box {
-    background-color: #77a6f7 !important;
+    background-color: #337ab7 !important;
 }
 .white {
     color: #fff !important;
