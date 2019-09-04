@@ -30,11 +30,12 @@
             <i class="heartbeat icon"></i>
             Totally Healthcare
         </a>
-        <a href="index.html" class="item">Home</a>
+        <a class="item" href="index.html" >Home</a>
         <a class="item" href="why-choose-us.html">Why choose us?</a>
         <div class="ui dropdown item">Specialties
             <i class="dropdown icon"></i>
             <div class="menu">
+                <a class="item" href="specialties/anaesthatic.html">Anaesthetics and Pain Management</a>
                 <a class="item" href="specialties/dermatology.html">Dermatology</a>
                 <a class="item" href="specialties/ent-and-audiology.html">ENT and audiology</a>
                 <a class="item" href="specialties/gastroenterology.html">Gastroenterology</a>
@@ -44,7 +45,14 @@
                 <a class="item" href="specialties/surgery.html">Surgery</a>
             </div>
         </div>
-        <a class="item active" href="people.html">People</a>
+        <div class="ui dropdown item">People
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <a class="item active" href="people.html">People</a>
+                <a class="item" href="consultants.html">Consultants</a>
+                <a class="item" href="nurses_and_ahp.html">Nurses and AHP</a>
+            </div>
+        </div>
         <a class="item" href="quality-and-governance.html">Quality and governance</a>
         <a class="item" href="contact-us.html">Contact us</a>
     </div>
@@ -101,26 +109,10 @@
     </div>
 </div>
 
-
-<!--&lt;!&ndash; rosette content &ndash;&gt;-->
-<!--<div style="position: relative; margin-top: 4em !important">-->
-<!--    <div class="info-banner">-->
-<!--        <div class="ui container">-->
-<!--            <div class="circle">-->
-<!--            </div>-->
-<!--            <div class="content">-->
-<!--                <h1 class="header">Click here to view our latest vacancies</h1>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-<!--&lt;!&ndash; end of rosette content &ndash;&gt;-->
-
-
 <!-- WFU content -->
 <div class="dark__green " >
     <div class="ui main container" style="padding-top: 1em; padding-bottom: 1em;">
-        <h1 class="heading white">Interesting in working for Totally Healthcare?</h1>
+        <h1 class="heading white">Interested in working for Totally Healthcare?</h1>
         <a href="#" class="white" style="text-decoration: underline">View our latest vacancies here</a>
     </div>
 
@@ -134,26 +126,31 @@
             <p>If you are interested in providing excellent patient care alongside a supportive team of experienced healthcare professionals, please contact a member of the team at <a href="mailto:recruitment@totallyhealthcarelimited.com" class="le-purp" style="text-decoration: underline;">recruitment@totallyhealthcarelimited.com</a> who will discuss the registration requirements with you and are there to support you through the process.</p>
             <h3>Consultants</h3>
             <p>We are looking for Consultants in all specialties to join our rapidly expanding network of highly motivated and dedicated healthcare professionals</p>
-            <h3>Nurses</h3>
+            <h3>Nurses and Allied Health Professionals</h3>
             <p >Here at Totally Healthcare we are always looking to increase our team of highly skilled professionals to meet the extremely high demand for contracts across the UK and Ireland.</p>
         </div>
     </div>
 </div>
 
 <!-- start of footer -->
-<div class="ui inverted vertical footer segment">
+<div class="ui  vertical footer segment" style="margin-top: 8em; background-color: #00887A">
     <div class="ui center aligned container">
-        <img src="assets/images/thc-logo-trans-white.png" class="ui centered medium image">
-        <div class="ui horizontal inverted small divided link list">
-            <a class="item" href="#">Site Map</a>
-            <a class="item" href="#">Contact Us</a>
-            <a class="item" href="#">Terms and Conditions</a>
-            <a class="item" href="#">Privacy Policy</a>
+        <div class="ui horizontal inverted  small divided link list ">
+            <a class="item white" href="sitemap.html">Site Map</a>
+            <a class="item white" href="contact-us.html">Contact Us</a>
+            <a class="item white" href="terms-and-conditions.html">Terms and Conditions</a>
+            <a class="item white" href="privacy-policy.html">Privacy Policy</a>
         </div>
     </div>
 </div>
 <!-- end of the footer -->
 </body>
 
+<script>
+    $('.ui.dropdown')
+        .dropdown();
+</script>
+
 </html>
 <!-- end of the page right here -->
+
