@@ -94,6 +94,7 @@ header {
     top: 30%;
     right: 30%;
     font-size: 3em !important;
+    padding-top: 40px !important;
 }
 
 .ui.move.reveal .hidden.content{
