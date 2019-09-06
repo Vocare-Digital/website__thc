@@ -34,133 +34,164 @@
 
 </head>
 <body>
-
-<!-- nav bar -->
-<div class="ui top seven fixed menu">
-    <div class="ui container">
-        <img style="margin-right: 15px" src="assets/images/thweblogo250.png">
-        <a class="item active" href="index.html" >Home</a>
-        <a class="item" href="why-choose-us.html">Why choose us?</a>
-        <a class="item" href="why-choose-us.html"><p>Quality and governance</p></a>
-        <div class="ui dropdown item">Specialties
-            <i class="dropdown icon"></i>
-            <div class="menu">
-                <a class="item" href="specialties/anaesthetics.html">Anaesthetics and Pain Management</a>
-                <a class="item" href="specialties/dermatology.html">Dermatology</a>
-                <a class="item" href="specialties/ent-and-audiology.html">ENT and audiology</a>
-                <a class="item" href="specialties/gastroenterology.html">Gastroenterology</a>
-                <a class="item" href="specialties/ophthalmology.html">Ophthalmology</a>
-                <a class="item" href="specialties/respiratory.html">Respiratory</a>
-                <a class="item" href="specialties/rheumatology.html">Rheumatology</a>
-                <a class="item" href="specialties/surgery.html">Surgery</a>
-            </div>
-        </div>
-        <div class="ui dropdown item">People
-            <i class="dropdown icon"></i>
-            <div class="menu">
-                <a class="item" href="people.html">People</a>
-                <a class="item" href="consultants.html">Consultants</a>
-                <a class="item" href="nurses-and-ahp.html">Nurses and AHP</a>
-            </div>
-        </div>
-        
-        <a class="item" href="contact-us.html">Contact us</a>
-    </div>
+<div class="ui sidebar inverted vertical menu">
+  <a class="item active" href="index.html" >Home</a>
+  <a class="item" href="why-choose-us.html">Why choose us?</a>
+  <div class="item"></div>
+  <div class="header item">Specialties</div>
+  <a class="item" href="specialties/anaesthetics.html">Anaesthetics and Pain Management</a>
+  <a class="item" href="specialties/dermatology.html">Dermatology</a>
+  <a class="item" href="specialties/ent-and-audiology.html">ENT and audiology</a>
+  <a class="item" href="specialties/gastroenterology.html">Gastroenterology</a>
+  <a class="item" href="specialties/ophthalmology.html">Ophthalmology</a>
+  <a class="item" href="specialties/respiratory.html">Respiratory</a>
+  <a class="item" href="specialties/rheumatology.html">Rheumatology</a>
+  <a class="item" href="specialties/surgery.html">Surgery</a>
+  <div class="header item">People</div>
+  <a class="item" href="people.html">People</a>
+  <a class="item" href="consultants.html">Consultants</a>
+  <a class="item" href="nurses-and-ahp.html">Nurses and AHP</a>
+  <div class="item"></div>
+  <a class="item" href="quality-and-governance.html">Quality and governance</a>
 </div>
-<!-- end of nav bar -->
-
-<!-- start of hero -->
-<div class="hero">
+<div class="pusher">
+  <!-- nav bar -->
+  <div class="ui top seven fixed menu" id="desktop-menu">
     <div class="ui container">
-        <h1 class="hero-text le-purp">High-quality, reliable insourcing<br> provided by the most experienced team<br> mobilising within two weeks<br> to reduce your patient waiting lists</h1>
+      <div class="header item">
+        <img src="assets/images/thweblogo250.png">
+      </div>
+      <a class="item active" href="index.html" >Home</a>
+      <a class="item" href="why-choose-us.html">Why choose us?</a>
+      <div class="ui dropdown item">Specialties
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" href="specialties/anaesthetics.html">Anaesthetics and Pain Management</a>
+          <a class="item" href="specialties/dermatology.html">Dermatology</a>
+          <a class="item" href="specialties/ent-and-audiology.html">ENT and audiology</a>
+          <a class="item" href="specialties/gastroenterology.html">Gastroenterology</a>
+          <a class="item" href="specialties/ophthalmology.html">Ophthalmology</a>
+          <a class="item" href="specialties/respiratory.html">Respiratory</a>
+          <a class="item" href="specialties/rheumatology.html">Rheumatology</a>
+          <a class="item" href="specialties/surgery.html">Surgery</a>
+        </div>
+      </div>
+      <div class="ui dropdown item">People
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" href="people.html">People</a>
+          <a class="item" href="consultants.html">Consultants</a>
+          <a class="item" href="nurses-and-ahp.html">Nurses and AHP</a>
+        </div>
+      </div>
+      <a class="item" href="quality-and-governance.html">Quality and governance</a>
     </div>
-</div>
-<!-- end of hero -->
+  </div>
 
-<!-- start of three green boxes -->
-<div class="ui top container">
+  <div class="ui top seven fixed menu" id="mobile-menu">
+    <div class="ui container">
+      <div class="header item">
+        <img src="assets/images/thweblogo250.png">
+      </div>
+      <div class="right menu">
+        <a class="item" id="mobile-hamburger">
+          <i class="content icon"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- end of nav bar -->
+
+  <!-- start of hero -->
+  <div class="hero">
+    <h1 class="hero-text le-purp">High-quality, reliable insourcing<br> provided by the most experienced team<br> mobilising within two weeks<br> to reduce your patient waiting lists</h1>
+  </div>
+  <!-- end of hero -->
+
+  <!-- start of three green boxes -->
+  <div class="ui top container">
     <div class="ui center aligned three column stackable grid ">
-        <div class="column">
-            <a class="ui card green-box" href="why-choose-us.html#what">
-                <div class="content">
-                    <div class="center aligned description">
-<!--                        <div class="center aligned header white">What</div>-->
-                        <p class="white" style="font-size: 1.25em">We use your hospital premises to expertly deliver a wide range of outpatient, diagnostic and surgical specialties.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="column">
-            <a class="ui card green-box" href="why-choose-us.html#how">
-                <div class="content">
-                    <div class="center aligned description">
-                        <p class="white" style=" font-size: 1.25em">Using a cost effective insourcing model, we provide  expert clinical teams to deliver services midweek and at weekends.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="column">
-            <a class="ui card green-box" href="why-choose-us.html#pcp">
-                <div class="content">
-                    <div class="center aligned description">
-                        <p class="white" style=" font-size: 1.25em">We reduce your patient waits providing a high quality service with an excellent patient experience.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-</div>
-<!-- end of three green boxes -->
-
-<!-- rosette content -->
-<div style="position: relative; margin-top: 4em !important">
-    <div class="info-banner">
-        <div class="ui right aligned container">
-            <div class="content">
-                <h1><a href="why-choose-us.html#patient-feedback" class="white">Our teams are passionate and achieve the highest levels of patient satisfaction</a></h1>
+      <div class="column">
+        <a class="ui card green-box" href="why-choose-us.html#what">
+          <div class="content">
+            <div class="center aligned description">
+              <!--                        <div class="center aligned header white">What</div>-->
+              <p class="white" style="font-size: 1.25em">We use your hospital premises to expertly deliver a wide range of outpatient, diagnostic and surgical specialties.</p>
             </div>
-        </div>
+          </div>
+        </a>
+      </div>
+      <div class="column">
+        <a class="ui card green-box" href="why-choose-us.html#how">
+          <div class="content">
+            <div class="center aligned description">
+              <p class="white" style=" font-size: 1.25em">Using a cost effective insourcing model, we provide  expert clinical teams to deliver services midweek and at weekends.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="column">
+        <a class="ui card green-box" href="why-choose-us.html#pcp">
+          <div class="content">
+            <div class="center aligned description">
+              <p class="white" style=" font-size: 1.25em">We reduce your patient waits providing a high quality service with an excellent patient experience.</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
-</div>
-<!-- end of rosette content -->
+  </div>
+  <!-- end of three green boxes -->
+
+  <!-- rosette content -->
+  <div style="position: relative; margin-top: 4em !important">
+    <div class="info-banner">
+      <div class="ui right aligned container">
+        <div class="content">
+          <h1><a href="why-choose-us.html#patient-feedback" class="white">Our teams are passionate and achieve the highest levels of patient satisfaction</a></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of rosette content -->
 
 
-<!-- start of more content -->
-<div class="ui main container">
+  <!-- start of more content -->
+  <div class="ui main container">
     <div class="ui stackable grid">
-        <div class="row">
-            <div class="column">
-                <h1 class="heading le-purp">About Totally Healthcare</h1>
-                <p>Totally Healthcare supports trusts and hospitals to deliver patient waiting time initiatives across specialties throughout the UK and Ireland.</p>
-                <p>Our Management and clinical teams have more than 40 years of healthcare experience within insourcing in the UK and Republic of Ireland and have helped treat more than 620,000 patients across all specialties.</p>
-                <p>Totally Healthcare is part of Totally plc – one of England’s leading healthcare providers, working across more than 230 locations nationwide to address the challenges of increased demand on health services by delivering high-quality care.</p>
-                <span class="column" style="text-align: right;">
+      <div class="row">
+        <div class="column">
+          <h1 class="heading le-purp">About Totally Healthcare</h1>
+          <p>Totally Healthcare supports trusts and hospitals to deliver patient waiting time initiatives across specialties throughout the UK and Ireland.</p>
+          <p>Our Management and clinical teams have more than 40 years of healthcare experience within insourcing in the UK and Republic of Ireland and have helped treat more than 620,000 patients across all specialties.</p>
+          <p>Totally Healthcare is part of Totally plc – one of England’s leading healthcare providers, working across more than 230 locations nationwide to address the challenges of increased demand on health services by delivering high-quality care.</p>
+          <span class="column" style="text-align: right;">
                 <h4>
                     <a href="why-choose-us.html">Find out more</a>
                 </h4>
             </span>
-            </div>
         </div>
+      </div>
     </div>
     <div style="margin: 6em 0;">
       <h1 class="header le-purp" style="text-align: left;">Why choose us?</h1>
       <div class="ui five column stackable grid" >
-          <div class="centered row">
-              <div class="column">
-                  <h3 class="le-purp">Patient-centred processes</h3>
-                  <p>Patients are at the heart of our insourcing service solutions</p>
-              </div>
-              <div class="column"></div>
-              <div class="column">
-                  <h3 class="le-purp">Clinical effectiveness</h3>
-                  <p>We have a robust clinical governance structure </p>
-              </div>
-              <div class="column"></div>
-              <div class="column">
-                  <h3 class="le-purp">Cost-effective solutions</h3>
-                  <p>Utilising existing equipment and workforce to keep costs down</p>
-              </div>
+        <div class="centered row">
+          <div class="column">
+            <h3 class="le-purp">Patient-centred processes</h3>
+            <p>Patients are at the heart of our insourcing service solutions</p>
           </div>
+          <div class="column"></div>
+          <div class="column">
+            <h3 class="le-purp">Clinical effectiveness</h3>
+            <p>We have a robust clinical governance structure </p>
+          </div>
+          <div class="column"></div>
+          <div class="column">
+            <h3 class="le-purp">Cost-effective solutions</h3>
+            <p>Utilising existing equipment and workforce to keep costs down</p>
+          </div>
+        </div>
       </div>
       <div style="text-align: right;">
         <h4>
@@ -168,133 +199,143 @@
         </h4>
       </div>
     </div>
-</div>
-<!-- end of more content -->
+  </div>
+  <!-- end of more content -->
 
-<!-- rosette content -->
-<div style="position: relative; margin-top: 4em !important">
+  <!-- rosette content -->
+  <div style="position: relative; margin-top: 4em !important">
     <div class="info-banner">
-        <div class="ui right aligned container">
-            <div class="content">
-                <h1 class="white">Guaranteed end-to-end solutions</h1>
-            </div>
+      <div class="ui right aligned container">
+        <div class="content">
+          <h1 class="white">Guaranteed end-to-end solutions</h1>
         </div>
+      </div>
     </div>
-</div>
-<!-- end of rosette content -->
+  </div>
+  <!-- end of rosette content -->
 
-<!-- start of specialty boxes -->
-<div class="ui main container">
+  <!-- start of specialty boxes -->
+  <div class="ui main container">
     <div class="row">
-            <h1 class="header le-purp" style="padding-bottom: .5em;">Specialties</h1>
-            <div class="row">
-            <div class="ui four doubling cards">
-                <div class="card">
-                    <div class="content green-box">
-                        <a href="specialties/gastroenterology.html" class="center aligned header white">Gastroenterology and endoscopy</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="content green-box">
-                        <a href="specialties/ophthalmology.html" class="center aligned header white">Ophthalmology</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="green-box content">
-                        <a href="specialties/dermatology.html" class="center aligned header white">Dermatology</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="green-box content">
-                        <a href="specialties/ent-and-audiology.html" class="center aligned header white">ENT and audiology</a>
-                    </div>
-                </div>
+      <h1 class="header le-purp" style="padding-bottom: .5em;">Specialties</h1>
+      <div class="row">
+        <div class="ui four doubling cards">
+          <div class="card">
+            <div class="content green-box">
+              <a href="specialties/gastroenterology.html" class="center aligned header white">Gastroenterology and endoscopy</a>
             </div>
+          </div>
 
-            <div class="row">
-                <div class="ui four doubling cards">
-
-                <div class="card">
-                    <div class="green-box content">
-                        <a href="specialties/surgery.html" class="center aligned header white">Surgical specialties</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="content green-box">
-                        <a href="specialties/rheumatology.html" class="center aligned header white">Rheumatology</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="content green-box">
-                        <a href="specialties/respiratory.html" class="middle center aligned header white" style="align-items: center">Respiratory</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="content green-box">
-                        <a href="specialties/respiratory.html" class="middle center aligned header white">Anaesthetics and pain management</a>
-                    </div>
-                </div>
-
-                </div>
+          <div class="card">
+            <div class="content green-box">
+              <a href="specialties/ophthalmology.html" class="center aligned header white">Ophthalmology</a>
             </div>
+          </div>
+
+          <div class="card">
+            <div class="green-box content">
+              <a href="specialties/dermatology.html" class="center aligned header white">Dermatology</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="green-box content">
+              <a href="specialties/ent-and-audiology.html" class="center aligned header white">ENT and audiology</a>
+            </div>
+          </div>
         </div>
-    </div>
-</div>
-<!-- end of specialty boxes -->
 
-<!-- rosette content -->
-<div style="position: relative; margin-top: 4em !important">
+        <div class="row">
+          <div class="ui four doubling cards">
+
+            <div class="card">
+              <div class="green-box content">
+                <a href="specialties/surgery.html" class="center aligned header white">Surgical specialties</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="content green-box">
+                <a href="specialties/rheumatology.html" class="center aligned header white">Rheumatology</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="content green-box">
+                <a href="specialties/respiratory.html" class="middle center aligned header white" style="align-items: center">Respiratory</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="content green-box">
+                <a href="specialties/respiratory.html" class="middle center aligned header white">Anaesthetics and pain management</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of specialty boxes -->
+
+  <!-- rosette content -->
+  <div style="position: relative; margin-top: 4em !important">
     <div class="info-banner">
-        <div class="ui right aligned container">
-         <div class="content">
-             <h1 class="white">Highly skilled clinical team and localised workforce</h1>
-         </div>
+      <div class="ui right aligned container">
+        <div class="content">
+          <h1 class="white">Highly skilled clinical team and localised workforce</h1>
         </div>
+      </div>
     </div>
-</div>
-<!-- end of rosette content -->
+  </div>
+  <!-- end of rosette content -->
 
-<div class="ui main container">
+  <div class="ui main container">
     <div class="row">
-        <div class="ui stackable grid">
-            <div class="column">
-                <h1 class="header le-purp">Working with us</h1>
-                <p>Here at Totally Healthcare we are always looking to increase our team of highly skilled professionals to meet the extremely high demand for contracts across the UK and Ireland.</p>
-                <p>If you are interested in providing excellent patient care alongside a supportive team of experienced healthcare professionals, please contact a member of the team at <a href="mailto:recruitment@totallyhealthcarelimited.com">recruitment@totallyhealthcarelimited.com</a> who will discuss the registration requirements with you and are there to support you through the process.</p>
-                <span class="column" style="text-align: right;">
+      <div class="ui stackable grid">
+        <div class="column">
+          <h1 class="header le-purp">Working with us</h1>
+          <p>Here at Totally Healthcare we are always looking to increase our team of highly skilled professionals to meet the extremely high demand for contracts across the UK and Ireland.</p>
+          <p>If you are interested in providing excellent patient care alongside a supportive team of experienced healthcare professionals, please contact a member of the team at <a href="mailto:recruitment@totallyhealthcarelimited.com">recruitment@totallyhealthcarelimited.com</a> who will discuss the registration requirements with you and are there to support you through the process.</p>
+          <span class="column" style="text-align: right;">
                 <h4>
                     <a href="people.html">Find out more</a>
                 </h4>
             </span>
-            </div>
-
         </div>
-    </div>
-</div>
 
-<!-- start of footer -->
-<div class="ui  vertical footer segment" style="margin-top: 8em; background-color: #00887A">
+      </div>
+    </div>
+  </div>
+
+  <!-- start of footer -->
+  <div class="ui  vertical footer segment" style="margin-top: 8em; background-color: #00887A">
     <div class="ui center aligned container">
-        <div class="ui horizontal inverted  small divided link list ">
-            <a class="item white" href="sitemap.html">Site Map</a>
-            <a class="item white" href="contact-us.html">Contact Us</a>
-            <a class="item white" href="terms-and-conditions.html">Terms and Conditions</a>
-            <a class="item white" href="privacy-policy.html">Privacy Policy</a>
-        </div>
+      <div class="ui horizontal inverted  small divided link list ">
+        <a class="item white" href="sitemap.html">Site Map</a>
+        <a class="item white" href="contact-us.html">Contact Us</a>
+        <a class="item white" href="terms-and-conditions.html">Terms and Conditions</a>
+        <a class="item white" href="privacy-policy.html">Privacy Policy</a>
+      </div>
     </div>
+  </div>
+  <!-- end of the footer -->
 </div>
-<!-- end of the footer -->
 </body>
 
 <script>
     $('.ui.dropdown')
         .dropdown();
+
+    $(window).resize(() => {
+      console.log('resize', window.innerWidth);
+    })
+
+    $('#mobile-hamburger').click(() => {
+      $('.ui.sidebar')
+        .sidebar('toggle')
+    })
 </script>
 
 </html>

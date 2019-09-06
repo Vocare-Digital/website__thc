@@ -20,6 +20,21 @@ header {
 .ui.menu .item img.logo {
     margin-right: 1.5em;
 }
+
+#desktop-menu {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  #desktop-menu {
+    display: block;
+  }
+
+  #mobile-menu {
+    display: none;
+  }
+}
+
 .main.container {
     margin-top: 7em;
 }
@@ -35,9 +50,29 @@ header {
 }
 
 .hero {
-    background: url("../images/hero.jpg") center no-repeat;
-    width: 100%;
-    height: 601px;
+  width: 100%;
+  padding: 12em 8em;
+  text-align: right;
+  background:
+    url("../images/hero.jpg")
+    60% 0 no-repeat;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hero {
+    padding: 8em 2em;
+    background:
+      linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url("../images/hero.jpg")
+      5% 0 no-repeat;
+  }
+
+  .hero .hero-text {
+    font-size: 2em;
+  }
 }
 
 #hero__people {
@@ -45,9 +80,9 @@ header {
 }
 
 .hero-text {
-    position: absolute;
-    top: 20%;
-    right: 7%;
+    /*position: absolute;*/
+    /*top: 25%;*/
+    /*right: 7%;*/
     -ms-transform: translateY(0);
     transform: translateY(0);
     z-index: 1;
