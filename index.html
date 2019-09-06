@@ -12,8 +12,8 @@
 
     <!-- You MUST include jQuery before Fomantic -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.8/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.8/dist/semantic.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 
@@ -35,7 +35,7 @@
 </head>
 <body>
 <div class="ui sidebar inverted vertical menu">
-  <a class="item active" href="index.html" >Home</a>
+  <a class="item" href="index.html" >Home</a>
   <a class="item" href="why-choose-us.html">Why choose us?</a>
   <div class="item"></div>
   <div class="header item">Specialties</div>
@@ -47,12 +47,13 @@
   <a class="item" href="specialties/respiratory.html">Respiratory</a>
   <a class="item" href="specialties/rheumatology.html">Rheumatology</a>
   <a class="item" href="specialties/surgery.html">Surgery</a>
+  <div class="item"></div>
   <div class="header item">People</div>
   <a class="item" href="people.html">People</a>
   <a class="item" href="consultants.html">Consultants</a>
   <a class="item" href="nurses-and-ahp.html">Nurses and AHP</a>
   <div class="item"></div>
-  <a class="item" href="quality-and-governance.html">Quality and governance</a>
+  <a class="item" href="quality-and-governance.html">Quality</a>
 </div>
 <div class="pusher">
   <!-- nav bar -->
@@ -84,7 +85,7 @@
           <a class="item" href="nurses-and-ahp.html">Nurses and AHP</a>
         </div>
       </div>
-      <a class="item" href="quality-and-governance.html">Quality and governance</a>
+      <a class="item" href="quality-and-governance.html">Quality</a>
     </div>
   </div>
 
@@ -327,10 +328,6 @@
 <script>
     $('.ui.dropdown')
         .dropdown();
-
-    $(window).resize(() => {
-      console.log('resize', window.innerWidth);
-    })
 
     $('#mobile-hamburger').click(() => {
       $('.ui.sidebar')
