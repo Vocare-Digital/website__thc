@@ -159,12 +159,13 @@ header {
 .info-banner {
     /*margin: 2em;*/
     /*padding: 1em;*/
-    margin-top: 2em;
+    margin-top: 5em;
     margin-bottom: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
     background-color: #00887A  !important;
     color: #fff;
+  text-align: center;
 }
 
 .info-banner .circle {
