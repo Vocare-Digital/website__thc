@@ -21,20 +21,6 @@ header {
     margin-right: 1.5em;
 }
 
-#desktop-menu {
-  display: none;
-}
-
-@media only screen and (min-width: 1000px) {
-  #desktop-menu {
-    display: block;
-  }
-
-  #mobile-menu {
-    display: none;
-  }
-}
-
 .main.container {
     margin-top: 7em;
 }
@@ -51,11 +37,21 @@ header {
 
 .hero {
   width: 100%;
-  padding: 12em 8em;
+  padding: 20em 12em 12em 12em;
   text-align: right;
   background:
     url("../images/hero.jpg")
-    60% 0 no-repeat;
+    40% 0 no-repeat;
+  background-size: 150%;
+}
+
+.hero .card {
+  min-width: 100%;
+  min-height: 120px;
+}
+
+.hero .boxes {
+  margin-bottom: -10em;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -80,14 +76,9 @@ header {
 }
 
 .hero-text {
-    /*position: absolute;*/
-    /*top: 25%;*/
-    /*right: 7%;*/
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-    z-index: 1;
     color: #44318d;
     font-size: 3em;
+  margin-bottom: 4em;
 }
 
 #people-title {
@@ -166,6 +157,10 @@ header {
     background-color: #00887A  !important;
     color: #fff;
   text-align: center;
+}
+
+#hero-banner {
+  margin-top: 0;
 }
 
 .info-banner .circle {
