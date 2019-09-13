@@ -34,10 +34,11 @@
 
 </head>
 <body>
-<div class="ui sidebar inverted vertical menu">
+<div class="ui very wide sidebar inverted vertical menu">
+  <a class="close item"><i class="large close icon"></i></a>
   <a class="item" href="index.html" >Home</a>
   <a class="item" href="why-choose-us.html">Why choose us?</a>
-  <div class="item"></div>
+  <div class="space item"></div>
   <div class="header item">Specialties</div>
   <a class="item" href="specialties/anaesthetics.html">Anaesthetics and Pain Management</a>
   <a class="item" href="specialties/dermatology.html">Dermatology</a>
@@ -47,7 +48,7 @@
   <a class="item" href="specialties/respiratory.html">Respiratory</a>
   <a class="item" href="specialties/rheumatology.html">Rheumatology</a>
   <a class="item" href="specialties/surgery.html">Surgical specialties</a>
-  <div class="item"></div>
+  <div class="space item"></div>
   <div class="header item">People</div>
   <a class="item" href="people.html">People</a>
   <a class="item" href="consultants.html">Consultants</a>
@@ -62,7 +63,7 @@
       <img src="assets/images/thweblogo250.png">
     </a>
     <div class="right menu">
-      <a class="item" id="mobile-hamburger">
+      <a class="item" id="hamburger">
         <i class="large fitted content icon"></i>
       </a>
     </div>
@@ -77,29 +78,37 @@
     <div class="boxes">
       <div class="ui center aligned three column stackable grid ">
         <div class="column">
-          <a class="ui card green-box" href="why-choose-us.html#pcp">
-            <div class="content">
-              <div class="center aligned description">
-                <!--                        <div class="center aligned header white">What</div>-->
-                <p class="white" style="font-size: 1.25em">We use your hospital premises to expertly deliver a wide range of outpatient, diagnostic and surgical specialties.</p>
+          <a href="why-choose-us.html#pcp">
+            <div class="content-hover-box">
+              <div class="top">
+                <p>We use your hospital premises to expertly deliver a wide range of outpatient, diagnostic and surgical specialties.</p>
+              </div>
+              <div class="bottom">
+                <p>bottom content</p>
               </div>
             </div>
           </a>
         </div>
         <div class="column">
-          <a class="ui card green-box" href="why-choose-us.html#how">
-            <div class="content">
-              <div class="center aligned description">
-                <p class="white" style=" font-size: 1.25em">Using a cost effective insourcing model, we provide  expert clinical teams to deliver services midweek and at weekends.</p>
+          <a href="why-choose-us.html#how">
+            <div class="content-hover-box">
+              <div class="top">
+                <p>Using a cost effective insourcing model, we provide  expert clinical teams to deliver services midweek and at weekends.</p>
+              </div>
+              <div class="bottom">
+                <p>bottom content</p>
               </div>
             </div>
           </a>
         </div>
         <div class="column">
-          <a class="ui card green-box" href="why-choose-us.html#patient-feedback">
-            <div class="content">
-              <div class="center aligned description">
-                <p class="white" style=" font-size: 1.25em">We reduce your patient waiting times providing a high quality service with an excellent patient experience.</p>
+          <a href="why-choose-us.html#patient-feedback">
+            <div class="content-hover-box">
+              <div class="top">
+                <p>We reduce your patient waiting times providing a high quality service with an excellent patient experience.</p>
+              </div>
+              <div class="bottom">
+                <p>bottom content</p>
               </div>
             </div>
           </a>
@@ -276,9 +285,22 @@
     $('.ui.dropdown')
         .dropdown();
 
-    $('#mobile-hamburger').click(() => {
+    $('#hamburger').click(() => {
       $('.ui.sidebar')
-        .sidebar('toggle')
+        .sidebar('show')
+    })
+
+    $('.close.item').click(() => {
+      $('.ui.sidebar')
+        .sidebar('hide')
+    })
+
+    $(document).ready(() => {
+      $('.hero .boxes .card').transition({
+        animation: 'fade',
+        duration: 800,
+        interval: 200
+      })
     })
 </script>
 

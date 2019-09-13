@@ -35,6 +35,32 @@ header {
     width: 15em;
 }
 
+.ui.sidebar {
+  background: #fff !important;
+}
+
+.ui.sidebar .item {
+  color: #44318d !important;
+  font-size: 1.2em !important;
+}
+
+.ui.sidebar .item:hover:not(.header):not(.close):not(.space) {
+  background: rgba(0, 0, 0, 0.07) !important;
+}
+
+.ui.sidebar .close.item {
+  padding-bottom: 3em;
+}
+
+.ui.sidebar .item.header {
+  padding-left: .9em !important;
+  font-size: 1.5em !important;
+}
+
+.ui.sidebar .item:before {
+  background: none !important;
+}
+
 .hero {
   width: 100%;
   padding: 20em 12em 12em 12em;
@@ -45,9 +71,18 @@ header {
   background-size: 150%;
 }
 
-.hero .card {
+.hero .boxes {
+  min-height: 150px;
+}
+
+.hero .boxes .card {
   min-width: 100%;
   min-height: 120px;
+  box-shadow: none;
+}
+
+.hero .boxes .card:hover {
+  box-shadow: none;
 }
 
 .hero .boxes {
@@ -70,6 +105,35 @@ header {
     font-size: 2em;
   }
 }
+
+
+
+.content-hover-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 140px;
+  background: #44318d;
+  border-radius: 4px;
+  padding: 1em;
+  color: #fff;
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+
+.content-hover-box:hover .top {
+  display: none;
+}
+
+.content-hover-box .bottom {
+  display: none;
+}
+
+.content-hover-box:hover .bottom {
+  display: block;
+}
+
+
 
 #hero__people {
     background: url("../images/people_page-smaller.jpg") center no-repeat;
@@ -102,7 +166,7 @@ header {
     display: block!important;
 }
 .green-box {
-    background-color: #77a6f7 !important;
+    background-color: #44318D !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px)  {
