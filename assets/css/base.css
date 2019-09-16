@@ -63,12 +63,12 @@ header {
 
 .hero {
   width: 100%;
-  padding: 20em 12em 12em 12em;
+  padding: 35em 12em 12em 12em;
   text-align: right;
   background:
-    url("../images/hero.jpg")
-    40% 0 no-repeat;
-  background-size: 150%;
+    url("../images/home-hero.png")
+    0 no-repeat;
+  background-size: 100%;
 }
 
 .hero .boxes {
@@ -97,7 +97,7 @@ header {
         rgba(255, 255, 255, 0.7),
         rgba(255, 255, 255, 0.7)
       ),
-      url("../images/hero.jpg")
+      url("../images/home-hero.png")
       5% 0 no-repeat;
   }
 
@@ -140,7 +140,7 @@ header {
 }
 
 .hero-text {
-    color: #44318d;
+    color: #00887A;
     font-size: 3em;
   margin-bottom: 4em;
 }

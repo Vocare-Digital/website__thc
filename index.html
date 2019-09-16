@@ -72,7 +72,7 @@
 
   <!-- start of hero -->
   <div class="hero">
-    <h1 class="hero-text le-purp">Reducing patient waiting times<br />across the UK and Ireland</h1>
+    <h1 class="hero-text">Reducing patient waiting times<br />across the UK and Ireland</h1>
 
     <!-- start of three green boxes -->
     <div class="boxes">
@@ -80,11 +80,11 @@
         <div class="column">
           <a href="why-choose-us.html#pcp">
             <div class="content-hover-box">
-              <div class="top">
-                <p>We use your hospital premises to expertly deliver a wide range of outpatient, diagnostic and surgical specialties.</p>
+              <div class="top" style="font-size: 2em;">
+                <p>Cost-effective insourcing model</p>
               </div>
               <div class="bottom">
-                <p>bottom content</p>
+                <p>By providing bespoke insourcing solutions from specialist clinicians </p>
               </div>
             </div>
           </a>
@@ -92,11 +92,11 @@
         <div class="column">
           <a href="why-choose-us.html#how">
             <div class="content-hover-box">
-              <div class="top">
-                <p>Using a cost effective insourcing model, we provide  expert clinical teams to deliver services midweek and at weekends.</p>
+              <div class="top" style="font-size: 2em;">
+                <p>Utilising your spare capacity</p>
               </div>
               <div class="bottom">
-                <p>bottom content</p>
+                <p>We deliver across the UK and Ireland close to patients' homes within two weeks</p>
               </div>
             </div>
           </a>
@@ -104,11 +104,11 @@
         <div class="column">
           <a href="why-choose-us.html#patient-feedback">
             <div class="content-hover-box">
-              <div class="top">
-                <p>We reduce your patient waiting times providing a high quality service with an excellent patient experience.</p>
+              <div class="top" style="font-size: 2em;">
+                <p>To cut patient waiting lists</p>
               </div>
               <div class="bottom">
-                <p>bottom content</p>
+                <p>Solving the widespread problem of long hospital waiting lists</p>
               </div>
             </div>
           </a>
@@ -296,10 +296,11 @@
     })
 
     $(document).ready(() => {
-      $('.hero .boxes .card').transition({
-        animation: 'fade',
-        duration: 800,
-        interval: 200
+      $('.hero .boxes .content-hover-box').hide();
+      $('.hero .boxes .content-hover-box').transition({
+        animation: 'fade in left',
+        duration: 1000,
+        interval: 600
       })
     })
 </script>
