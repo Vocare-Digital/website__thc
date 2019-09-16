@@ -11,6 +11,10 @@ header {
     color: rgba(0, 0, 0, .85);
 }
 
+p {
+    font-size: 16px;
+}
+
 .ui.statistic>.value, .ui.statistics .statistic>.value {
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
@@ -63,10 +67,10 @@ header {
 
 .hero {
   width: 100%;
-  padding: 35em 12em 12em 12em;
-  text-align: right;
+  padding: 22em 12em 12em 12em;
+  text-align: left;
   background:
-    url("../images/home-hero.png")
+    url("../images/homepage-hero-wide.png")
     0 no-repeat;
   background-size: 100%;
 }
@@ -97,7 +101,7 @@ header {
         rgba(255, 255, 255, 0.7),
         rgba(255, 255, 255, 0.7)
       ),
-      url("../images/home-hero.png")
+      url("../images/homepage-hero-wide.png")
       5% 0 no-repeat;
   }
 
