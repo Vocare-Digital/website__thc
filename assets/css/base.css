@@ -70,9 +70,9 @@ p {
   padding: 22em 12em 12em 12em;
   text-align: left;
   background:
-    url("../images/homepage-hero-wide.png")
+    url("../images/homepage-hero-high.png")
     0 no-repeat;
-  background-size: 100%;
+  background-size: 120%;
 }
 
 .hero .boxes {
@@ -101,7 +101,7 @@ p {
         rgba(255, 255, 255, 0.7),
         rgba(255, 255, 255, 0.7)
       ),
-      url("../images/homepage-hero-wide.png")
+      url("../images/homepage-hero-high.png")
       5% 0 no-repeat;
   }
 
@@ -266,6 +266,10 @@ a .heading  {
 
 .dark__green {
     background-color: #00887A  !important;
+}
+
+.light__blue {
+    background-color: #77a6f7 !important;
 }
 
 
