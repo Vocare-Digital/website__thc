@@ -35,8 +35,22 @@
             align-items: center;
         }
 
-      .slider-test {
-      }
+        .infographic__holder {
+          min-height: 400px;
+          padding-top: 0.5em;
+        }
+
+        .infographic__holder .card {
+          min-height: 350px;
+        }
+
+        .infographic__holder .card p {
+          font-size: 1.35em;
+        }
+
+        .infographic__holder .header {
+          padding: 10px 10px;
+        }
 
     </style>
 
@@ -66,13 +80,13 @@
 </div>
 <div class="pusher">
   <!-- nav bar -->
-  <div class="ui top fixed menu">
+  <div class="ui top fixed menu" >
     <a class="header item" href="index.html">
-      <img src="assets/images/thweblogo250.png">
+      <img class="ui image"  src="assets/images/thweblogo.png">
     </a>
     <div class="right menu">
       <a class="item" id="hamburger">
-        <i class="large fitted content icon"></i>
+        <i class="huge fitted content icon"></i>
       </a>
     </div>
   </div>
@@ -88,9 +102,8 @@
         <div class="column">
             <div class="content-hover-box">
               <div class="top">
-                <i class="fas fa-money-bill-wave" style="font-size: 3em;"></i>
+                <i class="fas fa-pound-sign" style="font-size: 3em;"></i>
                 <p style="font-size: 1.8em; padding-top: 0.2em">
-
                   Cost-effective insourcing model</p>
               </div>
               <div class="bottom">
@@ -132,29 +145,79 @@
   </div>
 
   <!-- start of more content -->
-  <div class="ui container">
+  <div class="ui fluid container" style="margin: 0 auto; padding: 0 12%;">
     <h1 class="heading le-purp">Why choose us?</h1>
-    <img src="assets/images/process-gbp.png" class="ui fluid image" alt="How insourcing works infographic">
-    <div style="margin: 2em 0;">
-<!--      <h1 class="header le-purp" style="text-align: left;">Why choose us?</h1>-->
-      <div class="ui five column stackable grid" >
-        <div class="centered row">
+    <div class="infographic__holder">
+      <div class="infographic__hider">
+        <div class="ui stackable four columns grid">
+
           <div class="column">
-            <h3 class="le-purp">Patient-centred processes</h3>
-            <p>Patients are at the heart of our insourcing service solutions</p>
+            <div class="ui transition hidden card" style="min-width: 100%;">
+              <div class="header middle aligned"><h2 class="le-purp" style="text-align: center">Identify Requirements</h2></div>
+              <div class="content">
+                <p>We meet you to introduce our business and discuss your specific requirements</p>
+                <p>We create your personal proposal considering all options to provide the most cost-effective model</p>
+                <p>We ensure you deal with the same person at every stage of our process</p>
+              </div>
+            </div>
           </div>
-          <div class="column"></div>
+
           <div class="column">
-            <h3 class="le-purp">Clinical effectiveness</h3>
-            <p>We have a robust clinical governance structure </p>
+            <div class="ui transition hidden card" style="min-width: 100%;">
+              <div class="header middle aligned"><h2 class="le-purp" style="text-align: center">Planning</h2></div>
+              <div class="content">
+                <p>We carry out all important groundwork through an on-site visit</p>
+                <p>We thoroughly assess local facilities, including a walkthrough of patients’ journeys</p>
+                <p>We ensure we deliver in line with all local procedure</p>
+              </div>
+            </div>
           </div>
-          <div class="column"></div>
+
           <div class="column">
-            <h3 class="le-purp">Cost-effective solutions</h3>
-            <p>Utilising existing equipment and workforce to keep costs down</p>
+            <div class="ui transition hidden card" style="min-width: 100%;">
+              <div class="header middle aligned"><h2 class="le-purp" style="text-align: center">Mobilisation</h2></div>
+              <div class="content">
+                <p>We agree a go-live date and initiate the mobilisation process</p>
+                <p>All contract arrangements are finalised prior to go-live</p>
+                <p>Due to our extensive resource we can mobilise within two weeks</p>
+
+              </div>
+            </div>
           </div>
+
+          <div class="column">
+            <div class="ui transition hidden card" style="min-width: 100%;">
+              <div class="header middle aligned"><h2 class="le-purp" style="text-align: center">Evaluation</h2></div>
+              <div class="content">
+                <p>We produce routine audit reports sharing clinical outcomes, performance information and patient feedback</p>
+                <p>We embrace shared learning and invite feedback at all stages of our process</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
+    </div>
+    <div style="margin: 2em 0;">
+<!--      <h1 class="header le-purp" style="text-align: left;">Why choose us?</h1>-->
+<!--      <div class="ui five column stackable grid" >-->
+<!--        <div class="centered row">-->
+<!--          <div class="column">-->
+<!--            <h3 class="le-purp">Patient-centred processes</h3>-->
+<!--            <p>Patients are at the heart of our insourcing service solutions</p>-->
+<!--          </div>-->
+<!--          <div class="column"></div>-->
+<!--          <div class="column">-->
+<!--            <h3 class="le-purp">Clinical effectiveness</h3>-->
+<!--            <p>We have a robust clinical governance structure </p>-->
+<!--          </div>-->
+<!--          <div class="column"></div>-->
+<!--          <div class="column">-->
+<!--            <h3 class="le-purp">Cost-effective solutions</h3>-->
+<!--            <p>Utilising existing equipment and workforce to keep costs down</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
       <div style="text-align: right;">
         <h4>
           <a href="why-choose-us.html">Find out more</a>
@@ -250,7 +313,7 @@
           <p>We are always looking to increase our team of highly skilled professionals to meet the extremely high demand for contracts across the UK and Ireland.</p>
           <p>If you are interested in providing excellent patient care alongside a supportive team of experienced healthcare professionals, please contact a member of the team at <a href="mailto:recruitment@totallyhealthcarelimited.com">recruitment@totallyhealthcarelimited.com</a> who will discuss the registration requirements with you and are there to support you through the process.</p>
           <span class="column" style="text-align: right;">
-                <h4>
+                <h4>-
                     <a href="people.html">Find out more</a>
                 </h4>
             </span>
@@ -291,28 +354,29 @@
 
     $(document).ready(() => {
       $('.hero .boxes .content-hover-box').hide();
-
       $('.hero .boxes .content-hover-box').transition({
         animation: 'fade in left',
         duration: 1000,
         interval: 600
       });
 
+      let infographic_visible = false;
+      let observer = new IntersectionObserver((t) => {
+        if (t[0].isIntersecting && !infographic_visible) {
+          infographic_visible = true;
+          setTimeout(() => {
+            $('.infographic__hider .card').transition({
+              animation: 'fade right',
+              duration: 3000,
+              interval: 900
+            })
+          }, 0)
+        }
+      }, {
+        threshold: 0.5
+      });
 
-      $('.slider-for').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.slider-nav'
-      });
-      $('.slider-nav').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        asNavFor: '.slider-for',
-        centerMode: true,
-        focusOnSelect: true
-      });
+      observer.observe(document.querySelector('.infographic__holder'))
 
     });
 

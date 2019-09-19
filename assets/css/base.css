@@ -117,7 +117,7 @@ p {
   justify-content: center;
   align-items: center;
   min-height: 140px;
-  background: #44318d;
+  background: #44318d !important;
   border-radius: 4px;
   padding: 1em;
   color: #fff;
