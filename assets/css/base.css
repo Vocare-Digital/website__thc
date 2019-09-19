@@ -171,6 +171,7 @@ p {
 }
 .green-box {
     background-color: #44318D !important;
+    min-height: 100px !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px)  {
@@ -224,7 +225,7 @@ p {
     padding-bottom: 1em;
     background-color: #00887A  !important;
     color: #fff;
-  text-align: center;
+    text-align: center;
 }
 
 #hero-banner {
