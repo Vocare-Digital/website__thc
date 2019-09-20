@@ -19,7 +19,7 @@
     <style>
         .why_choose_us__infographic__card
         {
-            background-color: #77a6f7 !important;
+            background-color: #44318D !important;
             height: 10em;
         }
         .why_choose_us__infographic__card__content {
@@ -31,9 +31,87 @@
         .why_choose_us__infographic__symbols {
             display:flex !important;
             align-items: center !important;
-            font-size: 7em !important;
             margin-top: -0.25em !important;
-        }ß
+        }
+
+        .why_choose_us__infographic__symbols p {
+            font-size: 7em !important;
+        }
+
+
+        .ribbon {
+            font-size: 28px !important;
+            /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+            width: 100%;
+
+            position: relative;
+            background: #00887a;
+            color: #fff;
+            text-align: center;
+            padding: 1.5em 0.5em 2em 0.5em; /* Adjust to suit */
+            margin: 2.5em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+        }
+        .rib-dbl
+        {
+            padding: 1.2em 0.5em !important;
+        }
+        .ribbon-content {
+            width: 98%;
+            margin: auto;
+            /*            display: inline-block;*/
+        }
+        .ribleft {
+            box-shadow: 0px 5px 15px #666;
+        }
+        .ribright {
+            box-shadow: -5px 5px 15px #666;
+        }
+        .ribleft:before, .ribright:after {
+            content: "";
+            position: absolute;
+            display: block;
+            bottom: -2em;
+            border: 2.5em solid #0a7062;
+            z-index: -1;
+
+        }
+        .ribleft:before {
+            left: -8.5em;
+            border-right-width: 8em;
+            border-left-color: transparent;
+        }
+        .ribright:after {
+            right: -8.5em;
+            border-left-width: 8em;
+            border-right-color: transparent;
+        }
+        .ribright .ribbon-content:after  {
+            content: "";
+            position: absolute;
+            display: block;
+            border-style: solid;
+            border-color: #055759 transparent transparent transparent;
+            bottom: -2em;
+        }
+        .ribleft .ribbon-content:before {
+            content: "";
+            position: absolute;
+            display: block;
+            border-style: solid;
+            border-color: #055759 transparent transparent transparent;
+            bottom: -2em;
+        }
+        .ribleft .ribbon-content:before  {
+            left: 0;
+            border-width: 2em 0 0 2em;
+            box-shadow: 0px 5px 15px #666;
+        }
+        .ribright .ribbon-content:after {
+            right: 0;
+            border-width: 2em 2em 0 0;
+            box-shadow: -5px 5px 15px #666;
+        }
 
     </style>
 </head>
@@ -81,15 +159,28 @@
 <a name="patient-feedback"></a>
 <div class="ui container">
     <h1 class="le-purp">Excellent patient feedback</h1>
-    <img src="archive/img/satisfaction-bg2.png" class="ui centered massive image">
+    <h1 class="ribbon ribleft">
+        <span style="position: relative; top: 0.2em; font-size: 2.6em;">94%</span> <strong class="ribbon-content"> of patients said their appointment time suited them</strong> <img src="assets/images/bedtime.png" style="float: right; margin-top: -15px; " />
+    </h1>
+    <h1 class="ribbon ribright">
+        <img src="assets/images/doctor.png" style="float: left; margin-top: -15px;"/> <span style="position: relative; top: 0.2em; font-size: 2.6em;">100%</span> <strong class="ribbon-content"> of patients felt the unit staff attended well to their needs </strong>
+    </h1>
+    <h1 class="ribbon ribleft">
+        <span style="position: relative; top: 0.2em; font-size: 2.6em;">100%</span> <strong class="ribbon-content"> of patients felt they were treated with dignity and respect</strong> <img src="assets/images/staff.png" style="float: right; margin-top: -15px; "/>
+    </h1>
+    <h1 class="ribbon ribright rib-dbl">
+        <img src="assets/images/treat.png" style="float: left; margin-top: -5px;"/> <span style="position: relative; top: 0.25em; left: -0.2em; font-size: 2.6em;">100%</span> <strong class="ribbon-content" > <span style="position: relative; top: -0.5em;">of patients said the quality of care they received was either <em>excellent</em> (93%) or <em>very good</em> (7%)</span></strong>
+    </h1>
+
 </div>
 </div>
 
 <a name="how"></a>
 <div class="ui main container">
-    <h1 class="header le-purp">How insourcing works</h1>
-        <img src="assets/images/process-gbp.png" class="ui fluid image" alt="How insourcing works infographic">
-</div>
+    <h1 class="heading le-purp">About Totally Healthcare</h1>
+    <p>Totally Healthcare supports trusts and hospitals to deliver patient waiting time initiatives across specialties throughout the UK and Ireland.</p>
+    <p>Our Management and clinical teams have more than 40 years of healthcare experience within insourcing in the UK and Republic of Ireland and have helped treat more than 620,000 patients across all specialties.</p>
+    <p>Totally Healthcare is part of Totally plc – one of England’s leading healthcare providers, working across more than 230 locations nationwide to address the challenges of increased demand on health services by delivering high-quality care.</p></div>
 
 <a name="pcp"></a>
 <div class="ui main container">
