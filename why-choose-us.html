@@ -45,12 +45,13 @@
             width: 100%;
 
             position: relative;
-            background: #00887a;
+
             color: #fff;
             text-align: center;
             padding: 1.5em 0.5em 2em 0.5em; /* Adjust to suit */
             margin: 2.5em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
         }
+
         .rib-dbl
         {
             padding: 1.2em 0.5em !important;
@@ -62,18 +63,27 @@
         }
         .ribleft {
             box-shadow: 0px 5px 15px #666;
+            background: #00887a;
         }
         .ribright {
             box-shadow: -5px 5px 15px #666;
+            background: #77A6F7;
         }
         .ribleft:before, .ribright:after {
             content: "";
             position: absolute;
             display: block;
             bottom: -2em;
-            border: 2.5em solid #0a7062;
+
             z-index: -1;
 
+        }
+        .ribleft:before
+        {
+            border: 2.5em solid #0a7062;
+        }
+        .ribright:after {
+            border: 2.5em solid #5191f7;
         }
         .ribleft:before {
             left: -8.5em;
@@ -90,7 +100,7 @@
             position: absolute;
             display: block;
             border-style: solid;
-            border-color: #055759 transparent transparent transparent;
+            border-color: #2c5da5 transparent transparent transparent;
             bottom: -2em;
         }
         .ribleft .ribbon-content:before {
@@ -104,12 +114,12 @@
         .ribleft .ribbon-content:before  {
             left: 0;
             border-width: 2em 0 0 2em;
-            box-shadow: 0px 5px 15px #666;
+            /*       box-shadow: 0px 5px 15px #666; */
         }
         .ribright .ribbon-content:after {
             right: 0;
             border-width: 2em 2em 0 0;
-            box-shadow: -5px 5px 15px #666;
+            /* box-shadow: -5px 5px 15px #666; */
         }
 
     </style>
@@ -122,14 +132,14 @@
     <a class="header item" href="quality-and-governance.html">Quality</a>
     <div class="space item"></div>
     <div class="header item">Specialties</div>
-    <a class="item" href="specialties/anaesthetics.html">Anaesthetics and Pain Management</a>
-    <a class="item" href="specialties/dermatology.html">Dermatology</a>
-    <a class="item" href="specialties/ent-and-audiology.html">ENT and audiology</a>
     <a class="item" href="specialties/gastroenterology.html">Gastroenterology and endoscopy</a>
     <a class="item" href="specialties/ophthalmology.html">Ophthalmology</a>
+    <a class="item" href="specialties/surgery.html">Surgical specialties</a>
+    <a class="item" href="specialties/dermatology.html">Dermatology</a>
+    <a class="item" href="specialties/ent-and-audiology.html">ENT and audiology</a>
     <a class="item" href="specialties/respiratory.html">Respiratory</a>
     <a class="item" href="specialties/rheumatology.html">Rheumatology</a>
-    <a class="item" href="specialties/surgery.html">Surgical specialties</a>
+    <a class="item" href="specialties/anaesthetics.html">Anaesthetics and Pain Management</a>
     <div class="space item"></div>
     <div class="header item">People</div>
     <a class="item" href="people.html">People</a>
@@ -151,24 +161,29 @@
     <!-- end of nav bar -->
 
 
-<div class="ui  container" style="padding-top: 50px; padding-bottom: 25px;">
+<div class="ui container" style="padding-top: 50px;">
     <h1 class="le-purp" id="people-title">Why choose us?</h1>
+</div>
 
+    <div class="ui fluid container">
+        <div class="info-banner" style="margin-top: 0;">
+            <h1 class="white">We consistently receive excellent patient feedback</h1>
+        </div>
+    </div>
 
-<a name="patient-feedback"></a>
-<div class="ui container">
+    <div class="ui container">
 <!--    <h1 class="le-purp">Excellent patient feedback</h1>-->
     <h1 class="ribbon ribleft">
         <span style="position: relative; top: 0.2em; font-size: 2.6em;">94%</span> <strong class="ribbon-content"> of patients said their appointment time suited them</strong> <img src="assets/images/bedtime.png" style="float: right; margin-top: -15px; " />
     </h1>
     <h1 class="ribbon ribright">
-        <img src="assets/images/doctor.png" style="float: left; margin-top: -15px;"/> <span style="position: relative; top: 0.2em; font-size: 2.6em;">100%</span> <strong class="ribbon-content"> of patients felt the unit staff attended well to their needs </strong>
+        <img src="assets/images/doctor.png" style="float: left; margin-top: -15px;"/> <span style="position: relative; top: 0.2em; left: -0.1em; font-size: 2.6em;">100%</span> <strong class="ribbon-content"> of patients felt the unit staff attended well to their needs </strong>
     </h1>
     <h1 class="ribbon ribleft">
         <span style="position: relative; top: 0.2em; font-size: 2.6em;">100%</span> <strong class="ribbon-content"> of patients felt they were treated with dignity and respect</strong> <img src="assets/images/staff.png" style="float: right; margin-top: -15px; "/>
     </h1>
     <h1 class="ribbon ribright rib-dbl">
-        <img src="assets/images/treat.png" style="float: left; margin-top: -5px;"/> <span style="position: relative; top: 0.25em; left: -0.2em; font-size: 2.6em;">100%</span> <strong class="ribbon-content" > <span style="position: relative; top: -0.5em;">of patients said the quality of care they received was either <em>excellent</em> (93%) or <em>very good</em> (7%)</span></strong>
+        <img src="assets/images/treat.png" style="float: left; margin-top: -5px;"/> <span style="position: relative; top: 0.3em; left: 0em; font-size: 2.6em;">100%</span> <strong class="ribbon-content" > <span style="position: relative; top: -0.5em;">of patients said the quality of care they received was either <em>excellent</em> (93%) or <em>very good</em> (7%)</span></strong>
     </h1>
 
 </div>
@@ -176,7 +191,7 @@
 
 <div class="ui main fluid container">
     <div class="info-banner">
-        <h1 class="white">We consistently receive excellent patient feedback</h1>
+        <h1 class="white">Our bespoke insourcing solutions will reduce patient waiting times</h1>
     </div>
 </div>
 
@@ -270,7 +285,6 @@
         <div class="ui horizontal inverted  small divided link list ">
             <a class="item white" href="sitemap.html">Site Map</a>
             <a class="item white" href="contact-us.html">Contact Us</a>
-            <a class="item white" href="terms-and-conditions.html">Terms and Conditions</a>
             <a class="item white" href="privacy-policy.html">Privacy Policy</a>
         </div>
     </div>
