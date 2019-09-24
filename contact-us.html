@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Site Properties -->
+    <title>Why choose us? - Totally Healthcare</title>
+
+    <!-- You MUST include jQuery before Fomantic -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/base.css">
+    <style>
+        .why_choose_us__infographic__card
+        {
+            background-color: #77a6f7 !important;
+            height: 10em;
+        }
+        .why_choose_us__infographic__card__content {
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+        }
+        .why_choose_us__infographic__symbols {
+            display:flex !important;
+            align-items: center !important;
+            font-size: 7em !important;
+            margin-top: -0.25em !important;
+        }ß
+
+    </style>
+</head>
+<body>
+
+<!-- nav bar -->
+<div class="ui top seven item fixed menu">
+    <div class="ui container">
+        <a href="index.html" class="header item">
+            <i class="heartbeat icon"></i>
+            Totally Healthcare
+        </a>
+        <a class="item" href="index.html" >Home</a>
+        <a class="item" href="why-choose-us.html">Why choose us?</a>
+        <div class="ui dropdown item">Specialties
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <a class="item" href="specialties/anaesthetics.html">Anaesthetics and Pain Management</a>
+                <a class="item" href="specialties/dermatology.html">Dermatology</a>
+                <a class="item" href="specialties/ent-and-audiology.html">ENT and audiology</a>
+                <a class="item" href="specialties/gastroenterology.html">Gastroenterology</a>
+                <a class="item" href="specialties/ophthalmology.html">Ophthalmology</a>
+                <a class="item" href="specialties/respiratory.html">Respiratory</a>
+                <a class="item" href="specialties/rheumatology.html">Rheumatology</a>
+                <a class="item" href="specialties/surgery.html">Surgery</a>
+            </div>
+        </div>
+        <div class="ui dropdown item">People
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <a class="item" href="people.html">People</a>
+                <a class="item" href="consultants.html">Consultants</a>
+                <a class="item" href="nurses-and-ahp.html">Nurses and AHP</a>
+            </div>
+        </div>
+        <a class="item" href="quality-and-governance.html">Quality and governance</a>
+        <a class="item active" href="contact-us.html">Contact us</a>
+    </div>
+</div>
+<!-- end of nav bar -->
+
+<!-- content goes here -->
+<div class="ui main container">
+    <h1 class="le-purp">Contact Us</h1>
+
+  <div class="ui form">
+    <div class="field">
+      <label>Name</label>
+      <input type="text" name="name" placeholder="Name">
+    </div>
+    <div class="field">
+      <label>Comment</label>
+      <textarea name="comment"></textarea>
+    </div>
+    <a class="mailto-link" href="">
+      <div class="ui button">Submit</div>
+    </a>
+  </div>
+
+  <script type="text/javascript">
+      $(document).ready(function () {
+        $name = $('.form input[name="name"]')
+        $comment = $('.form textarea[name="comment"]')
+        $link = $('.mailto-link')
+
+        let updateBody = function () {
+          $link.attr(
+            'href',
+            `mailto:user@example.com?body=${$comment.val()} - ${$name.val()}`
+          )
+        }
+
+        $name.on('keyup', updateBody)
+        $comment.on('keyup', updateBody)
+      })
+  </script>
+</div>
+
+<!-- end of the content -->
+
+<!-- start of footer -->
+<div class="ui  vertical footer segment" style="margin-top: 8em; background-color: #00887A">
+    <div class="ui center aligned container">
+        <div class="ui horizontal inverted  small divided link list ">
+            <a class="item white" href="sitemap.html">Site Map</a>
+            <a class="item white" href="contact-us.html">Contact Us</a>
+            <a class="item white" href="terms-and-conditions.html">Terms and Conditions</a>
+            <a class="item white" href="privacy-policy.html">Privacy Policy</a>
+        </div>
+    </div>
+</div>
+<!-- end of the footer -->
+</body>
+
+<script>
+    $('.ui.dropdown')
+        .dropdown();
+</script>
+
+</html>
+<!-- end of the page right here -->
