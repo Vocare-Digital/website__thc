@@ -122,6 +122,20 @@
             border-width: 2em 2em 0 0;
             /* box-shadow: -5px 5px 15px #666; */
         }
+
+        .quote {
+          font-size: 1.3em;
+          padding: 2em;
+        }
+
+        .quote:before {
+          display: block;
+          content: "\201C";
+          font-size: 90px;
+          position: absolute;
+          left: 60px;
+          color: #7a7a7a;
+        }
     </style>
 </head>
 <body>
@@ -169,6 +183,21 @@
         <h1 class="white">We consistently receive excellent patient feedback</h1>
     </div>
 </div>
+
+  <h2 class="ui center aligned header">Trusted by patients</h2>
+
+  <div class="ui centered celled container grid">
+    <div class="eight wide column">
+      <blockquote class="quote">
+        The staff in the unit were excellent. All needs were met. My thanks to all involved
+      </blockquote>
+    </div>
+    <div class="eight wide column">
+      <blockquote class="quote">
+        Care and quality of care is excellent, all staff could not do enough. They do a great job, especially on Sunday. I really want to thank each and every one
+      </blockquote>
+    </div>
+  </div>
 
     <div class="ui main container">
 
