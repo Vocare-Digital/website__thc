@@ -12,74 +12,160 @@
 
     <!-- You MUST include jQuery before Fomantic -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.7/dist/semantic.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.8/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.8/dist/semantic.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/base.css">
     <style>
         .why_choose_us__infographic__card
         {
-            background-color: #77a6f7 !important;
+            background-color: #44318D !important;
             height: 10em;
         }
         .why_choose_us__infographic__card__content {
             display: flex;
             align-items: center;
             text-align: center;
-
         }
         .why_choose_us__infographic__symbols {
             display:flex !important;
             align-items: center !important;
-            font-size: 7em !important;
             margin-top: -0.25em !important;
-        }ß
+        }
 
+        .why_choose_us__infographic__symbols p {
+            font-size: 7em !important;
+        }
+
+
+        .ribbon {
+            font-size: 28px !important;
+            /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+            width: 100%;
+
+            position: relative;
+
+            color: #fff;
+            text-align: center;
+            padding: 1.5em 0.5em 2em 0.5em; /* Adjust to suit */
+            margin: 2.5em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+        }
+
+        .rib-dbl
+        {
+            padding: 1.2em 0.5em !important;
+        }
+        .ribbon-content {
+            width: 98%;
+            margin: auto;
+            /*            display: inline-block;*/
+            font-weight: normal;
+        }
+        .ribleft {
+            box-shadow: 0px 5px 15px #666;
+            background: #00887a;
+        }
+        .ribright {
+            box-shadow: -5px 5px 15px #666;
+            background: #77A6F7;
+        }
+        .ribleft:before, .ribright:after {
+            content: "";
+            position: absolute;
+            display: block;
+            bottom: -2em;
+
+            z-index: -1;
+
+        }
+        .ribleft:before
+        {
+            border: 2.5em solid #0a7062;
+        }
+        .ribright:after {
+            border: 2.5em solid #5191f7;
+        }
+        .ribleft:before {
+            left: -8.5em;
+            border-right-width: 8em;
+            border-left-color: transparent;
+        }
+        .ribright:after {
+            right: -8.5em;
+            border-left-width: 8em;
+            border-right-color: transparent;
+        }
+        .ribright .ribbon-content:after  {
+            content: "";
+            position: absolute;
+            display: block;
+            border-style: solid;
+            border-color: #2c5da5 transparent transparent transparent;
+            bottom: -2em;
+        }
+        .ribleft .ribbon-content:before {
+            content: "";
+            position: absolute;
+            display: block;
+            border-style: solid;
+            border-color: #055759 transparent transparent transparent;
+            bottom: -2em;
+        }
+        .ribleft .ribbon-content:before  {
+            left: 0;
+            border-width: 2em 0 0 2em;
+            /*       box-shadow: 0px 5px 15px #666; */
+        }
+        .ribright .ribbon-content:after {
+            right: 0;
+            border-width: 2em 2em 0 0;
+            /* box-shadow: -5px 5px 15px #666; */
+        }
     </style>
 </head>
 <body>
-
-<!-- nav bar -->
-<div class="ui top seven item fixed menu">
-    <div class="ui container">
-        <a href="index.html" class="header item">
-            <i class="heartbeat icon"></i>
-            Totally Healthcare
-        </a>
-        <a class="item" href="index.html" >Home</a>
-        <a class="item" href="why-choose-us.html">Why choose us?</a>
-        <div class="ui dropdown item">Specialties
-            <i class="dropdown icon"></i>
-            <div class="menu">
-                <a class="item" href="specialties/anaesthetics.html">Anaesthetics and Pain Management</a>
-                <a class="item" href="specialties/dermatology.html">Dermatology</a>
-                <a class="item" href="specialties/ent-and-audiology.html">ENT and audiology</a>
-                <a class="item" href="specialties/gastroenterology.html">Gastroenterology</a>
-                <a class="item" href="specialties/ophthalmology.html">Ophthalmology</a>
-                <a class="item" href="specialties/respiratory.html">Respiratory</a>
-                <a class="item" href="specialties/rheumatology.html">Rheumatology</a>
-                <a class="item" href="specialties/surgery.html">Surgery</a>
-            </div>
-        </div>
-        <div class="ui dropdown item">People
-            <i class="dropdown icon"></i>
-            <div class="menu">
-                <a class="item" href="people.html">People</a>
-                <a class="item" href="consultants.html">Consultants</a>
-                <a class="item" href="nurses-and-ahp.html">Nurses and AHP</a>
-            </div>
-        </div>
-        <a class="item" href="quality-and-governance.html">Quality and governance</a>
-        <a class="item active" href="contact-us.html">Contact us</a>
-    </div>
+<div class="ui very wide sidebar inverted vertical menu">
+    <a class="close item"><i class="large close icon"></i></a>
+    <a class="header item" href="index.html" >Home</a>
+    <a class="header item" href="why-choose-us.html">Why choose us?</a>
+    <a class="header item" href="quality-and-governance.html">Quality</a>
+    <div class="space item"></div>
+    <div class="header item">Specialties</div>
+    <a class="item" href="specialties/gastroenterology.html">Gastroenterology and endoscopy</a>
+    <a class="item" href="specialties/ophthalmology.html">Ophthalmology</a>
+    <a class="item" href="specialties/surgery.html">Surgical specialties</a>
+    <a class="item" href="specialties/dermatology.html">Dermatology</a>
+    <a class="item" href="specialties/ent-and-audiology.html">ENT and audiology</a>
+    <a class="item" href="specialties/respiratory.html">Respiratory</a>
+    <a class="item" href="specialties/rheumatology.html">Rheumatology</a>
+    <a class="item" href="specialties/anaesthetics.html">Anaesthetics and Pain Management</a>
+    <div class="space item"></div>
+    <a class="header item" href="people.html">People</a>
+    <a class="item" href="consultants.html">Consultants</a>
+    <a class="item" href="nurses-and-ahp.html">Nurses and AHP</a>
 </div>
-<!-- end of nav bar -->
+<div class="pusher">
+    <!-- nav bar -->
+    <div class="ui top fixed menu" >
+        <a class="header item" href="index.html">
+            <img class="ui image"  src="assets/images/thweblogo.png">
+        </a>
+        <div class="right menu">
+            <a class="item" id="hamburger">
+                <i class="huge fitted content icon"></i>
+            </a>
+        </div>
+    </div>
+    <!-- end of nav bar -->
 
-<!-- content goes here -->
-<div class="ui main container">
-    <h1 class="le-purp">Contact Us</h1>
 
-  <div class="ui form">
+    <div class="ui container" style="padding-top: 50px;">
+        <h1 class="le-purp" id="people-title">Contact us</h1>
+
+
+
+    <div class="ui form">
     <div class="field">
       <label>Name</label>
       <input type="text" name="name" placeholder="Name">
@@ -120,7 +206,6 @@
         <div class="ui horizontal inverted  small divided link list ">
             <a class="item white" href="sitemap.html">Site Map</a>
             <a class="item white" href="contact-us.html">Contact Us</a>
-            <a class="item white" href="terms-and-conditions.html">Terms and Conditions</a>
             <a class="item white" href="privacy-policy.html">Privacy Policy</a>
         </div>
     </div>
@@ -131,6 +216,16 @@
 <script>
     $('.ui.dropdown')
         .dropdown();
+
+    $('#hamburger').click(() => {
+        $('.ui.sidebar')
+            .sidebar('show')
+    });
+
+    $('.close.item').click(() => {
+        $('.ui.sidebar')
+            .sidebar('hide')
+    });
 </script>
 
 </html>
