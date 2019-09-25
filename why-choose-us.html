@@ -39,28 +39,33 @@
 
 
         .ribbon {
-            font-size: 28px !important;
+            font-size: 24px !important;
             /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
 
             width: 100%;
-
             position: relative;
-
             color: #fff;
             text-align: center;
-            padding: 1.5em 0.5em 2em 0.5em; /* Adjust to suit */
-            margin: 2.5em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+            padding: 1em 0.5em 1.5em 0.5em; /* Adjust to suit */
+            margin: 2em auto 2.5em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
         }
-
         .rib-dbl
         {
-            padding: 1.2em 0.5em !important;
+            padding: 0.5em 0.5em !important;
         }
         .ribbon-content {
-            width: 98%;
+            width: 100%;
             margin: auto;
-            /*            display: inline-block;*/
             font-weight: normal;
+        }
+        .ribleft .ribbon-content {
+            margin: auto;
+        }
+        .ribright .ribbon-content {
+            margin-left: -4em;
+        }
+        .rib-dbl .ribbon-content {
+            margin-left: -4.5em;
         }
         .ribleft {
             box-shadow: 0px 5px 15px #666;
@@ -75,24 +80,22 @@
             position: absolute;
             display: block;
             bottom: -2em;
-
             z-index: -1;
-
         }
         .ribleft:before
         {
-            border: 2.5em solid #0a7062;
+            border: 2em solid #0a7062;
         }
         .ribright:after {
-            border: 2.5em solid #5191f7;
+            border: 2em solid #5191f7;
         }
         .ribleft:before {
-            left: -8.5em;
+            left: -8em;
             border-right-width: 8em;
             border-left-color: transparent;
         }
         .ribright:after {
-            right: -8.5em;
+            right: -8em;
             border-left-width: 8em;
             border-right-color: transparent;
         }
@@ -115,13 +118,16 @@
         .ribleft .ribbon-content:before  {
             left: 0;
             border-width: 2em 0 0 2em;
-            /*       box-shadow: 0px 5px 15px #666; */
         }
         .ribright .ribbon-content:after {
             right: 0;
             border-width: 2em 2em 0 0;
-            /* box-shadow: -5px 5px 15px #666; */
         }
+
+        .ribbon-content h1 {
+            font-weight: normal !important;
+        }
+
 
         .quote {
           font-size: 1.3em;
@@ -174,50 +180,45 @@
     <!-- end of nav bar -->
 
 
-<div class="ui container" style="padding-top: 50px;">
+<div class="ui container" style="padding-top: 75px;">
     <h1 class="le-purp" id="people-title">Why choose us?</h1>
+</div>
+    <div class="ui main container">
+        <h1 class="ribbon ribleft">
+            <span style="position: relative; top: 0.2em; font-size: 2.2em; font-weight: normal;">94%</span> <strong class="ribbon-content"> of patients said their appointment time suited them</strong> <img src="assets/images/bedtime.png" class="img-responsive" style="float: right; margin-top: -15px; " />
+        </h1>
+        <h1 class="ribbon ribright">
+            <img src="assets/images/doctor.png" style="float: left; margin-top: -15px;"/> <span style="position: relative; top: 0.2em; left: -1.9em; font-size: 2.2em; font-weight: normal;">100%</span> <strong class="ribbon-content"> of patients felt the unit staff attended well to their needs </strong>
+        </h1>
+        <h1 class="ribbon ribleft">
+            <span style="position: relative; top: 0.2em; font-size: 2.2em; font-weight: normal;">100%</span> <strong class="ribbon-content"> of patients felt they were treated with dignity and respect</strong> <img src="assets/images/staff.png" style="float: right; margin-top: -15px; "/>
+        </h1>
+        <h1 class="ribbon ribright rib-dbl">
+            <img src="assets/images/treat.png" style="float: left; margin-top: -5px;"/> <span style="position: relative; top: 0.25em; left: -2.2em; font-size: 2.2em; font-weight: normal;">100%</span> <strong class="ribbon-content" > <span style="position: relative; top: -0.5em;">of patients said the quality of care they received was<br />either <em>excellent</em> (93%) or <em>very good</em> (7%)</span></strong>
+        </h1>
+    </div>
 </div>
 
 <div class="ui fluid container">
-    <div class="info-banner" style="margin-top: 0;">
+    <div class="info-banner" style="">
         <h1 class="white">We consistently receive excellent patient feedback</h1>
     </div>
 </div>
 
-  <h2 class="ui center aligned header">Trusted by patients</h2>
 
-  <div class="ui centered celled container grid">
+<div class="ui centered celled container grid">
     <div class="eight wide column">
-      <blockquote class="quote">
-        The staff in the unit were excellent. All needs were met. My thanks to all involved
-      </blockquote>
+        <blockquote class="quote">
+            The staff in the unit were excellent. All needs were met. My thanks to all involved
+        </blockquote>
     </div>
     <div class="eight wide column">
-      <blockquote class="quote">
-        Care and quality of care is excellent, all staff could not do enough. They do a great job, especially on Sunday. I really want to thank each and every one
-      </blockquote>
+        <blockquote class="quote">
+            Care and quality of care is excellent, all staff could not do enough. They do a great job, especially on Sunday. I really want to thank each and every one
+        </blockquote>
     </div>
-  </div>
-
-    <div class="ui main container">
-
-<!--    <h1 class="le-purp">Excellent patient feedback</h1>-->
-    <h1 class="ribbon ribleft">
-        <span style="position: relative; top: 0.2em; font-size: 2.6em; font-weight: normal !important;
-">94%</span> <strong class="ribbon-content"> of patients said their appointment time suited them</strong> <img src="assets/images/bedtime.png" style="float: right; margin-top: -15px; " />
-    </h1>
-    <h1 class="ribbon ribright">
-        <img src="assets/images/doctor.png" style="float: left; margin-top: -15px;"/> <span style="position: relative; top: 0.2em; left: -0.1em; font-size: 2.6em; font-weight: normal !important;">100%</span> <strong class="ribbon-content"> of patients felt the unit staff attended well to their needs </strong>
-    </h1>
-    <h1 class="ribbon ribleft">
-        <span style="position: relative; top: 0.2em; font-size: 2.6em; font-weight: normal !important;">100%</span> <strong class="ribbon-content"> of patients felt they were treated with dignity and respect</strong> <img src="assets/images/staff.png" style="float: right; margin-top: -15px; "/>
-    </h1>
-    <h1 class="ribbon ribright rib-dbl">
-        <img src="assets/images/treat.png" style="float: left; margin-top: -5px;"/> <span style="position: relative; top: 0.3em; left: 0em; font-size: 2.6em; font-weight: normal !important;">100%</span> <strong class="ribbon-content" > <span style="position: relative; top: -0.5em;">of patients said the quality of care they received was either <em>excellent</em> (93%) or <em>very good</em> (7%)</span></strong>
-    </h1>
-
 </div>
-</div>
+
 
 <div class="ui main fluid container">
     <div class="info-banner">
