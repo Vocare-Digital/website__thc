@@ -128,19 +128,38 @@
             font-weight: normal !important;
         }
 
-
-        .quote {
-          font-size: 1.3em;
-          padding: 2em;
+        .quotes.container {
+          margin-top: 4em;
         }
 
-        .quote:before {
-          display: block;
-          content: "\201C";
-          font-size: 90px;
+        .quote {
+          position: relative;
+          background: #00887a;
+          border-radius: .4em;
+          color: #FFF;
+          padding: 1em;
+          font-size: 2em;
+          line-height: 1em;
+        }
+
+        .quote.left:after {
+          left: 20%;
+          transform: scaleX(-1);
+        }
+
+        .quote:after {
+          content: '';
           position: absolute;
-          left: 60px;
-          color: #7a7a7a;
+          bottom: 0;
+          left: 80%;
+          width: 0;
+          height: 0;
+          border: 1.594em solid transparent;
+          border-top-color: #00887a;
+          border-bottom: 0;
+          border-right: 0;
+          margin-left: -0.797em;
+          margin-bottom: -1.594em;
         }
     </style>
 </head>
@@ -206,19 +225,29 @@
 </div>
 
 
-<div class="ui centered celled container grid">
+  <div class="ui centered middle aligned grid quotes stackable container">
     <div class="eight wide column">
-        <blockquote class="quote">
-            The staff in the unit were excellent. All needs were met. My thanks to all involved
+      <div class="left quote">
+        <blockquote>
+          "The staff in the unit were excellent. All needs were met. My thanks to all involved"
         </blockquote>
+      </div>
     </div>
     <div class="eight wide column">
-        <blockquote class="quote">
-            Care and quality of care is excellent, all staff could not do enough. They do a great job, especially on Sunday. I really want to thank each and every one
+      <div class="quote">
+        <blockquote>
+          "Care and quality of care is excellent, all staff could not do enough. They do a great job, especially on Sunday. I really want to thank each and every one"
         </blockquote>
+      </div>
     </div>
-</div>
-
+    <div class="eight wide column">
+      <div class="quote">
+        <blockquote>
+          "I was looked after very well by all the staff involved with my procedure. Thank you all"
+        </blockquote>
+      </div>
+    </div>
+  </div>
 
 <div class="ui main fluid container">
     <div class="info-banner">
