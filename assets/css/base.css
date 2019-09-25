@@ -225,7 +225,8 @@ p {
     padding-bottom: 1em;
     background-color: #00887A  !important;
     color: #fff;
-    text-align: center;
+    text-align: left;
+    padding-left: 10%;
 }
 
 .info-banner h1 {
