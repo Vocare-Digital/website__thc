@@ -65,9 +65,13 @@ p {
   background: none !important;
 }
 
+.mini-container {
+  padding: 0 8em;
+}
+
 .hero {
   margin-top: 87px;
-  padding: 10em;
+  padding: 10em 0;
 
   background:
     url("../images/homepage-hero-high.png")
@@ -146,7 +150,6 @@ p {
 
     .infographic__boxes {
         margin: 0 auto;
-        padding: 0 2em !important;
     }
 
     .infographic__box {
@@ -226,7 +229,10 @@ p {
 
 .infographic__boxes {
     margin: 0 auto;
-    padding: 0 12%;
+}
+
+.infographic__boxes .card {
+  min-width: 100% !important;
 }
 
 .white {
