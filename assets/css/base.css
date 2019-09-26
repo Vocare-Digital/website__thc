@@ -74,8 +74,8 @@ p {
   padding: 10em 0;
 
   background:
-    url("../images/homepage-hero-high.png")
-    -20em 0
+    url("../images/homepage-hero-test.png")
+    -40em 0
     no-repeat;
   background-size: 140%;
 }
@@ -106,8 +106,8 @@ p {
         rgba(255, 255, 255, 0.7),
         rgba(255, 255, 255, 0.7)
       ),
-      url("../images/homepage-hero-high.png")
-      70% 0
+      url("../images/homepage-hero-test.png")
+      85% 0
       no-repeat;
 
     background-size: 250%;
@@ -126,13 +126,13 @@ p {
   }
 
     .infographic__holder {
-        min-height: 500px !important;
+        min-height: 550px !important;
         padding-top: 0.5em;
     }
 
     .infographic__holder .card {
-      min-height: 450px;
-      height: 450px;
+      min-height: 500px;
+      height: 500px;
     }
 
   .infographic__boxes .header {
@@ -280,8 +280,7 @@ p {
     padding-bottom: 1em;
     background-color: #00887A  !important;
     color: #fff;
-    text-align: left;
-    padding-left: 10%;
+    text-align: center;
 }
 
 .info-banner h1 {
