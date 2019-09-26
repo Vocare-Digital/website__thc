@@ -66,34 +66,35 @@ p {
 }
 
 .hero {
-  width: 100%;
-  padding: 22em 12em 12em 12em;
-  text-align: left;
+  margin-top: 87px;
+  padding: 10em;
+
   background:
     url("../images/homepage-hero-high.png")
-    0 no-repeat;
-  background-size: 120%;
+    -20em 0
+    no-repeat;
+  background-size: 140%;
 }
 
-.hero .boxes {
-  min-height: 150px;
+.hero .dividing.row {
+  height: 5em;
 }
 
-.hero .boxes .card {
-  min-width: 100%;
-  min-height: 120px;
-  box-shadow: none;
+.hero .grid .content-hover-box {
+  min-height: 200px;
 }
 
-.hero .boxes .card:hover {
-  box-shadow: none;
+#banner-under-hero {
+  margin-top: 0;
 }
 
-.hero .boxes {
-  margin-bottom: -10em;
+@media only screen and (max-width: 720px) {
+  #specialties .card {
+    font-size: .5em !important;
+  }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1400px) {
   .hero {
     padding: 8em 2em;
     background:
@@ -102,21 +103,66 @@ p {
         rgba(255, 255, 255, 0.7)
       ),
       url("../images/homepage-hero-high.png")
-      5% 0 no-repeat;
+      70% 0
+      no-repeat;
+
+    background-size: 250%;
   }
 
   .hero .hero-text {
     font-size: 2em;
   }
+
+  #specialties .card {
+    font-size: .8em;
+  }
+
+  .content-hover-box {
+      min-height: 300px !important;
+  }
+
+    .infographic__holder {
+        min-height: 500px !important;
+        padding-top: 0.5em;
+    }
+
+    .infographic__holder .card {
+      min-height: 450px;
+      height: 450px;
+    }
+
+  .infographic__boxes .header {
+    min-height: 86px !important;
+    height: 86px !important;
+    position: relative;
+  }
+
+  .infographic__boxes .header h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+    .infographic__boxes {
+        margin: 0 auto;
+        padding: 0 2em !important;
+    }
+
+    .infographic__box {
+        min-width: 100% !important;
+    }
 }
 
-
+.infographic__box {
+    min-width: 80% !important;
+}
 
 .content-hover-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 140px;
+  min-height: 150px;
   background: #44318d !important;
   border-radius: 4px;
   padding: 1em;
@@ -137,17 +183,15 @@ p {
   display: block;
 }
 
-
-
 #hero__people {
     background: url("../images/people_page-smaller.jpg") center no-repeat;
 }
 
-.hero-text {
-    color: #00887A;
-    font-size: 3em;
-  margin-bottom: 4em;
-}
+/*.hero-text {*/
+/*    color: #00887A;*/
+/*    font-size: 3em;*/
+/*    margin-bottom: 4em;*/
+/*}*/
 
 #people-title {
     top: 30%;
@@ -178,6 +222,11 @@ p {
     .green-box {
         min-height: 250px !important;
     }
+}
+
+.infographic__boxes {
+    margin: 0 auto;
+    padding: 0 12%;
 }
 
 .white {
@@ -237,9 +286,9 @@ p {
     font-weight: normal !important;
 }
 
-#hero-banner {
-  margin-top: 0;
-}
+/*#hero-banner {*/
+/*  margin-top: 0;*/
+/*}*/
 
 .info-banner .circle {
     display: inline-block;
