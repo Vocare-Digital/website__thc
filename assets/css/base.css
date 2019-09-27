@@ -74,9 +74,9 @@ p {
 
   background:
     url("../images/hero-image.png")
-    -20em 0
+    75% 100%
     no-repeat;
-  background-size: 120%;
+  background-size: 150%;
 }
 
 .hero .dividing.row {
@@ -88,11 +88,35 @@ p {
 }
 
 .hero .grid .content-hover-box {
-  min-height: 200px;
+  min-height: 120px;
 }
 
 #banner-under-hero {
   margin-top: 0;
+}
+
+.hamburger-menu {
+  padding-right: 4.5em !important;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+  .hero {
+    padding: 8em 2em;
+    background:
+      linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url("../images/hero-image.png")
+      70% 0
+      no-repeat;
+
+    background-size: 180%;
+  }
+
+  .hero .hero-text {
+    font-size: 2em;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -104,10 +128,16 @@ p {
     padding: 0 4em;
   }
 
-
+  .hamburger-menu {
+    padding-right: 0;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
+  .hamburger-menu {
+    padding-right: 0;
+  }
+
   .hero {
     padding: 8em 2em;
     background:
@@ -169,9 +199,9 @@ p {
   min-height: 150px;
   background: #44318d !important;
   border-radius: 4px;
-  padding: 1em;
+  padding: .6em;
   color: #fff;
-  font-size: 1.25em;
+  font-size: 1em;
   line-height: 1.25em;
 }
 
