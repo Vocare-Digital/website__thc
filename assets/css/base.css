@@ -95,13 +95,19 @@ p {
   margin-top: 0;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   #specialties .card {
     font-size: .5em !important;
   }
+
+  .mini-container {
+    padding: 0 4em;
+  }
+
+
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .hero {
     padding: 8em 2em;
     background:
@@ -122,6 +128,10 @@ p {
 
   #specialties .card {
     font-size: .8em;
+  }
+
+  .mini-container {
+    padding: 0 2em;
   }
 
   .content-hover-box {
@@ -150,18 +160,6 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
-    .infographic__boxes {
-        margin: 0 auto;
-    }
-
-    .infographic__box {
-        min-width: 100% !important;
-    }
-}
-
-.infographic__box {
-    min-width: 80% !important;
 }
 
 .content-hover-box {
@@ -230,15 +228,6 @@ p {
     }
 }
 
-.infographic__boxes {
-    margin: 0 auto;
-    max-width: 80% !important;
-}
-
-.infographic__boxes .card {
-  min-width: 100% !important;
-}
-
 .white {
     color: #fff !important;
 }
@@ -252,8 +241,76 @@ p {
     padding-top: 25px;
 }
 .infographic-stat {
-    min-width: 150px;
+  min-width: 150px;
 }
+
+.infographic__boxes {
+  width: calc(100% - 2em);
+  margin: 0 auto;
+}
+
+.infographic__boxes .card {
+  min-width: 100% !important;
+}
+
+.infographic__boxes .grid .column {
+  padding-right: 2em !important;
+  padding-left: 2em !important;
+}
+
+.infographic__boxes .grid .column:first-child {
+  padding-right: 4em !important;
+  padding-left: 0 !important;
+}
+
+.infographic__boxes .grid .column:last-child {
+  padding-right: 0 !important;
+  padding-left: 4em !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .infographic__boxes {
+    width: calc(100% + 1em);
+    margin: 0 0 0 -.5em;
+  }
+
+  .infographic__boxes .grid .column {
+    padding-right: 1em !important;
+    padding-left: 1em !important;
+  }
+
+  .infographic__boxes .grid .column:first-child {
+    padding-right: 1em !important;
+    padding-left: 1em !important;
+  }
+
+  .infographic__boxes .grid .column:last-child {
+    padding-right: 1em !important;
+    padding-left: 1em !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .infographic__boxes .grid .column {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .infographic__boxes .grid .column:first-child {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .infographic__boxes .grid .column:last-child {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+/*.infographic__boxes .grid .column:first-child {*/
+/*  margin-left: -4em !important;*/
+/*}*/
+
 .light-blue {
     color: #77a6f7
 }
