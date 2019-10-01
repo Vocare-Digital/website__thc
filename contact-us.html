@@ -17,110 +17,18 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/base.css">
     <style>
-        .why_choose_us__infographic__card
-        {
-            background-color: #44318D !important;
-            height: 10em;
+        .map-responsive{
+            overflow:hidden;
+            padding-bottom:56.25%;
+            position:relative;
+            height:0;
         }
-        .why_choose_us__infographic__card__content {
-            display: flex;
-            align-items: center;
-            text-align: center;
-        }
-        .why_choose_us__infographic__symbols {
-            display:flex !important;
-            align-items: center !important;
-            margin-top: -0.25em !important;
-        }
-
-        .why_choose_us__infographic__symbols p {
-            font-size: 7em !important;
-        }
-
-
-        .ribbon {
-            font-size: 28px !important;
-            /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
-
-            width: 100%;
-
-            position: relative;
-
-            color: #fff;
-            text-align: center;
-            padding: 1.5em 0.5em 2em 0.5em; /* Adjust to suit */
-            margin: 2.5em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
-        }
-
-        .rib-dbl
-        {
-            padding: 1.2em 0.5em !important;
-        }
-        .ribbon-content {
-            width: 98%;
-            margin: auto;
-            /*            display: inline-block;*/
-            font-weight: normal;
-        }
-        .ribleft {
-            box-shadow: 0px 5px 15px #666;
-            background: #00887a;
-        }
-        .ribright {
-            box-shadow: -5px 5px 15px #666;
-            background: #77A6F7;
-        }
-        .ribleft:before, .ribright:after {
-            content: "";
-            position: absolute;
-            display: block;
-            bottom: -2em;
-
-            z-index: -1;
-
-        }
-        .ribleft:before
-        {
-            border: 2.5em solid #0a7062;
-        }
-        .ribright:after {
-            border: 2.5em solid #5191f7;
-        }
-        .ribleft:before {
-            left: -8.5em;
-            border-right-width: 8em;
-            border-left-color: transparent;
-        }
-        .ribright:after {
-            right: -8.5em;
-            border-left-width: 8em;
-            border-right-color: transparent;
-        }
-        .ribright .ribbon-content:after  {
-            content: "";
-            position: absolute;
-            display: block;
-            border-style: solid;
-            border-color: #2c5da5 transparent transparent transparent;
-            bottom: -2em;
-        }
-        .ribleft .ribbon-content:before {
-            content: "";
-            position: absolute;
-            display: block;
-            border-style: solid;
-            border-color: #055759 transparent transparent transparent;
-            bottom: -2em;
-        }
-        .ribleft .ribbon-content:before  {
-            left: 0;
-            border-width: 2em 0 0 2em;
-            /*       box-shadow: 0px 5px 15px #666; */
-        }
-        .ribright .ribbon-content:after {
-            right: 0;
-            border-width: 2em 2em 0 0;
-            /* box-shadow: -5px 5px 15px #666; */
+        .map-responsive iframe{
+            left:0;
+            top:0;
+            height:100%;
+            width:100%;
+            position:absolute;
         }
     </style>
 </head>
@@ -159,11 +67,12 @@
     </div>
     <!-- end of nav bar -->
 
-    <div class="ui container" style="padding-top: 50px;">
+    <div class="ui container" style="padding-top: 50px; padding-bottom: 25px">
         <h1 class="le-purp" id="people-title">Contact us</h1>
     </div>
-    <div class="ui main container">
-        <div class="ui two columns grid">
+
+    <div class="ui  container">
+        <div class="ui  two columns doubling stackable grid">
             <div class="column">
         <address>
             Totally plc<br>
@@ -175,8 +84,10 @@
             Email: <a href="mailto:info@totallyplc.com">info@totallyplc.com</a>
         </address>
             </div>
-            <div class="column">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1202.6294063551939!2d-1.4693998417155798!3d52.92576919497322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879f113b3f642dd%3A0x9c4c07b2c9a7cfea!2sTotally%20Plc!5e0!3m2!1sen!2suk!4v1569422570877!5m2!1sen!2suk" width="500" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <div class="column" >
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1202.6294063551939!2d-1.4693998417155798!3d52.92576919497322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879f113b3f642dd%3A0x9c4c07b2c9a7cfea!2sTotally%20Plc!5e0!3m2!1sen!2suk!4v1569422570877!5m2!1sen!2suk" width="500" height="450" frameborder="0" style="border:0;"></iframe>
+                </div>
             </div>
         </div>
     </div>
@@ -195,6 +106,7 @@
       <div class="ui button">Submit</div>
     </a>
   </div>
+
 
   <script type="text/javascript">
       $(document).ready(function () {
@@ -228,6 +140,7 @@
     </div>
 </div>
 <!-- end of the footer -->
+</div>
 </body>
 
 <script>
