@@ -83,8 +83,10 @@ p {
   height: 13em;
 }
 
+
 .hero .hero-text {
     font-size: 3em;
+    font-weight: 400;
 }
 
 .hero .grid .content-hover-box {
