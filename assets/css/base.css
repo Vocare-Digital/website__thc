@@ -144,8 +144,8 @@ p {
     padding: 8em 2em;
     background:
       linear-gradient(
-        rgba(255, 255, 255, 0.7),
-        rgba(255, 255, 255, 0.7)
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.4)
       ),
       url("../images/hero-image.png")
       75% 0
@@ -156,6 +156,7 @@ p {
 
   .hero .hero-text {
     font-size: 2em;
+          font-weight: 900;
   }
 
   #specialties .card {
