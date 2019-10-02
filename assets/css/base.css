@@ -444,3 +444,13 @@ a .heading  {
     box-shadow: none !important;
     background: transparent !important;
 }
+
+.purple-box {
+  background-color: #44318D !important;
+  color: #FFF;
+}
+
+.purple-box a {
+  color: #FFF;
+  text-decoration: underline;
+}
