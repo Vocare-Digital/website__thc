@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/base.css">
     <style>
+   
         .why_choose_us__infographic__card
         {
             background-color: #44318D !important;
@@ -38,91 +40,102 @@
         }
 
 
-        .ribbon {
-            font-size: 24px !important;
-            /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+      .ribbon {
+ font-size: 1.8em !important;
 
-            width: 78%;
-            position: relative;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0.5em 1.5em 0.5em; /* Adjust to suit */
-            margin: 2em 0 2.5em 8em;
-        }
+ width: 100%;
+
+ position: relative;
+
+ color: #fff;
+ text-align: center;
+ padding: 1em 0.5em 1.5em 0.5em; /* Adjust to suit */
+ margin: 2em auto 2.5em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+        
         .rib-dbl
-        {
-            padding: 0.5em 0.5em !important;
+        {            
+             padding: 0.5em !important; 
         }
         .ribbon-content {
             width: 100%;
             margin: auto;
-            font-weight: normal;
+            font-size: 0.8em;
         }
-        .ribleft .ribbon-content {
-            margin: auto;
+ .ribleft .ribbon-content {
+             margin: auto;
         }
-        .ribright .ribbon-content {
-            margin-left: -4em;
+         .ribright .ribbon-content {
+           margin-left: -4em;
+             
         }
-        .rib-dbl .ribbon-content {
-            margin-left: -4.5em;
+         .rib-dbl .ribbon-content {
+           margin-left: -5em;
+             
         }
         .ribleft {
-            box-shadow: 0px 5px 15px #666;
+            box-shadow: 0px 5px 15px #666; 
             background: #00887a;
+/*             text-align: center;*/
         }
         .ribright {
-            box-shadow: -5px 5px 15px #666;
-            background: #77A6F7;
+            box-shadow: -5px 5px 15px #666; 
+             background: #77A6F7;
+/*            text-align: left;*/
+            
         }
-        .ribleft:before, .ribright:after {
-            content: "";
-            position: absolute;
-            display: block;
-            bottom: -2em;
-            z-index: -1;
-        }
+.ribleft:before, .ribright:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1.7em;
+
+ z-index: -1;
+    
+}
         .ribleft:before
-        {
-            border: 2em solid #0a7062;
+    {
+         border: 2em solid #0a7062;
         }
         .ribright:after {
-            border: 2em solid #5191f7;
+     border: 2em solid #5191f7;      
         }
-        .ribleft:before {
-            left: -8em;
-            border-right-width: 8em;
-            border-left-color: transparent;
+.ribleft:before {
+ left: -8.2em;
+ border-right-width: 8em;
+ border-left-color: transparent;
+}
+.ribright:after {
+ right: -8.2em;
+ border-left-width: 8em;
+ border-right-color: transparent;
+}
+.ribright .ribbon-content:after  {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #2c5da5 transparent transparent transparent;
+ bottom: -2.1em;
+}
+.ribleft .ribbon-content:before {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #055759 transparent transparent transparent;
+ bottom: -2.1em;
+} 
+.ribleft .ribbon-content:before  {
+ left: 0;
+ border-width: 2.2em 0 0 2.2em;
+}
+.ribright .ribbon-content:after {
+ right: 0;
+ border-width: 2.2em 2.2em 0 0;
         }
-        .ribright:after {
-            right: -8em;
-            border-left-width: 8em;
-            border-right-color: transparent;
-        }
-        .ribright .ribbon-content:after  {
-            content: "";
-            position: absolute;
-            display: block;
-            border-style: solid;
-            border-color: #2c5da5 transparent transparent transparent;
-            bottom: -2em;
-        }
-        .ribleft .ribbon-content:before {
-            content: "";
-            position: absolute;
-            display: block;
-            border-style: solid;
-            border-color: #055759 transparent transparent transparent;
-            bottom: -2em;
-        }
-        .ribleft .ribbon-content:before  {
-            left: 0;
-            border-width: 2em 0 0 2em;
-        }
-        .ribright .ribbon-content:after {
-            right: 0;
-            border-width: 2em 2em 0 0;
-        }
+
+            
 
         .ribbon-content h1 {
             font-weight: normal !important;
@@ -158,12 +171,23 @@
           left: 80%;
           width: 0;
           height: 0;
-          border: 1.594em solid transparent;
+          border: 1.7em solid transparent;
           border-top-color: #00887a;
           border-bottom: 0;
           border-right: 0;
-          margin-left: -0.797em;
-          margin-bottom: -1.594em;
+          margin-left: -0.8em;
+          margin-bottom: -1.6em;
+        }
+        
+       @media (max-width:1023px){
+            .hidden-xs{display:none!important} 
+            .replaceribbon{display:run-in!important; margin-left: 20px;}
+            .eight {display:none!important;}
+            .quote {margin-top: 2em;}
+        }
+        @media (min-width:1024px){
+            .hidden-xs{display:run-in!important} 
+            .replaceribbon{display:none!important}
         }
     </style>
 </head>
@@ -194,7 +218,7 @@
         <a class="header item" href="index.html">
             <img class="ui image"  src="assets/images/thweblogo.png">
         </a>
-    <div class="right menu hamburger-menu">
+        <div class="right menu hamburger-menu">
       <a class="item" id="hamburger">
         <i class="big fitted content icon"></i>
       </a>
@@ -206,19 +230,28 @@
 <div class="ui mini-container" style="padding-top: 50px; padding-bottom: 25px">
     <h1 class="le-purp" id="people-title">Why choose us?</h1>
 </div>
-    <div class="ui mini-container">
-        <h1 class="ribbon ribleft">
-            <span style="position: relative; top: 0.2em; font-size: 2.2em; font-weight: normal;">94%</span> <strong class="ribbon-content"> of patients said their appointment time suited them</strong> <img src="assets/images/bedtime.png" class="img-responsive" style="float: right; margin-top: -15px; " />
-        </h1>
+    <div class="ui container" style="padding-top: 50px; padding-bottom: 25px;">
+    <div class="hidden-xs">
+        <h1 class="ribbon ribleft"> 
+     <span style="position: relative; top: 0.2em; font-size: 2em;">94%</span> <span class="ribbon-content"> of patients said their appointment time suited them</span> <img src="assets/images/bedtime.png" class="fluid" style="float: right; margin-top: -0.4em; " /> 
+    </h1>
         <h1 class="ribbon ribright">
-            <img src="assets/images/doctor.png" style="float: left; margin-top: -15px;"/> <span style="position: relative; top: 0.2em; left: -1.9em; font-size: 2.2em; font-weight: normal;">100%</span> <strong class="ribbon-content"> of patients felt the unit staff attended well to their needs </strong>
-        </h1>
+       <img src="assets/images/doctor.png" class="fluid"  style="float: left; margin-top: -0.4em;"/> <span style="position: relative; top: 0.2em; left: -1.9em; font-size: 2em;">100%</span> <span class="ribbon-content"> of patients felt the unit staff attended well to their needs </span> 
+    </h1>
         <h1 class="ribbon ribleft">
-            <span style="position: relative; top: 0.2em; font-size: 2.2em; font-weight: normal;">100%</span> <strong class="ribbon-content"> of patients felt they were treated with dignity and respect</strong> <img src="assets/images/staff.png" style="float: right; margin-top: -15px; "/>
-        </h1>
+       <span style="position: relative; top: 0.2em; font-size: 2em;">100%</span> <span class="ribbon-content"> of patients felt they were treated with dignity and respect</span> <img src="assets/images/staff.png" class="fluid" style="float: right; margin-top: -0.4em; "/>
+    </h1>
         <h1 class="ribbon ribright rib-dbl">
-            <img src="assets/images/treat.png" style="float: left; margin-top: -5px;"/> <span style="position: relative; top: 0.25em; left: -2.2em; font-size: 2.2em; font-weight: normal;">100%</span> <strong class="ribbon-content" > <span style="position: relative; top: -0.5em;">of patients said the quality of care they received was<br />either <em>excellent</em> (93%) or <em>very good</em> (7%)</span></strong>
-        </h1>
+    <img src="assets/images/treat.png" class="fluid" style="float: left; margin-top: -0.2em;"/> <span style="position: relative; top: 0.25em; left: -2.2em; font-size: 2em;">100%</span> <span class="ribbon-content" > <span style="position: relative; top: -0.5em;">of patients said the quality of care they received was<br />either <em>excellent</em> (93%) or <em>very good</em> (7%)</span></span>
+    </h1>
+    </div>
+    <div class="replaceribbon">
+        <h1 style="color: #00887a">94% <span class="ribbon-content"> of patients said their appointment time suited them</span></h1>
+         <h1 style="color: #77A6F7">100% <span class="ribbon-content"> of patients felt the unit staff attended well to their needs </span></h1>
+         <h1 style="color: #00887a">100% <span class="ribbon-content"> of patients felt they were treated with dignity and respect</span></h1>
+         <h1 style="color: #77A6F7">100% <span class="ribbon-content"> of patients said the quality of care they received was<br />either <em>excellent</em> (93%) or <em>very good</em> (7%)</span></h1>
+    
+    </div>
     </div>
 
 <div class="ui fluid container">
@@ -252,6 +285,28 @@
     </div>
   </div>
 
+    <div class="replaceribbon">
+       
+      <div class="quote">
+        <blockquote>
+          "The staff in the unit were excellent. All needs were met. My thanks to all involved"
+        </blockquote>
+      </div>
+ 
+      <div class="quote wide column">
+        <blockquote>
+          "Care and quality of care is excellent, all staff could not do enough. They do a great job, especially on Sunday. I really want to thank each and every one"
+        </blockquote>
+      </div>
+
+      <div class="quote wide column">
+        <blockquote>
+          "I was looked after very well by all the staff involved with my procedure. Thank you all"
+        </blockquote>
+      </div>
+   
+    </div>
+    
 <div class="ui main fluid container">
     <div class="info-banner">
         <h1 class="white">Our bespoke insourcing solutions will reduce patient waiting times</h1>
@@ -260,46 +315,17 @@
 
 
 <a name="pcp"></a>
-<div class="ui mini-container">
-    <div class="ui five column stackable  grid">
-        <div class="row">
-            <div class="column" >
+    <div class="ui mini-container">
+        <div class="ui stackable grid"> <!-- five column -->
+            <div class="four wide column" >
                 <div class="ui fluid card why_choose_us__infographic__card ">
                     <div class="content middle aligned why_choose_us__infographic__card__content"  >
-                        <div class="header white" style="font-size: 2em; font-weight: normal !important;">
+                        <div class="header white" style="margin: 2px auto; font-size: calc(1em + 1vw); font-weight: normal !important;">
                             Patient centred processes
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="column middle aligned why_choose_us__infographic__symbols">
-                <p class="le-purp">+</p>
-            </div>
-            <div class="column">
-                <div class="ui fluid card why_choose_us__infographic__card">
-                    <div class="content middle aligned why_choose_us__infographic__card__content">
-                        <div class="header white"  style="font-size: 2em;  font-weight: normal !important;">
-                            Clinical effectiveness
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <span class="column middle aligned why_choose_us__infographic__symbols ">
-                <p class="le-purp">=</p>
-            </span>
-            <div class="column">
-                <div class="ui fluid card why_choose_us__infographic__card">
-                    <div class="content  why_choose_us__infographic__card__content">
-                        <div class="header white"  style="font-size: 2em;  font-weight: normal !important;">
-                            Cost-effective solutions
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column">
-                <ul class="list">
+                 <ul class="list">
                     <li class="item">Patients are at the heart of our insourcing service solutions</li>
                     <li class="item">We consistently share decision-making</li>
                     <li class="item">Our team is passionate and achieves the highest levels of patient satisfaction</li>
@@ -308,25 +334,45 @@
                     <li class="item">Continuity of patient care is key</li>
                 </ul>
             </div>
-            <div class="column"></div>
-            <div class="column">
-                <ul class="ui list">
+                <div class="two wide column middle aligned why_choose_us__infographic__symbols" >
+                <p class="le-purp">+</p>
+                </div>
+           
+             <div class="four wide column">
+                <div class="ui fluid card why_choose_us__infographic__card ">
+                    <div class="content middle aligned why_choose_us__infographic__card__content"  >
+                        <div class="header white"  style="margin: 2px auto; font-size: calc(1em + 1vw); font-weight: normal !important;">
+                            Clinical effectiveness
+                        </div>
+                    </div>
+                </div>
+                  <ul class="ui list">
                     <li class="item">A robust framework of clinical audit is in place for both outcomes and experience </li>
                     <li class="item">Our clinical teams are highly skilled and trained</li>
                     <li class="item">We have a robust clinical governance structure with board level assurance from Totally plc</li>
                 </ul>
             </div>
-            <div class="column"></div>
-            <div class="column">
-                <ul class="ui list">
+            <div class="two wide column middle aligned why_choose_us__infographic__symbols ">
+                <p class="le-purp">=</p>
+            </div>
+    
+            <div class="four wide column">
+                <div class="ui fluid card why_choose_us__infographic__card">
+                    <div class="content  why_choose_us__infographic__card__content">
+                        <div class="header white"  style="margin: 2px auto; font-size: calc(1em + 1vw); font-weight: normal !important;">
+                            Cost-effective solutions
+                        </div>
+                    </div>
+                </div>
+                 <ul class="ui list">
                     <li class="item">Our rates are all inclusive</li>
                     <li class="item">We have improvement objectives to streamline processes</li>
                     <li class="item">We use a trusted and localised workforce to reduce added expenditure</li>
                 </ul>
             </div>
-        </div>
     </div>
-</div>
+    </div>
+
 
 
 <div class="ui main fluid container">
