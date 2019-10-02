@@ -472,3 +472,19 @@ a .heading  {
     width: 75% !important;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
+  .infographic__boxes .grid .column {
+    width: 50% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .infographic__boxes .grid .column:first-child {
+    padding-right: .5em !important;
+  }
+
+  .infographic__boxes .grid .column:last-child {
+    padding-left: .5em !important;
+  }
+}
