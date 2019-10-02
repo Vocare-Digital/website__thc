@@ -459,3 +459,16 @@ a .heading  {
   font-size: 1.8em !important;
 }
 
+.nav.image {
+  height: 50px;
+}
+
+.nav.sidebar.sidebar {
+  width: 450px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .nav.sidebar.sidebar {
+    width: 75% !important;
+  }
+}
