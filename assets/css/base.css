@@ -110,7 +110,7 @@ p {
         rgba(255, 255, 255, 0.7)
       ),
       url("../images/hero-image.png")
-      70% 0
+      85% 10%
       no-repeat;
 
     background-size: 180%;
@@ -121,7 +121,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   #specialties .card {
     font-size: .5em !important;
   }
@@ -148,10 +148,10 @@ p {
         rgba(255, 255, 255, 0.7)
       ),
       url("../images/hero-image.png")
-      85% 0
+      75% 0
       no-repeat;
 
-    background-size: 250%;
+    background-size: 400%;
   }
 
   .hero .hero-text {
