@@ -454,3 +454,8 @@ a .heading  {
   color: #FFF;
   text-decoration: underline;
 }
+
+#hamburger {
+  font-size: 1.8em !important;
+}
+
