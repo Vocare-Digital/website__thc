@@ -260,6 +260,18 @@ p {
     .green-box {
         min-height: 250px !important;
     }
+          .hero {
+    padding: 8em 2em;
+    background:
+      linear-gradient(
+        rgba(255, 255, 255, 0.15),
+        rgba(255, 255, 255, 0.15)
+      ),
+      url("../images/hero-image.png")
+      75% 0
+      no-repeat;
+          background-size: 150%;
+  }
 }
 
 .white {
