@@ -156,7 +156,8 @@ p {
 
   .hero .hero-text {
     font-size: 2em;
-          font-weight: 900;
+    font-weight: 900;
+    padding-left: 2em;
   }
 
   #specialties .card {
