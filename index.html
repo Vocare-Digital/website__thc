@@ -112,7 +112,7 @@
         <div class="dividing row"></div>
         <div class="three column center aligned row" style="padding-top: 5em;">
           <div class="column">
-            <div class="content-hover-box">
+            <div class="content-hover-box" onclick="">
               <div class="top">
                 <i class="fas fa-pound-sign" style="font-size: 3em;"></i>
                 <p style="font-size: 1.8em; padding-top: 0.2em">
@@ -124,7 +124,7 @@
             </div>
           </div>
           <div class="column">
-            <div class="content-hover-box">
+            <div class="content-hover-box" onclick="">
               <div class="top" >
                 <i class="fas fa-procedures" style="font-size: 3em;"></i>
                 <p style="font-size: 1.8em;">Utilising your spare capacity</p>
@@ -135,7 +135,7 @@
             </div>
           </div>
           <div class="column">
-            <div class="content-hover-box">
+            <div class="content-hover-box" onclick="">
               <div class="top" >
                 <i class="far fa-clipboard-list-check" style=" font-size: 3em;"></i>
                 <p style="font-size: 1.8em;">To cut patient waiting lists</p>
@@ -384,8 +384,8 @@
     });
 
     $(document).ready(function () {
-      $('.hero .boxes .content-hover-box').hide();
-      $('.hero .boxes .content-hover-box').transition({
+      $('.hero .content-hover-box').hide();
+      $('.hero .content-hover-box').transition({
         animation: 'fade in left',
         duration: 1000,
         interval: 600
