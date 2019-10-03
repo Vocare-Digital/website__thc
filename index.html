@@ -385,8 +385,8 @@
         interval: 600
       });
 
-      let infographic_visible = false;
-      let observer = new IntersectionObserver(function (t) {
+      var infographic_visible = false;
+      var observer = new IntersectionObserver(function (t) {
         if (t[0].isIntersecting && !infographic_visible) {
           infographic_visible = true;
           setTimeout(function () {

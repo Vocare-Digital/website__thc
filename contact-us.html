@@ -114,7 +114,7 @@
         $comment = $('.form textarea[name="comment"]')
         $link = $('.mailto-link')
 
-        let updateBody = function () {
+        var updateBody = function () {
           $link.attr(
             'href',
             `mailto:user@example.com?body=${$comment.val()} - ${$name.val()}`
