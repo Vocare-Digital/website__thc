@@ -367,17 +367,17 @@
     $('.ui.dropdown')
         .dropdown();
 
-    $('#hamburger').click(() => {
+    $('#hamburger').click(function () {
       $('.ui.sidebar')
         .sidebar('show')
     });
 
-    $('.close.item').click(() => {
+    $('.close.item').click(function () {
       $('.ui.sidebar')
         .sidebar('hide')
     });
 
-    $(document).ready(() => {
+    $(document).ready(function () {
       $('.hero .boxes .content-hover-box').hide();
       $('.hero .boxes .content-hover-box').transition({
         animation: 'fade in left',
@@ -386,10 +386,10 @@
       });
 
       let infographic_visible = false;
-      let observer = new IntersectionObserver((t) => {
+      let observer = new IntersectionObserver(function (t) {
         if (t[0].isIntersecting && !infographic_visible) {
           infographic_visible = true;
-          setTimeout(() => {
+          setTimeout(function () {
             $('.infographic__hider .card').transition({
               animation: 'fade right',
               duration: 3000,
