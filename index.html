@@ -62,6 +62,9 @@
           font-size: calc(0.9em + 1vw) !important;
           font-weight: normal !important;
         }
+        @media (max-width:599px){
+        .hidesmall {display:none!important;}
+        }
     </style>
 
 </head>
@@ -92,8 +95,8 @@
       <img class="ui nav image"  src="assets/images/thweblogo.png">
     </a>
     <div class="right menu hamburger-menu">
-        <a class="header item" href="https://twitter.com/TotallyHealthc1"><img src="assets/images/Twitter50.png" style="width: 50px"/></a>
-      <a class="header item" href="https://www.linkedin.com/company/totally-healthcare/"><img src="assets/images/linkedin50.png"  style="width: 50px"/></a>
+      <a class="header item hidesmall" href="https://twitter.com/TotallyHealthc1"><img src="assets/images/Twitter50.png" style="width: 50px"/></a>
+      <a class="header item hidesmall" href="https://www.linkedin.com/company/totally-healthcare/"><img src="assets/images/linkedin50.png"  style="width: 50px"/></a>
       <a class="item" id="hamburger">
         <i class="big fitted content icon"></i>
       </a>
