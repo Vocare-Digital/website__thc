@@ -198,25 +198,25 @@
     <div class="ui four doubling cards">
       <div class="card">
         <div class="content green-box">
-          <a href="specialties/gastroenterology.php" class="center aligned header white">Gastroenterology <br>and Endoscopy</a>
+          <a href="gastroenterology.php" class="center aligned header white">Gastroenterology <br>and Endoscopy</a>
         </div>
       </div>
 
       <div class="card">
         <div class="content green-box">
-          <a href="specialties/ophthalmology.php" class="center aligned header white">Ophthalmology</a>
+          <a href="ophthalmology.php" class="center aligned header white">Ophthalmology</a>
         </div>
       </div>
 
       <div class="card">
         <div class="green-box content">
-          <a href="specialties/surgery.php" class="center aligned header white">Surgical specialties</a>
+          <a href="surgery.php" class="center aligned header white">Surgical specialties</a>
         </div>
       </div>
 
       <div class="card">
         <div class="green-box content">
-          <a href="specialties/dermatology.php" class="center aligned header white">Dermatology</a>
+          <a href="dermatology.php" class="center aligned header white">Dermatology</a>
         </div>
       </div>
     </div>
@@ -226,23 +226,23 @@
 
         <div class="card">
           <div class="green-box content">
-            <a href="specialties/ent-and-audiology.php" class="center aligned header white">ENT and Audiology</a>
+            <a href="ent-and-audiology.php" class="center aligned header white">ENT and Audiology</a>
           </div>
         </div>
         <div class="card">
           <div class="content green-box">
-            <a href="specialties/respiratory.php" class="middle center aligned header white" style="align-items: center">Respiratory</a>
+            <a href="respiratory.php" class="middle center aligned header white" style="align-items: center">Respiratory</a>
           </div>
         </div>
         <div class="card">
           <div class="content green-box">
-            <a href="specialties/rheumatology.php" class="center aligned header white">Rheumatology</a>
+            <a href="rheumatology.php" class="center aligned header white">Rheumatology</a>
           </div>
         </div>
 
         <div class="card">
           <div class="content green-box">
-            <a href="specialties/anaesthetics.php" class="middle center aligned header white">Anaesthetics <br>and Pain Management</a>
+            <a href="anaesthetics.php" class="middle center aligned header white">Anaesthetics <br>and Pain Management</a>
           </div>
         </div>
 
@@ -323,9 +323,7 @@
       </div>
     </div>
   </div>
-
 <?php require_once('footer.php'); ?>
-
 </div>
 </body>
 
