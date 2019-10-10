@@ -36,7 +36,7 @@
                     <li>Surveillance oesophago-gastro-duodenoscopy OGD and colonoscopy</li>
                     <li>Colonoscopy for the NHS bowel screening programme</li>
                 </ul>
-            <p>To see other specialties provided by Totally Healthcare, <a href="index.php">click here</a></p>
+            <p>To see other specialties provided by Totally Healthcare, <a href="index.php#specialties">click here</a></p>
         </div>
     </div>
 </div>

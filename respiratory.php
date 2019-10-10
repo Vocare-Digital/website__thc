@@ -31,7 +31,7 @@
             <p>NHS England suggests respiratory diseases places enormous pressure on the acute healthcare system especially during the winter months. </p>
             <p>Many hospitals need to run additional respiratory clinics to support the increasing demand. This avoids unnecessary admissions by allowing rapid access to respiratory physicians and specialist nurses to enable stable patients to be managed in the community.</p>
             <p>We can provide Consultant respiratory physicians to support hospitals with outpatient services following local process and pathways of care.</p>
-            <p>To see other specialties provided by Totally Healthcare, <a href="index.php">click here</a></p>
+            <p>To see other specialties provided by Totally Healthcare, <a href="index.php#specialties">click here</a></p>
         </div>
     </div>
 </div>

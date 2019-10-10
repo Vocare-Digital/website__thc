@@ -41,7 +41,7 @@
                 </ul>
             </p>
             <p>For further information about how our insourcing model can help you, <a href="why-choose-us.php">click here</a></p>
-            <p>To see other specialties provided by Totally Healthcare, <a href="index.php">click here</a></p>
+            <p>To see other specialties provided by Totally Healthcare, <a href="index.php#specialties">click here</a></p>
 
         </div>
     </div>

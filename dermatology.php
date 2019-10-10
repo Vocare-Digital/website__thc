@@ -30,7 +30,7 @@
         <div class="column">
             <p>Skin disorders are extremely common. More than half the population is affected annually, leading to 13 million consultations in primary care and 880,000 referrals to specialists. Between 2013/14 and 2017/18 GP referrals for dermatology increased by 15% to 1.16 million per year. Causes of this rise in demand are thought to include the increasingly ageing population, rising expectations of skin appearance & improved treatments.</p>
             <p>To meet your increasing service pressures we can see patients for the first attendance through to day-case procedures, and follow-up. Our consultants will follow all local referral pathways. If required, we also provide a one-stop service to patients from the clinic attendance, with minor procedures services which can be run concurrently with our outpatient clinics.</p>
-            <p>To see other specialties provided by Totally Healthcare, <a href="index.php">click here</a></p>
+            <p>To see other specialties provided by Totally Healthcare, <a href="index.php#specialties">click here</a></p>
         </div>
     </div>
 </div>
