@@ -1,6 +1,7 @@
 <?php
 
 echo '<div class="ui nav sidebar inverted vertical menu">
+  <a class="close item"><i class="large close icon"></i></a>
   <a class="header item" href="index.php" >Home</a>
   <a class="header item" href="why-choose-us.php">Why choose us?</a>
   <a class="header item" href="quality-and-governance.php">Quality</a>
