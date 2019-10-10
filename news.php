@@ -64,7 +64,7 @@
         <div class="ui divided items">
           <div class="item">
             <div class="content">
-              <a class="header"><h2>Totally Healthcare appoints Marie Lee as Managing Director</h2></a>
+              <a class="header" name="ml-news"><h2>Totally Healthcare appoints Marie Lee as Managing Director</h2></a>
               <div class="description">
                 <img class="ui small left floated image" src="assets/images/marie-lee-new.jpg">
                 <p>

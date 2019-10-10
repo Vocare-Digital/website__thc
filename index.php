@@ -2,8 +2,8 @@
 <html>
 <head>
     <!-- Standard Meta -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <!-- Site Properties -->
@@ -28,39 +28,40 @@
             min-width: 5%;
         }
 
-        #specialties .card .content  {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
+        #specialties .card .content {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
         }
 
         .infographic__holder {
-          min-height: 400px;
-          padding-top: 0.5em;
+            min-height: 400px;
+            padding-top: 0.5em;
         }
 
         .infographic__holder .card {
-          min-height: 375px
+            min-height: 375px
         }
 
         .infographic__holder .header {
-          padding: 1em 1em;
-          background-color: #44318D;
+            padding: 1em 1em;
+            background-color: #44318D;
         }
 
         .infographic__holder .content {
-          padding-top: 2em !important;
-          padding-bottom: 2em !important;
+            padding-top: 2em !important;
+            padding-bottom: 2em !important;
         }
+
         .card .green-box a {
-          font-size: calc(0.9em + 1vw) !important;
-          font-weight: normal !important;
+            font-size: calc(0.9em + 1vw) !important;
+            font-weight: normal !important;
         }
     </style>
 
@@ -69,260 +70,292 @@
 
 <?php require_once('menu.php'); ?>
 
-  <!-- start of hero -->
-  <div class="hero">
+<!-- start of hero -->
+<div class="hero">
     <div class="mini-container">
-      <div class="ui stackable grid">
-        <div class="row">
-          <div class="eight wide column">
-            <h1 class="hero-text le-purp">Providing bespoke insourcing solutions<br> to cut patient waiting times<br> across the UK and Ireland</h1>
-          </div>
+        <div class="ui stackable grid">
+            <div class="row">
+                <div class="eight wide column">
+                    <h1 class="hero-text le-purp">Providing bespoke insourcing solutions<br> to cut patient waiting
+                        times<br> across the UK and Ireland</h1>
+                </div>
+            </div>
+            <div class="dividing row"></div>
+            <div class="three column center aligned row" style="padding-top: 5em;">
+                <div class="column">
+                    <div class="content-hover-box" onclick="">
+                        <div class="top">
+                            <i class="fas fa-pound-sign" style="font-size: 3em;"></i>
+                            <p style="font-size: 1.8em; padding-top: 0.2em">
+                                Cost-effective insourcing model</p>
+                        </div>
+                        <div class="bottom">
+                            <p style="font-size: 1.4em">By providing bespoke insourcing solutions from specialist
+                                clinicians </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content-hover-box" onclick="">
+                        <div class="top">
+                            <i class="fas fa-procedures" style="font-size: 3em;"></i>
+                            <p style="font-size: 1.8em;">Utilising your spare capacity</p>
+                        </div>
+                        <div class="bottom">
+                            <p style="font-size: 1.4em">We deliver services across the UK and Ireland close to patients'
+                                homes within two weeks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content-hover-box" onclick="">
+                        <div class="top">
+                            <i class="far fa-clipboard-list-check" style=" font-size: 3em;"></i>
+                            <p style="font-size: 1.8em;">To cut patient waiting lists</p>
+                        </div>
+                        <div class="bottom">
+                            <p style="font-size: 1.4em">Tackling the problem of long hospital waiting times</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="dividing row"></div>
-        <div class="three column center aligned row" style="padding-top: 5em;">
-          <div class="column">
-            <div class="content-hover-box" onclick="">
-              <div class="top">
-                <i class="fas fa-pound-sign" style="font-size: 3em;"></i>
-                <p style="font-size: 1.8em; padding-top: 0.2em">
-                  Cost-effective insourcing model</p>
-              </div>
-              <div class="bottom">
-                <p style="font-size: 1.4em">By providing bespoke insourcing solutions from specialist clinicians </p>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content-hover-box" onclick="">
-              <div class="top" >
-                <i class="fas fa-procedures" style="font-size: 3em;"></i>
-                <p style="font-size: 1.8em;">Utilising your spare capacity</p>
-              </div>
-              <div class="bottom">
-                <p style="font-size: 1.4em">We deliver services across the UK and Ireland close to patients' homes within two weeks</p>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content-hover-box" onclick="">
-              <div class="top" >
-                <i class="far fa-clipboard-list-check" style=" font-size: 3em;"></i>
-                <p style="font-size: 1.8em;">To cut patient waiting lists</p>
-              </div>
-              <div class="bottom">
-                <p style="font-size: 1.4em">Tackling the problem of long hospital waiting times</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-  <!-- end of hero -->
+</div>
+<!-- end of hero -->
 
-  <!-- rosette content -->
-  <div class="info-banner" id="banner-under-hero">
-    <h1 class="white">We drive down hospital waiting lists while keeping patients at the heart of our insourcing model</h1>
-  </div>
+<!-- rosette content -->
+<div class="info-banner" id="banner-under-hero">
+    <h1 class="white">We drive down hospital waiting lists while keeping patients at the heart of our insourcing
+        model</h1>
+</div>
 
-  <!-- start of more content -->
-  <div class="mini-container infographic__boxes">
+<!-- start of more content -->
+<div class="mini-container infographic__boxes">
     <div class="infographic__holder">
-      <div class="infographic__hider">
-        <div class="ui four columns doubling stackable grid">
-          <div class="column">
-            <div class="ui transition hidden card infographic__box">
-              <div class="header middle aligned"><h3 class="white" style="text-align: center">1. Identify Requirements</h3></div>
-              <div class="content">
-                <ul class="ui relaxed list"  style="font-size: 1.25em;">
-                  <li class="item">We meet you to introduce our business and discuss your specific requirements</li>
-                  <li class="item">We create your personal proposal considering all possible options</li>
-                  <li class="item">We ensure you deal with the same person at every stage of our process</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div class="infographic__hider">
+            <div class="ui four columns doubling stackable grid">
+                <div class="column">
+                    <div class="ui transition hidden card infographic__box">
+                        <div class="header middle aligned"><h3 class="white" style="text-align: center">1. Identify
+                                Requirements</h3></div>
+                        <div class="content">
+                            <ul class="ui relaxed list" style="font-size: 1.25em;">
+                                <li class="item">We meet you to introduce our business and discuss your specific
+                                    requirements
+                                </li>
+                                <li class="item">We create your personal proposal considering all possible options</li>
+                                <li class="item">We ensure you deal with the same person at every stage of our process
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-          <div class="column">
-            <div class="ui transition hidden card infographic__box">
-              <div class="header middle aligned"><h3 class="white" style="text-align: center">2. Plan</h3></div>
-              <div class="content">
-                <ul class="ui relaxed list" style="font-size: 1.25em;">
-                  <li class="item">We do all groundwork through an on-site visit</li>
-                  <li class="item">We thoroughly assess local facilities, including a walk through of patients’ journeys</li>
-                  <li class="item">We always deliver in line with all local procedures</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+                <div class="column">
+                    <div class="ui transition hidden card infographic__box">
+                        <div class="header middle aligned"><h3 class="white" style="text-align: center">2. Plan</h3>
+                        </div>
+                        <div class="content">
+                            <ul class="ui relaxed list" style="font-size: 1.25em;">
+                                <li class="item">We do all groundwork through an on-site visit</li>
+                                <li class="item">We thoroughly assess local facilities, including a walk through of
+                                    patients’ journeys
+                                </li>
+                                <li class="item">We always deliver in line with all local procedures</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-          <div class="column">
-            <div class="ui transition hidden card infographic__box" >
-              <div class="header middle aligned"><h3 class="white" style="text-align: center">3. Mobilise</h3></div>
-              <div class="content">
-                <ul class="ui relaxed list"  style="font-size: 1.25em;">
-                  <li class="item">We agree a go-live date and initiate the mobilisation process</li>
-                  <li class="item">All contract arrangements are finalised prior to go-live</li>
-                  <li class="item">We can mobilise within two weeks</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+                <div class="column">
+                    <div class="ui transition hidden card infographic__box">
+                        <div class="header middle aligned"><h3 class="white" style="text-align: center">3. Mobilise</h3>
+                        </div>
+                        <div class="content">
+                            <ul class="ui relaxed list" style="font-size: 1.25em;">
+                                <li class="item">We agree a go-live date and initiate the mobilisation process</li>
+                                <li class="item">All contract arrangements are finalised prior to go-live</li>
+                                <li class="item">We can mobilise within two weeks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-          <div class="column">
-            <div class="ui transition hidden card infographic__box">
-              <div class="header middle aligned"><h3 class="white" style="text-align: center">4. Evaluate</h3></div>
-              <div class="content">
-                <ul class="ui relaxed list"  style="font-size: 1.25em;">
-                  <li class="item">We produce routine audit reports and share all clinical outcomes, performance information and patient feedback with you</li>
-                  <li class="item">We embrace shared learning and invite feedback at all stages of our process</li>
-                </ul>
-              </div>
+                <div class="column">
+                    <div class="ui transition hidden card infographic__box">
+                        <div class="header middle aligned"><h3 class="white" style="text-align: center">4. Evaluate</h3>
+                        </div>
+                        <div class="content">
+                            <ul class="ui relaxed list" style="font-size: 1.25em;">
+                                <li class="item">We produce routine audit reports and share all clinical outcomes,
+                                    performance information and patient feedback with you
+                                </li>
+                                <li class="item">We embrace shared learning and invite feedback at all stages of our
+                                    process
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!-- end of more content -->
+</div>
+<!-- end of more content -->
 
-  <!-- rosette content -->
-  <div class="info-banner">
+<!-- rosette content -->
+<div class="info-banner">
     <h1 class="white">We deliver high-quality healthcare in multiple specialities across the UK and Ireland</h1>
-  </div>
-  <!-- end of rosette content -->
+</div>
+<!-- end of rosette content -->
 
-  <!-- start of specialty boxes -->
-  <a name="specialties"></a>
-  <div class="mini-container" id="specialties"  style="margin: 0 auto;">
+<!-- start of specialty boxes -->
+<a name="specialties"></a>
+<div class="mini-container" id="specialties" style="margin: 0 auto;">
     <div class="ui four doubling cards">
-      <div class="card">
-        <div class="content green-box">
-          <a href="gastroenterology.php" class="center aligned header white">Gastroenterology <br>and Endoscopy</a>
+        <div class="card">
+            <div class="content green-box">
+                <a href="gastroenterology.php" class="center aligned header white">Gastroenterology <br>and
+                    Endoscopy</a>
+            </div>
         </div>
-      </div>
 
-      <div class="card">
-        <div class="content green-box">
-          <a href="ophthalmology.php" class="center aligned header white">Ophthalmology</a>
+        <div class="card">
+            <div class="content green-box">
+                <a href="ophthalmology.php" class="center aligned header white">Ophthalmology</a>
+            </div>
         </div>
-      </div>
 
-      <div class="card">
-        <div class="green-box content">
-          <a href="surgery.php" class="center aligned header white">Surgical specialties</a>
+        <div class="card">
+            <div class="green-box content">
+                <a href="surgery.php" class="center aligned header white">Surgical specialties</a>
+            </div>
         </div>
-      </div>
 
-      <div class="card">
-        <div class="green-box content">
-          <a href="dermatology.php" class="center aligned header white">Dermatology</a>
+        <div class="card">
+            <div class="green-box content">
+                <a href="dermatology.php" class="center aligned header white">Dermatology</a>
+            </div>
         </div>
-      </div>
     </div>
 
     <div class="row">
-      <div class="ui four doubling cards">
+        <div class="ui four doubling cards">
 
-        <div class="card">
-          <div class="green-box content">
-            <a href="ent-and-audiology.php" class="center aligned header white">ENT and Audiology</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="content green-box">
-            <a href="respiratory.php" class="middle center aligned header white" style="align-items: center">Respiratory</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="content green-box">
-            <a href="rheumatology.php" class="center aligned header white">Rheumatology</a>
-          </div>
-        </div>
+            <div class="card">
+                <div class="green-box content">
+                    <a href="ent-and-audiology.php" class="center aligned header white">ENT and Audiology</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content green-box">
+                    <a href="respiratory.php" class="middle center aligned header white" style="align-items: center">Respiratory</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content green-box">
+                    <a href="rheumatology.php" class="center aligned header white">Rheumatology</a>
+                </div>
+            </div>
 
-        <div class="card">
-          <div class="content green-box">
-            <a href="anaesthetics.php" class="middle center aligned header white">Anaesthetics <br>and Pain Management</a>
-          </div>
-        </div>
+            <div class="card">
+                <div class="content green-box">
+                    <a href="anaesthetics.php" class="middle center aligned header white">Anaesthetics <br>and Pain
+                        Management</a>
+                </div>
+            </div>
 
-      </div>
+        </div>
     </div>
-  </div>
-  <!-- end of specialty boxes -->
+</div>
+<!-- end of specialty boxes -->
 
-  <!-- rosette content -->
-  <div class="info-banner">
+<!-- rosette content -->
+<div class="info-banner">
     <h1 class="white">We have a passionate, trusted and highly skilled workforce</h1>
-  </div>
-  <!-- end of rosette content -->
+</div>
+<!-- end of rosette content -->
 
-  <div class="mini-container">
+<div class="mini-container">
     <div class="ui stackable grid">
-      <div class="column">
-        <p>We are looking to increase our team of highly skilled professionals to meet the extremely high demand for contracts across the UK and Ireland.</p>
-        <p>If you are interested in providing excellent patient care alongside a supportive team of experienced healthcare professionals, please contact a member of the team at <a href="mailto:recruitment@totallyhealthcarelimited.com">recruitment@totallyhealthcarelimited.com</a> who will discuss the registration requirements with you and are there to support you through the process.</p>
-        <span class="column" style="text-align: right;">
+        <div class="column">
+            <p>We are looking to increase our team of highly skilled professionals to meet the extremely high demand for
+                contracts across the UK and Ireland.</p>
+            <p>If you are interested in providing excellent patient care alongside a supportive team of experienced
+                healthcare professionals, please contact a member of the team at <a
+                        href="mailto:recruitment@totallyhealthcarelimited.com">recruitment@totallyhealthcarelimited.com</a>
+                who will discuss the registration requirements with you and are there to support you through the
+                process.</p>
+            <span class="column" style="text-align: right;">
               <h4>
                   <a href="people.php#working-with-us">Working with us - find out more</a>
               </h4>
           </span>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="mini-container">
-    <div class="ui three column stackable grid">
-      <div class="column">
-        <h3>Latest News</h3>
-        <div class="ui feed">
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                <a href="people.php">
-                  Totally Healthcare appoints Marie Lee as Managing Director
-                </a>
-              </div>
-              <div class="extra text">
-                Totally Healthcare is delighted to announce the appointment of Marie Lee as Managing Director. Marie was previously the co-founder and CEO of Medinet. <a href="news.php">Read more</a>
-              </div>
-              <div class="meta">
-                17 September 2019
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                <a href="people.html">
-                  Totally Healthcare’s senior leadership appointments
-                </a>
-              </div>
-              <div class="extra text">
-                Totally Healthcare is delighted to announce the appointment of Head of Nursing, Kaye Drew and Medical Advisor, Dr Graham Turner. Both bring significant expertise clinically and operationally within the insourcing sector. <a href="news.php">Read more</a>
-              </div>
-              <div class="meta">
-                27 September 2019
-              </div>
-            </div>
-          </div>
         </div>
 
-        <a href="news.html">See all latest news</a>
-      </div>
-
-      <div class="center aligned column">
-        <img src="assets/images/thlogo-aligned-trans-sm.png" class="ui centered image" width="60%">
-        <p style="margin-top:0 !important">is part of</p>
-        <a href="https://www.totallyplc.com" class="ui medium centered"><img src="assets/images/totally_lg.PNG" width="30%"></a>
-      </div>
-
-      <div class="right aligned column">
-        <a class="twitter-timeline" data-lang="en" data-height="300" data-width="550" data-link-color="#00887A" href="https://twitter.com/TotallyHealthc1?ref_src=twsrc%5Etfw" data-chrome="nofooter">Tweets by Totally Healthcare</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
     </div>
-  </div>
+</div>
+
+<div class="mini-container">
+    <div class="ui three column stackable grid">
+        <div class="column">
+            <h3>Latest News</h3>
+            <div class="ui feed">
+                <div class="event">
+                    <div class="content">
+                        <div class="summary">
+                            <a href="news.php#ml-news">
+                                Totally Healthcare appoints Marie Lee as Managing Director
+                            </a>
+                        </div>
+                        <div class="extra text">
+                            Totally Healthcare is delighted to announce the appointment of Marie Lee as Managing
+                            Director. Marie was previously the co-founder and CEO of Medinet. <a href="news.php">Read
+                                more</a>
+                        </div>
+                        <div class="meta">
+                            17 September 2019
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="content">
+                        <div class="summary">
+                            <a href="news.php">
+                                Totally Healthcare’s senior leadership appointments
+                            </a>
+                        </div>
+                        <div class="extra text">
+                            Totally Healthcare is delighted to announce the appointment of Head of Nursing, Kaye Drew
+                            and Medical Advisor, Dr Graham Turner. Both bring significant expertise clinically and
+                            operationally within the insourcing sector. <a href="news.php">Read more</a>
+                        </div>
+                        <div class="meta">
+                            27 September 2019
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="news.html">See all latest news</a>
+        </div>
+
+        <div class="center aligned column">
+            <img src="assets/images/thlogo-aligned-trans-sm.png" class="ui centered image" width="60%">
+            <p style="margin-top:0 !important">is part of</p>
+            <a href="https://www.totallyplc.com" class="ui medium centered"><img src="assets/images/totally_lg.PNG"
+                                                                                 width="30%"></a>
+        </div>
+
+        <div class="right aligned column">
+            <a class="twitter-timeline" data-lang="en" data-height="300" data-width="550" data-link-color="#00887A"
+               href="https://twitter.com/TotallyHealthc1?ref_src=twsrc%5Etfw" data-chrome="nofooter">Tweets by Totally
+                Healthcare</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+</div>
 <?php require_once('footer.php'); ?>
 </div>
 </body>
@@ -332,40 +365,40 @@
         .dropdown();
 
     $('#hamburger').click(function () {
-      $('.ui.sidebar')
-        .sidebar('show')
+        $('.ui.sidebar')
+            .sidebar('show')
     });
 
     $('.close.item').click(function () {
-      $('.ui.sidebar')
-        .sidebar('hide')
+        $('.ui.sidebar')
+            .sidebar('hide')
     });
 
     $(document).ready(function () {
-      $('.hero .content-hover-box').hide();
-      $('.hero .content-hover-box').transition({
-        animation: 'fade in left',
-        duration: 1000,
-        interval: 600
-      });
+        $('.hero .content-hover-box').hide();
+        $('.hero .content-hover-box').transition({
+            animation: 'fade in left',
+            duration: 1000,
+            interval: 600
+        });
 
-      var infographic_visible = false;
-      var observer = new IntersectionObserver(function (t) {
-        if (t[0].isIntersecting && !infographic_visible) {
-          infographic_visible = true;
-          setTimeout(function () {
-            $('.infographic__hider .card').transition({
-              animation: 'fade right',
-              duration: 3000,
-              interval: 900
-            })
-          }, 0)
-        }
-      }, {
-        threshold: 0.5
-      });
+        var infographic_visible = false;
+        var observer = new IntersectionObserver(function (t) {
+            if (t[0].isIntersecting && !infographic_visible) {
+                infographic_visible = true;
+                setTimeout(function () {
+                    $('.infographic__hider .card').transition({
+                        animation: 'fade right',
+                        duration: 3000,
+                        interval: 900
+                    })
+                }, 0)
+            }
+        }, {
+            threshold: 0.5
+        });
 
-      observer.observe(document.querySelector('.infographic__holder'))
+        observer.observe(document.querySelector('.infographic__holder'))
 
     });
 
