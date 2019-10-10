@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Test Site"
-AuthUserFile /var/www/hosts/totally/test.totallyhealthcare.org.uk/.htpasswd
-Require valid-user
