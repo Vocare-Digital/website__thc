@@ -25,31 +25,31 @@
         <h1 class="le-purp" id="people-title">Site map</h1>
         <p>
             <ul>
-                <li><a href="index.html" class="heading">Home</a></li>
-                <li><a href="why-choose-us.html" class="header">Why choose us?</a></li>
-                <li><a href="quality-and-governance.html" class="header">Quality</a></li>
+                <li><a href="index.php" class="heading">Home</a></li>
+                <li><a href="why-choose-us.php" class="header">Why choose us?</a></li>
+                <li><a href="quality-and-governance.php" class="header">Quality</a></li>
             </ul>
                 <h2>Specialties</h2>
             <ul>
-                <li><a href="specialties/gastroenterology.html" class="header">Gastroenterology and endoscopy</a></li>
-                <li><a href="specialties/ophthalmology.html" class="header">Ophthalmology</a></li>
-                <li><a href="specialties/surgery.html" class="header">Surgical specialties</a></li>
-                <li><a href="specialties/dermatology.html" class="header">Dermatology</a></li>
-                <li><a href="specialties/ent-and-audiology.html" class="header">ENT and audiology</a></li>
-                <li><a href="specialties/respiratory" class="header">Respiratory</a></li>
-                <li><a href="specialties/rheumatology" class="header">Rheumatology</a></li>
-                <li><a href="specialties/anaesthetics.html" class="header">Anaesthetics and pain management</a></li>
+                <li><a href="gastroenterology.php" class="header">Gastroenterology and endoscopy</a></li>
+                <li><a href="ophthalmology.php" class="header">Ophthalmology</a></li>
+                <li><a href="surgery.php" class="header">Surgical specialties</a></li>
+                <li><a href="dermatology.php" class="header">Dermatology</a></li>
+                <li><a href="ent-and-audiology.php" class="header">ENT and audiology</a></li>
+                <li><a href="respiratory.php" class="header">Respiratory</a></li>
+                <li><a href="rheumatology.php" class="header">Rheumatology</a></li>
+                <li><a href="anaesthetics.php" class="header">Anaesthetics and pain management</a></li>
             </ul>
         <h2>People</h2>
             <ul>
-                <li><a href="people.html" class="header">People</a></li>
-                <li><a href="consultants.html" class="header">Consultants</a></li>
-                <li><a href="nurses-and-ahp.html" class="header">Nurses and ANP</a></li>
+                <li><a href="people.php" class="header">People</a></li>
+                <li><a href="consultants.php" class="header">Consultants</a></li>
+                <li><a href="nurses-and-ahp.php" class="header">Nurses and ANP</a></li>
             </ul>
             <ul>
-                <li><a href="sitemap.html" class="header">Sitemap</a></li>
-                <li><a href="contact-us.html" class="header">Contact Us</a></li>
-                <li><a href="privacy-policy.html" class="header">Privacy Policy &amp; Modern Slavery Statement</a></li>
+                <li><a href="sitemap.php" class="header">Sitemap</a></li>
+                <li><a href="contact-us.php" class="header">Contact Us</a></li>
+                <li><a href="privacy-policy.php" class="header">Privacy Policy &amp; Modern Slavery Statement</a></li>
             </ul>
         </p>
     </div>
