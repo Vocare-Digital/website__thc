@@ -66,41 +66,8 @@
 
 </head>
 <body>
-<div class="ui nav sidebar inverted vertical menu">
-  <a class="header item" href="index.html" >Home</a>
-  <a class="header item" href="why-choose-us.html">Why choose us?</a>
-  <a class="header item" href="quality-and-governance.html">Quality</a>
-  <a class="header item" href="contact-us.html">Contact Us</a>
-  <a class="header item" href="news.html">News</a>
-  <div class="header item">Specialties</div>
-  <a class="item" href="specialties/gastroenterology.html">Gastroenterology and Endoscopy</a>
-  <a class="item" href="specialties/ophthalmology.html">Ophthalmology</a>
-  <a class="item" href="specialties/surgery.html">Surgical specialties</a>
-  <a class="item" href="specialties/dermatology.html">Dermatology</a>
-  <a class="item" href="specialties/ent-and-audiology.html">ENT and Audiology</a>
-  <a class="item" href="specialties/respiratory.html">Respiratory</a>
-  <a class="item" href="specialties/rheumatology.html">Rheumatology</a>
-  <a class="item" href="specialties/anaesthetics.html">Anaesthetics and Pain Management</a>
-  <a class="header item" href="people.html">People</a>
-  <a class="item" href="consultants.html">Consultants</a>
-  <a class="item" href="nurses-and-ahp.html">Nurses and AHP</a>
-</div>
-<div class="pusher">
-  <!-- nav bar -->
-  <div class="ui top fixed borderless menu transparent">
-    <a class="header item" href="index.html">
-      <img class="ui nav image"  src="assets/images/thweblogo.png">
-    </a>
-    <div class="right menu hamburger-menu">
-      <a class="header item hidesmall" href="https://twitter.com/TotallyHealthc1"><img src="assets/images/Twitter50.png" style="width: 50px"/></a>
-      <a class="header item hidesmall" href="https://www.linkedin.com/company/totally-healthcare/"><img src="assets/images/linkedin50.png"  style="width: 50px"/></a>
-      <a class="item" id="hamburger">
-        <i class="big fitted content icon"></i>
-      </a>
-    </div>
-  </div>
-  <!-- end of nav bar -->
 
+<?php require_once('menu.php'); ?>
 
   <!-- start of hero -->
   <div class="hero">
@@ -231,25 +198,25 @@
     <div class="ui four doubling cards">
       <div class="card">
         <div class="content green-box">
-          <a href="specialties/gastroenterology.html" class="center aligned header white">Gastroenterology <br>and Endoscopy</a>
+          <a href="specialties/gastroenterology.php" class="center aligned header white">Gastroenterology <br>and Endoscopy</a>
         </div>
       </div>
 
       <div class="card">
         <div class="content green-box">
-          <a href="specialties/ophthalmology.html" class="center aligned header white">Ophthalmology</a>
+          <a href="specialties/ophthalmology.php" class="center aligned header white">Ophthalmology</a>
         </div>
       </div>
 
       <div class="card">
         <div class="green-box content">
-          <a href="specialties/surgery.html" class="center aligned header white">Surgical specialties</a>
+          <a href="specialties/surgery.php" class="center aligned header white">Surgical specialties</a>
         </div>
       </div>
 
       <div class="card">
         <div class="green-box content">
-          <a href="specialties/dermatology.html" class="center aligned header white">Dermatology</a>
+          <a href="specialties/dermatology.php" class="center aligned header white">Dermatology</a>
         </div>
       </div>
     </div>
@@ -259,23 +226,23 @@
 
         <div class="card">
           <div class="green-box content">
-            <a href="specialties/ent-and-audiology.html" class="center aligned header white">ENT and Audiology</a>
+            <a href="specialties/ent-and-audiology.php" class="center aligned header white">ENT and Audiology</a>
           </div>
         </div>
         <div class="card">
           <div class="content green-box">
-            <a href="specialties/respiratory.html" class="middle center aligned header white" style="align-items: center">Respiratory</a>
+            <a href="specialties/respiratory.php" class="middle center aligned header white" style="align-items: center">Respiratory</a>
           </div>
         </div>
         <div class="card">
           <div class="content green-box">
-            <a href="specialties/rheumatology.html" class="center aligned header white">Rheumatology</a>
+            <a href="specialties/rheumatology.php" class="center aligned header white">Rheumatology</a>
           </div>
         </div>
 
         <div class="card">
           <div class="content green-box">
-            <a href="specialties/anaesthetics.html" class="middle center aligned header white">Anaesthetics <br>and Pain Management</a>
+            <a href="specialties/anaesthetics.php" class="middle center aligned header white">Anaesthetics <br>and Pain Management</a>
           </div>
         </div>
 
@@ -313,12 +280,12 @@
           <div class="event">
             <div class="content">
               <div class="summary">
-                <a href="people.html">
+                <a href="people.php">
                   Totally Healthcare appoints Marie Lee as Managing Director
                 </a>
               </div>
               <div class="extra text">
-                Totally Healthcare is delighted to announce the appointment of Marie Lee as Managing Director. Marie was previously the co-founder and CEO of Medinet. <a href="news.html">Read more</a>
+                Totally Healthcare is delighted to announce the appointment of Marie Lee as Managing Director. Marie was previously the co-founder and CEO of Medinet. <a href="news.php">Read more</a>
               </div>
               <div class="meta">
                 17 September 2019
@@ -333,7 +300,7 @@
                 </a>
               </div>
               <div class="extra text">
-                Totally Healthcare is delighted to announce the appointment of Head of Nursing, Kaye Drew and Medical Advisor, Dr Graham Turner. Both bring significant expertise clinically and operationally within the insourcing sector. <a href="news.html">Read more</a>
+                Totally Healthcare is delighted to announce the appointment of Head of Nursing, Kaye Drew and Medical Advisor, Dr Graham Turner. Both bring significant expertise clinically and operationally within the insourcing sector. <a href="news.php">Read more</a>
               </div>
               <div class="meta">
                 27 September 2019
@@ -357,17 +324,8 @@
     </div>
   </div>
 
-  <!-- start of footer -->
-  <div class="ui  vertical footer segment" style="margin-top: 8em; background-color: #00887A">
-    <div class="ui center aligned container">
-      <div class="ui horizontal inverted  small divided link list ">
-        <a class="item white" href="sitemap.html">Site Map</a>
-        <a class="item white" href="contact-us.html">Contact Us</a>
-        <a class="item white" href="privacy-policy.html">Privacy Policy &amp; Modern Slavery Statement</a>
-      </div>
-    </div>
-  </div>
-  <!-- end of the footer -->
+<?php require_once('footer.php'); ?>
+
 </div>
 </body>
 

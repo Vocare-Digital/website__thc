@@ -13,46 +13,14 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.8/dist/semantic.min.css">
     <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.8/dist/semantic.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../assets/css/base.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/base.css">
 </head>
 <body>
-<div class="ui very wide sidebar inverted vertical menu">
-    <a class="close item"><i class="large close icon"></i></a>
-    <a class="header item" href="../index.html" >Home</a>
-    <a class="header item" href="../why-choose-us.html">Why choose us?</a>
-    <a class="header item" href="../quality-and-governance.html">Quality</a>
-    <a class="header item" href="../contact-us.html">Contact Us</a>
-    <a class="header item" href="../news.html">News</a>
-    <div class="header item">Specialties</div>
-    <a class="item" href="gastroenterology.html">Gastroenterology and Endoscopy</a>
-    <a class="item" href="ophthalmology.html">Ophthalmology</a>
-    <a class="item" href="surgery.html">Surgical specialties</a>
-    <a class="item" href="dermatology.html">Dermatology</a>
-    <a class="item" href="ent-and-audiology.html">ENT and Audiology</a>
-    <a class="item" href="respiratory.html">Respiratory</a>
-    <a class="item" href="rheumatology.html">Rheumatology</a>
-    <a class="item" href="anaesthetics.html">Anaesthetics and Pain Management</a>
-    <a class="header item" href="../people.html">People</a>
-    <a class="item" href="../consultants.html">Consultants</a>
-    <a class="item" href="../nurses-and-ahp.html">Nurses and AHP</a>
-</div>
-<div class="pusher">
-    <!-- nav bar -->
-    <div class="ui top fixed borderless menu transparent" >
-      <a class="header item" href="../index.html">
-        <img class="ui nav image"  src="../assets/images/thweblogo.png">
-      </a>
-    <div class="right menu hamburger-menu">
-      <a class="item" id="hamburger">
-        <i class="big fitted content icon"></i>
-      </a>
-    </div>
-    </div>
-    <!-- end of nav bar -->
+<?php require_once('menu.php'); ?>
 
 <div class="ui  container" style="padding-top: 50px; padding-bottom: 25px;">
     <h1 class="le-purp" id="people-title">Surgical Specialties</h1>
-    <img class="ui fluid image" src="../assets/images/surgery-cropped.png" alt="gastroenterology imagery">
+    <img class="ui fluid image" src="assets/images/surgery-cropped.png" alt="gastroenterology imagery">
 </div>
 
 <div class="ui container">
@@ -72,22 +40,12 @@
             <p>The combination of reductions in average length of stay and a switch to day-case surgery has meant the NHS has often been able to manage demand and reduce the number of hospital beds. However, it is suggested the average length of stay has reduced only slightly in recent years, therefore providing little relief from the rising demand for surgical treatment services.</p>
             <p>We work in partnership with hospitals to provide cost-effective insourcing solutions through a full range of surgical services and specialties. We can help you meet the rising demand for surgery including diagnostic procedures to help you reduce waiting times and ensure your waiting list backlog is cleared.</p>
             <p>Our solutions can provide surgical services all the way from the patient entering the hospital, to post-surgical clinics following local process using local pathways. Our surgical teams can include consultant anaesthetists, consultant surgeons and specialist nurses who will provide high levels of patient care to ensure a quick safe recovery. Consistency of clinical teams is always assured.</p>
-            <p>To see other specialties provided by Totally Healthcare, <a href="../index.html#specialties">click here</a></p>
+            <p>To see other specialties provided by Totally Healthcare, <a href="index.php">click here</a></p>
         </div>
     </div>
 </div>
 
-    <!-- start of footer -->
-    <div class="ui  vertical footer segment" style="margin-top: 8em; background-color: #00887A">
-        <div class="ui center aligned container">
-            <div class="ui horizontal inverted  small divided link list ">
-                <a class="item white" href="../sitemap.html">Site Map</a>
-                <a class="item white" href="../contact-us.html">Contact Us</a>
-                <a class="item white" href="../privacy-policy.html">Privacy Policy &amp; Modern Slavery Statement</a>
-            </div>
-        </div>
-    </div>
-    <!-- end of the footer -->
+    <?php require_once('footer.php'); ?>
 </div>
 </body>
 

@@ -21,39 +21,8 @@
 
 </head>
 <body>
-<div class="ui very wide sidebar inverted vertical menu">
-    <a class="close item"><i class="large close icon"></i></a>
-    <a class="header item" href="index.html" >Home</a>
-    <a class="header item" href="why-choose-us.html">Why choose us?</a>
-    <a class="header item" href="quality-and-governance.html">Quality</a>
-  <a class="header item" href="contact-us.html">Contact Us</a>
-  <a class="header item" href="news.html">News</a>
-    <div class="header item">Specialties</div>
-    <a class="item" href="specialties/gastroenterology.html">Gastroenterology and Endoscopy</a>
-    <a class="item" href="specialties/ophthalmology.html">Ophthalmology</a>
-    <a class="item" href="specialties/surgery.html">Surgical specialties</a>
-    <a class="item" href="specialties/dermatology.html">Dermatology</a>
-    <a class="item" href="specialties/ent-and-audiology.html">ENT and Audiology</a>
-    <a class="item" href="specialties/respiratory.html">Respiratory</a>
-    <a class="item" href="specialties/rheumatology.html">Rheumatology</a>
-    <a class="item" href="specialties/anaesthetics.html">Anaesthetics and Pain Management</a>
-    <a class="header item" href="people.html">People</a>
-    <a class="item" href="consultants.html">Consultants</a>
-    <a class="item" href="nurses-and-ahp.html">Nurses and AHP</a>
-</div>
-<div class="pusher">
-    <!-- nav bar -->
-    <div class="ui top fixed borderless menu transparent" >
-      <a class="header item" href="index.html">
-        <img class="ui nav image"  src="assets/images/thweblogo.png">
-      </a>
-    <div class="right menu hamburger-menu">
-      <a class="item" id="hamburger">
-        <i class="big fitted content icon"></i>
-      </a>
-    </div>
-    </div>
-    <!-- end of nav bar -->
+<?php require_once('menu.php'); ?>
+
 
 <div class="ui container" style="padding-top: 50px; padding-bottom: 25px;">
     <h1 class="le-purp" id="people-title">People</h1>
@@ -140,25 +109,15 @@
             <h1 class="heading le-purp">Working with us</h1>
             <p>We are always looking to increase our team of highly skilled professionals to meet the extremely high demand for contracts across the UK and Ireland.</p>
             <p>If you are interested in providing excellent patient care alongside a supportive team of experienced healthcare professionals, please contact a member of the team at <a href="mailto:recruitment@totallyhealthcarelimited.com" class="le-purp" style="text-decoration: underline;">recruitment@totallyhealthcarelimited.com</a> who will discuss the registration requirements with you and are there to support you through the process.</p>
-            <a href='consultants.html'><h3 class="le-purp">Consultants</h3></a>
+            <a href='consultants.php'><h3 class="le-purp">Consultants</h3></a>
             <p>We are looking for Consultants in all specialties to join our rapidly expanding network of highly motivated and dedicated healthcare professionals</p>
-            <a href='nurses-and-ahp.html'><h3 class="le-purp">Nurses and Allied Health Professionals</h3></a>
+            <a href='nurses-and-ahp.php'><h3 class="le-purp">Nurses and Allied Health Professionals</h3></a>
             <p >We are always looking to increase our team of highly skilled professionals to meet the extremely high demand for contracts across the UK and Ireland.</p>
         </div>
     </div>
 </div>
 
-<!-- start of footer -->
-<div class="ui  vertical footer segment" style="margin-top: 8em; background-color: #00887A">
-    <div class="ui center aligned container">
-        <div class="ui horizontal inverted  small divided link list ">
-            <a class="item white" href="sitemap.html">Site Map</a>
-            <a class="item white" href="contact-us.html">Contact Us</a>
-            <a class="item white" href="privacy-policy.html">Privacy Policy &amp; Modern Slavery Statement</a>
-        </div>
-    </div>
-</div>
-<!-- end of the footer -->
+    <?php require_once('footer.php'); ?>
 </div>
 </body>
 
