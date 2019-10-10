@@ -40,7 +40,7 @@
             <p>The combination of reductions in average length of stay and a switch to day-case surgery has meant the NHS has often been able to manage demand and reduce the number of hospital beds. However, it is suggested the average length of stay has reduced only slightly in recent years, therefore providing little relief from the rising demand for surgical treatment services.</p>
             <p>We work in partnership with hospitals to provide cost-effective insourcing solutions through a full range of surgical services and specialties. We can help you meet the rising demand for surgery including diagnostic procedures to help you reduce waiting times and ensure your waiting list backlog is cleared.</p>
             <p>Our solutions can provide surgical services all the way from the patient entering the hospital, to post-surgical clinics following local process using local pathways. Our surgical teams can include consultant anaesthetists, consultant surgeons and specialist nurses who will provide high levels of patient care to ensure a quick safe recovery. Consistency of clinical teams is always assured.</p>
-            <p>To see other specialties provided by Totally Healthcare, <a href="index.php">click here</a></p>
+            <p>To see other specialties provided by Totally Healthcare, <a href="index.php#specialties">click here</a></p>
         </div>
     </div>
 </div>
