@@ -264,7 +264,7 @@
         <p>If you are interested in providing excellent patient care alongside a supportive team of experienced healthcare professionals, please contact a member of the team at <a href="mailto:recruitment@totallyhealthcarelimited.com">recruitment@totallyhealthcarelimited.com</a> who will discuss the registration requirements with you and are there to support you through the process.</p>
         <span class="column" style="text-align: right;">
               <h4>
-                  <a href="https://www.totallyplc.com/about-us/careers/">Working with us - find out more</a>
+                  <a href="people.php#working-with-us">Working with us - find out more</a>
               </h4>
           </span>
       </div>
