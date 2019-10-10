@@ -48,9 +48,6 @@
     <p>
     Our team are on hand to make the registration process as efficient as possible for consultants looking to undertake work, below is a list of the registration documents required to register:
     </p>
-    <p>
-        Our team are on hand to make the registration process as efficient as possible for Consultants looking to undertake work, below is a list of the registration documents required to register:
-    </p>
     <ul>
         <li>Applicants must have been a Consultant for a minimum of 12 months</li>
         <li>Confirmation of Professional Registration (i.e. GMC/IMC)</li>
