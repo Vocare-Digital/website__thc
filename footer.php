@@ -1,5 +1,9 @@
 <?php
 echo '
+<div class="ui center aligned container only_mobile">
+ <a class="header item" href="https://twitter.com/TotallyHealthc1"><img src="assets/images/Twitter50.png" style="width: 50px"/></a>
+      <a class="header item" href="https://www.linkedin.com/company/totally-healthcare/"><img src="assets/images/linkedin50.png"  style="width: 50px"/></a>
+</div>
 <div class="ui  vertical footer segment" style="margin-top: 8em; background-color: #00887A">
     <div class="ui center aligned container">
         <div class="ui horizontal inverted  small divided link list ">
