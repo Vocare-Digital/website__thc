@@ -18,6 +18,9 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="assets/css/base.css">
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+
     <style>
         .row-fixed-height {
             min-height: 151px !important;
@@ -27,7 +30,7 @@
 <body>
 <?php require_once('menu.php'); ?>
 
-<div class="ui container" style="padding-top: 50px; padding-bottom: 25px;">
+<div class="ui container menu-trigger" style="padding-top: 50px; padding-bottom: 25px;">
     <h1 class="le-purp" id="people-title">Quality</h1>
 </div>
 
@@ -154,27 +157,6 @@
     <?php require_once('footer.php'); ?>
 </div>
 </body>
-
-<script>
-    $('.ui.dropdown')
-        .dropdown();
-
-    $('#hamburger').click(function () {
-        $('.ui.sidebar')
-            .sidebar('show')
-    });
-
-    $('.close.item').click(function () {
-        $('.ui.sidebar')
-            .sidebar('hide')
-    });
-
-
-    $('#mobile-hamburger').click(function () {
-      $('.ui.sidebar')
-        .sidebar('toggle')
-    })
-</script>
 
 </html>
 <!-- end of the page right here -->

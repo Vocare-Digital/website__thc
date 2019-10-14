@@ -12,6 +12,8 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.8/dist/semantic.min.css">
     <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.8/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/base.css">
 </head>
@@ -20,12 +22,13 @@
 
 
 
-<div class="ui  container" style="padding-top: 50px; padding-bottom: 25px;">
+<div class="ui container menu-trigger" style="padding-top: 50px; padding-bottom: 25px;">
     <h1 class="le-purp" id="people-title">Respiratory</h1>
-    <img class="ui fluid image" src="assets/images/respi-cropped.png" alt="gastroenterology imagery">
 </div>
 
 <div class="ui container">
+    <img class="ui fluid image" src="assets/images/respi-cropped.png" alt="gastroenterology imagery">
+
     <div class="row">
         <div class="column">
             <p>NHS England suggests respiratory diseases places enormous pressure on the acute healthcare system especially during the winter months. </p>
@@ -39,27 +42,5 @@
     <?php require_once('footer.php'); ?>
 </div>
 </body>
-
-<script>
-    $('.ui.dropdown')
-        .dropdown();
-
-
-    $('#hamburger').click(function () {
-        $('.ui.sidebar')
-            .sidebar('show')
-    });
-
-    $('.close.item').click(function () {
-        $('.ui.sidebar')
-            .sidebar('hide')
-    });
-
-    $('#mobile-hamburger').click(function () {
-      $('.ui.sidebar')
-        .sidebar('toggle')
-    })
-</script>
-
 </html>
 <!-- end of the page right here -->

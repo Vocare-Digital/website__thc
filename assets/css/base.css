@@ -461,6 +461,12 @@ a .heading  {
     background: transparent !important;
 }
 
+.menu-background {
+    background: #fff !important;
+    border-bottom: #666 2px solid !important;
+    box-shadow: #666 !important;
+}
+
 .purple-box {
   background-color: #44318D !important;
   color: #FFF;

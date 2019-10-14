@@ -16,11 +16,10 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
     <script src="https://kit.fontawesome.com/c4942e6e02.js"></script>
     <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
-
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" type="text/css" href="assets/css/base.css">
     <style>
         .card {
@@ -361,19 +360,6 @@
 </body>
 
 <script>
-    $('.ui.dropdown')
-        .dropdown();
-
-    $('#hamburger').click(function () {
-        $('.ui.sidebar')
-            .sidebar('show')
-    });
-
-    $('.close.item').click(function () {
-        $('.ui.sidebar')
-            .sidebar('hide')
-    });
-
     $(document).ready(function () {
         $('.hero .content-hover-box').hide();
         $('.hero .content-hover-box').transition({
@@ -381,7 +367,6 @@
             duration: 1000,
             interval: 600
         });
-
         var infographic_visible = false;
         var observer = new IntersectionObserver(function (t) {
             if (t[0].isIntersecting && !infographic_visible) {
@@ -397,11 +382,8 @@
         }, {
             threshold: 0.5
         });
-
         observer.observe(document.querySelector('.infographic__holder'))
-
     });
-
 </script>
 
 </html>
