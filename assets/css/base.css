@@ -34,7 +34,7 @@ p {
     margin-top: 2em;
 }
 .ui.footer.segment {
-    margin: 2.5em 0em 0em;
+    margin: 5em 0em 0em;
     padding: 1.5em 0em;
 }
 .ui.menu .item>img:not(.ui) {
@@ -138,7 +138,7 @@ p {
 }
 @media only screen and (max-width:599px){
   .hidesmall {display:none!important;}
-    .only_mobile { margin: 5em auto; }
+    .only_mobile { margin: 7.5em auto; }
   }
 @media only screen and (min-width:600px){
   .only_mobile {display:none!important; }
