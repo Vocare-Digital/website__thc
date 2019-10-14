@@ -20,7 +20,9 @@ p {
     text-transform: uppercase;
     text-align: center;
 }
-
+.ui.menu .item {
+    padding: .4857143em 1.14285714em !important;
+}
 .ui.menu .item img.logo {
     margin-right: 1.5em;
 }
