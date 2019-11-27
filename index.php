@@ -306,16 +306,15 @@
                     <div class="content">
                         <div class="summary">
                             <a href="news.php#ml-news">
-                                Totally Healthcare appoints Marie Lee as Managing Director
+                                Totally Healthcare selected as NHS SBS supplier
                             </a>
                         </div>
                         <div class="extra text">
-                            Totally Healthcare is delighted to announce the appointment of Marie Lee as Managing
-                            Director. Marie was previously the co-founder and CEO of Medinet. <a href="news.php">Read
+                            Totally Healthcare has been selected as one of the suppliers to NHS Shared Business Services for both England and Scotland. <a href="news.php">Read
                                 more</a>
                         </div>
                         <div class="meta">
-                            17 September 2019
+                            27 November 2019
                         </div>
                     </div>
                 </div>
