@@ -33,7 +33,7 @@
             
           <div class="item">
             <div class="content">
-              <a class="header" name="ml-news"><h2>Totally Healthcare selected as NHS SBS supplier</h2></a>
+              <a class="header" name="ml-news"><h2>Totally Healthcare selected as NHS SBS supplier</h2> - 27 November 2019</a>
               <div class="description">
                 <img class="ui small left floated image" src="assets/images/marie-lee-new.jpg">
                 <p>
@@ -57,11 +57,36 @@
               </div>
             </div>
           </div>  
-            
-            
+        
           <div class="item">
             <div class="content">
-              <a class="header" name="ml-news"><h2>Totally Healthcare appoints Marie Lee as Managing Director</h2></a>
+              <a class="header"><h2>Totally Healthcare appoints new Head of Nursing</h2> - 27 September 2019</a>
+              <div class="description">
+                <img class="ui small left floated image" src="assets/images/kaye-drew-new.jpg">
+                <p>Totally Healthcare, part of Totally plc, has recently appointed Kaye Drew as Head of Nursing. Kaye has 36 years of nursing experience in the NHS and is dedicated to consistently ensuring a high-quality patient experience.</p>
+                <p>Kaye has specialised in Gastroenterology and Endoscopy since 1998 and became an Advanced Endoscopy Practitioner in 2006. She has successfully provided endoscopy leadership and management for endoscopy insourcing in the independent sector and is looking forward to leading the nursing division for Totally Healthcare.</p>
+                <p>Kaye says, "I am really excited by this opportunity to assist hospitals in the UK and Ireland in reducing their long patient waiting lists."</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="content">
+              <a class="header"><h2>Dr Graham Turner joins Totally Healthcare</h2> - 27 September 2019</a>
+              <div class="description">
+                <img class="ui small left floated image" src="assets/images/dr-g-turner.jpg">
+                <p>Dr Graham Turner has been appointed as Medical Advisor for Totally Healthcare, part of Totally plc. Dr Turner qualified in 1996 and has been based at both the Royal Victoria Hospital and Belfast City Hospital since 2009, having previously been a consultant at Altnagelvin Hospital from 2006. He is Clinical Lead for Endoscopy and Gastroenterology at the Belfast Trust since 2012.</p>
+                <p>Over his career and training Graham has worked throughout Northern Ireland and completed an MD thesis in Neuroendocrine Tumours in 2004. He has also been a Clinical Fellow in Perth Australia and at UCH London. His clinical interests are Nutrition, Inflammatory Bowel Disease and Endoscopy, he is a Bowel Cancer Screening Endoscopist in Belfast.</p>
+                <p>As well as his Trust roles, Graham is currently working with the Dept of Health in Northern Ireland on Elective Day Case Centres in Endoscopy and the Regional Cancer Strategy Group for Diagnostics. He is also Medical Advisor for Crohn’s and Colitis UK in Northern Ireland. More recently he was delighted to join the team at Totally Healthcare where he is actively involved in their exciting developments in endoscopy.</p>
+                <p>Marie Lee, Managing Director of Totally Healthcare says, "I am thrilled to have Dr Turner join us our medical advisor - he has an impressive track record and I am very excited to be working together to reduce patient waiting times with our unique insourcing model."</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="item">
+            <div class="content">
+              <a class="header"><h2>Totally Healthcare appoints Marie Lee as Managing Director</h2> - 17 September 2019</a>
               <div class="description">
                 <img class="ui small left floated image" src="assets/images/marie-lee-new.jpg">
                 <p>
@@ -85,33 +110,6 @@
               </div>
             </div>
           </div>
-
-          <div class="item">
-            <div class="content">
-              <a class="header"><h2>Totally Healthcare appoints new Head of Nursing</h2></a>
-              <div class="description">
-                <img class="ui small left floated image" src="assets/images/kaye-drew-new.jpg">
-                <p>Totally Healthcare, part of Totally plc, has recently appointed Kaye Drew as Head of Nursing. Kaye has 36 years of nursing experience in the NHS and is dedicated to consistently ensuring a high-quality patient experience.</p>
-                <p>Kaye has specialised in Gastroenterology and Endoscopy since 1998 and became an Advanced Endoscopy Practitioner in 2006. She has successfully provided endoscopy leadership and management for endoscopy insourcing in the independent sector and is looking forward to leading the nursing division for Totally Healthcare.</p>
-                <p>Kaye says, "I am really excited by this opportunity to assist hospitals in the UK and Ireland in reducing their long patient waiting lists."</p>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="content">
-              <a class="header"><h2>Dr Graham Turner joins Totally Healthcare</h2></a>
-              <div class="description">
-                <img class="ui small left floated image" src="assets/images/dr-g-turner.jpg">
-                <p>Dr Graham Turner has been appointed as Medical Advisor for Totally Healthcare, part of Totally plc. Dr Turner qualified in 1996 and has been based at both the Royal Victoria Hospital and Belfast City Hospital since 2009, having previously been a consultant at Altnagelvin Hospital from 2006. He is Clinical Lead for Endoscopy and Gastroenterology at the Belfast Trust since 2012.</p>
-                <p>Over his career and training Graham has worked throughout Northern Ireland and completed an MD thesis in Neuroendocrine Tumours in 2004. He has also been a Clinical Fellow in Perth Australia and at UCH London. His clinical interests are Nutrition, Inflammatory Bowel Disease and Endoscopy, he is a Bowel Cancer Screening Endoscopist in Belfast.</p>
-                <p>As well as his Trust roles, Graham is currently working with the Dept of Health in Northern Ireland on Elective Day Case Centres in Endoscopy and the Regional Cancer Strategy Group for Diagnostics. He is also Medical Advisor for Crohn’s and Colitis UK in Northern Ireland. More recently he was delighted to join the team at Totally Healthcare where he is actively involved in their exciting developments in endoscopy.</p>
-                <p>Marie Lee, Managing Director of Totally Healthcare says, "I am thrilled to have Dr Turner join us our medical advisor - he has an impressive track record and I am very excited to be working together to reduce patient waiting times with our unique insourcing model."</p>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
       <div class="six wide column">
