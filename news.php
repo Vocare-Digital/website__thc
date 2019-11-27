@@ -30,6 +30,35 @@
     <div class="ui stackable grid">
       <div class="ten wide column">
         <div class="ui divided items">
+            
+          <div class="item">
+            <div class="content">
+              <a class="header" name="ml-news"><h2>Totally Healthcare selected as NHS SBS supplier</h2></a>
+              <div class="description">
+                <img class="ui small left floated image" src="assets/images/marie-lee-new.jpg">
+                <p>
+                  Totally Healthcare has been selected as one of the suppliers to NHS Shared Business Services for both England and Scotland. 
+                </p>
+                <p>
+                  NHS SBS is the market leader in corporate services and provides services to around 40% of the NHS. They are experts in this field, with unrivalled knowledge and experience that helps NHS organisations overcome many of the day-to-day challenges they face. 
+                </p>
+                <p>
+                  The Totally Healthcare insourcing model supports hospitals across the UK and Ireland to reduce their waiting times, bringing high-quality care to the patient sooner, and as such is expertly placed to provide services to the NHS in England and Scotland.                  
+                </p>
+                <p>
+                  Marie Lee, Managing Director of Totally Healthcare says, “I'm delighted to announce we are working with @NHS_SBS to support hospitals in reducing patient waiting times. 
+                </p>
+                <p>
+                  “We're extremely excited and looking forward to delivering high-quality patient care with our cost-effective insourcing model”. 
+                </p>
+                <p>
+                  For further information about NHS SBS, visit the website <a href="https://www.sbs.nhs.uk/" target="_blank">www.sbs.nhs.uk</a>
+                </p>
+              </div>
+            </div>
+          </div>  
+            
+            
           <div class="item">
             <div class="content">
               <a class="header" name="ml-news"><h2>Totally Healthcare appoints Marie Lee as Managing Director</h2></a>
