@@ -32,7 +32,7 @@
         <div class="ui divided items">
                 <div class="item">
             <div class="content">
-              <a class="header" name="ml-news"><h2>A day in the work-life - insourcing with Totally Healthcare</h2> - 28 November 2019</a>
+              <a class="header" name="ditl-news"><h2>A day in the work-life - insourcing with Totally Healthcare</h2> - 28 November 2019</a>
               <div class="description">
                 <img class="ui small left floated image" src="assets/images/Christine%20Roberts.jpg">
                 <p>
