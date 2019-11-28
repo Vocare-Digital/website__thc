@@ -30,7 +30,33 @@
     <div class="ui stackable grid">
       <div class="ten wide column">
         <div class="ui divided items">
-            
+                <div class="item">
+            <div class="content">
+              <a class="header" name="ml-news"><h2>A day in the work-life - insourcing with Totally Healthcare</h2> - 28 November 2019</a>
+              <div class="description">
+                <img class="ui small left floated image" src="assets/images/Christine%20Roberts.jpg">
+                <p>
+                  <em>Christine Roberts, Endoscopy Sister, describes working with Totally Healthcare (THC) to deliver high-quality patient care, while reducing the pressure on hospitals caused by long patient waiting lists. Based in Northern Ireland, Christine works as a Sister and enjoys insourcing work as a staff nurse for Totally Healthcare during weekday evenings and weekends, as part of THC’s waiting time initiatives.</em>
+                </p>
+                <p>My role as Staff Nurse in the Endoscopy setting for Totally Healthcare is a very important one. I am part of a highly skilled professional team of nurses, employed outside our main NHS jobs to provide seamless care to all patients we treat in their own hospitals. Many patients don’t even notice that it is Totally Healthcare providing the service - from the patient’s perspective if they are being seen in a timely fashion, in a hospital close to home and being treated by a high-quality team they are very happy. This is something I take real pride in because the focus is on getting care to the patient quickly, which reduces the pressure on hospitals caused by long waiting lists.
+                </p>
+                <p>Meeting new patients is what satisfies me most about my role and being able to provide them with all the necessary and relevant information to make decisions about their own care and treatment. I enjoy the fact I can provide an excellent care journey and facilitate the best experience possible for them.
+                </p>
+                <p>I’ve worked in Endoscopy for six and a half years, but before that I was a healthcare assistant initially, and then a nurse for 30 years.
+                </p>
+                <p>This appealed to me as a career because I’ve always wanted to care and look after people and my sister and mother are/were both nurses – so I’ve followed in their footsteps. I also have insight into what my patients face as my father died of oesophageal cancer and my brother died at a young age of bowel cancer. 
+                </p>
+                <p>I believe if we had services to reduce pressure on hospitals, like that provided by Totally Healthcare, years ago my family may have been seen quicker and had a better chance of surviving their disease. I also enjoy helping patients who are in a similar position to my family and I think my empathy towards their challenges and what they face goes a long way.
+                </p>
+                <p>I face many challenges in my role daily, from staffing issues to patients with complex needs, as well as hospital pressures, but despite all these pressures, my goal remains to work as hard as possible for the patient and provide the best possible outcome.
+                </p>
+                <p>There is no such thing as an average day in my job, which is what I love about it. I’m always ready for what the day ahead brings, and I always face any challenge head on.
+                </p>
+                <p>Every day within my role as an endoscopy nurse excites me - it’s an area I’ve been interested in for years even before I managed to secure my position as Sister. It is also such an exciting and interesting area, especially how the service is growing and will continue to do so in the future.</p>
+                <p>And finally, a little bit about me&hellip; I love fell-walking in the Lake District which keeps me fit and I enjoy kayaking in the Lakes too - when I get the chance!                  </p>
+              </div>
+            </div>
+          </div>  
           <div class="item">
             <div class="content">
               <a class="header" name="ml-news"><h2>Totally Healthcare selected as NHS SBS supplier</h2> - 27 November 2019</a>
