@@ -302,6 +302,21 @@
         <div class="column">
             <h3>Latest News</h3>
             <div class="ui feed">
+                  <div class="event">
+                    <div class="content">
+                        <div class="summary">
+                            <a href="news.php">
+                                A day in the work-life - insourcing with Totally Healthcare
+                            </a>
+                        </div>
+                        <div class="extra text">
+                            Christine Roberts, Endoscopy Sister, describes working with Totally Healthcare (THC) to deliver high-quality patient care. <a href="news.php#dil-news">Read more</a>
+                        </div>
+                        <div class="meta">
+                            28 November 2019
+                        </div>
+                    </div>
+                </div>
                 <div class="event">
                     <div class="content">
                         <div class="summary">
@@ -310,7 +325,7 @@
                             </a>
                         </div>
                         <div class="extra text">
-                            Totally Healthcare has been selected as one of the suppliers to NHS Shared Business Services for both England and Scotland. <a href="news.php">Read
+                            Totally Healthcare has been selected as one of the suppliers to NHS Shared Business Services for both England and Scotland. <a href="news.php#ml-news">Read
                                 more</a>
                         </div>
                         <div class="meta">
@@ -318,23 +333,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="event">
-                    <div class="content">
-                        <div class="summary">
-                            <a href="news.php">
-                                Totally Healthcare’s senior leadership appointments
-                            </a>
-                        </div>
-                        <div class="extra text">
-                            Totally Healthcare is delighted to announce the appointment of Head of Nursing, Kaye Drew
-                            and Medical Advisor, Dr Graham Turner. Both bring significant expertise clinically and
-                            operationally within the insourcing sector. <a href="news.php">Read more</a>
-                        </div>
-                        <div class="meta">
-                            27 September 2019
-                        </div>
-                    </div>
-                </div>
+              
             </div>
 
             <a href="news.html">See all latest news</a>
