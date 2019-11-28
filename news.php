@@ -120,7 +120,7 @@
               Email: <a href="mailto:georgina.fletcher@totallyplc.com">georgina.fletcher@totallyplc.com</a>
             </li>
             <li>
-              Tel: <a href="tel:0203863330">020 386 3330</a>
+              Tel: <a href="tel:0203863330">020 3866 3330</a>
             </li>
           </ul>
         </div>
