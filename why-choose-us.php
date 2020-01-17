@@ -207,7 +207,9 @@
      <div class="ui mini-container">
      
         <p>Totally Healthcare works with hospitals to provide high-quality services across multiple specialties. Watch our video to learn how insourcing operates across the UK and Ireland to reduce the pressure on hospitals caused by long waiting lists.</p>
-    <iframe src="https://player.vimeo.com/video/384490359" width="640" height="360" style="text-align: center" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>   
+         <div style="text-align: center;" >
+          <iframe src="https://player.vimeo.com/video/384490359" width="640" height="360" style="text-align: center" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>   
+         </div> 
     </div> 
     
     <div class="ui container" style="padding-top: 50px; padding-bottom: 25px;">
