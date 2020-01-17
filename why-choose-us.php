@@ -198,6 +198,18 @@
 <div class="ui mini-container" style="padding-top: 50px; padding-bottom: 25px">
     <h1 class="le-purp" id="people-title">Why choose us?</h1>
 </div>
+    
+    <div class="ui fluid container">
+    <div class="info-banner">
+        <h1 class="white">About us</h1>
+    </div>
+</div>
+     <div class="ui mini-container">
+     
+        <p>Totally Healthcare works with hospitals to provide high-quality services across multiple specialties. Watch our video to learn how insourcing operates across the UK and Ireland to reduce the pressure on hospitals caused by long waiting lists.</p>
+    <iframe src="https://player.vimeo.com/video/384490359" width="640" height="360" style="text-align: center" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>   
+    </div> 
+    
     <div class="ui container" style="padding-top: 50px; padding-bottom: 25px;">
     <div class="hidden-xs">
         <h1 class="ribbon ribleft">
@@ -223,7 +235,7 @@
     </div>
 
 <div class="ui fluid container">
-    <div class="info-banner" style="">
+    <div class="info-banner">
         <h1 class="white">We consistently receive excellent patient feedback</h1>
     </div>
 </div>
