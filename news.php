@@ -30,6 +30,20 @@
     <div class="ui stackable grid">
       <div class="ten wide column">
         <div class="ui divided items">
+               <div class="item">
+            <div class="content">
+              <a class="header" name="ditl-news"><h2>How does clinical insourcing work? NHS SBS experiences first-hand</h2> - 17 January 2020</a>
+               <div class="description">
+                   <p>Totally Healthcare (THC) recently welcomed the NHS Shared Business Services (SBS) team to one of our services so they could experience first-hand how clinical insourcing operates.</p>
+                <p>Effective clinical insourcing services requires providers to work with commissioners by sharing and supporting them to increase their knowledge of the service solution and the benefits it offers for patient care.</p> 
+                 <img class="ui small left floated image" src="assets/images/kaye-drew-new.jpg" alt="Kaye Drew">
+                <p>Kaye Drew, Totally Healthcare’s Head of Nursing, “I was delighted that NHS SBS team made time in their busy schedule to come along to review our insourcing service, talk with patients and our clinical team”.</p>
+                <p>Marie Lee, Totally Healthcare’s Managing Director, “We are proud to be on the NHS SBS framework agreement for clinical insourcing in the UK and I am delighted the NHS SBS team found their recent experience with us so rewarding.</p>
+                  <p>“We are keen to share and provide commissioners any help or information to demonstrate the cost-effectiveness and value of clinical insourcing”. 
+                </p>
+              </div>
+            </div>
+          </div>  
                 <div class="item">
             <div class="content">
               <a class="header" name="ditl-news"><h2>A day in the work-life - insourcing with Totally Healthcare</h2> - 28 November 2019</a>
