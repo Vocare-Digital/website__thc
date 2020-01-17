@@ -32,7 +32,7 @@
         <div class="ui divided items">
                <div class="item">
             <div class="content">
-              <a class="header" name="ditl-news"><h2>How does clinical insourcing work? NHS SBS experiences first-hand</h2> - 17 January 2020</a>
+              <a class="header" name="sbs"><h2>How does clinical insourcing work? NHS SBS experiences first-hand</h2> - 17 January 2020</a>
                <div class="description">
                    <p>Totally Healthcare (THC) recently welcomed the NHS Shared Business Services (SBS) team to one of our services so they could experience first-hand how clinical insourcing operates.</p>
                 <p>Effective clinical insourcing services requires providers to work with commissioners by sharing and supporting them to increase their knowledge of the service solution and the benefits it offers for patient care.</p> 
@@ -46,7 +46,7 @@
           </div>  
                 <div class="item">
             <div class="content">
-              <a class="header" name="ditl-news"><h2>A day in the work-life - insourcing with Totally Healthcare</h2> - 28 November 2019</a>
+              <a class="header" name="dil-news"><h2>A day in the work-life - insourcing with Totally Healthcare</h2> - 28 November 2019</a>
               <div class="description">
                 <img class="ui small left floated image" src="assets/images/Christine%20Roberts.jpg">
                 <p>
