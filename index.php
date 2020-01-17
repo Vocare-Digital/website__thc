@@ -302,6 +302,22 @@
         <div class="column">
             <h3>Latest News</h3>
             <div class="ui feed">
+                <div class="event">
+                    <div class="content">
+                        <div class="summary">
+                            <a href="news.php#sbs">
+                                How does clinical insourcing work? NHS SBS experiences first-hand
+                            </a>
+                        </div>
+                        <div class="extra text">
+                            Totally Healthcare (THC) recently welcomed the NHS Shared Business Services (SBS) team to one of our services. <a href="news.php#sbs">Read
+                                more</a>
+                        </div>
+                        <div class="meta">
+                            17 January 2020
+                        </div>
+                    </div>
+                </div>
                   <div class="event">
                     <div class="content">
                         <div class="summary">
@@ -317,22 +333,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="event">
-                    <div class="content">
-                        <div class="summary">
-                            <a href="news.php#ml-news">
-                                Totally Healthcare selected as NHS SBS supplier
-                            </a>
-                        </div>
-                        <div class="extra text">
-                            Totally Healthcare has been selected as one of the suppliers to NHS Shared Business Services for both England and Scotland. <a href="news.php#ml-news">Read
-                                more</a>
-                        </div>
-                        <div class="meta">
-                            27 November 2019
-                        </div>
-                    </div>
-                </div>
+                
               
             </div>
 
