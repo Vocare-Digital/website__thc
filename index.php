@@ -124,8 +124,22 @@
 </div>
 <!-- end of hero -->
 
-<!-- rosette content -->
+    <!-- rosette content -->
 <div class="info-banner" id="banner-under-hero">
+    <h1 class="white">We work with hospitals across the UK and Ireland</h1>
+</div>
+  <!-- end of rosette content -->  
+<!-- start of video content -->
+     <div class="ui mini-container">
+     <p>Watch how insourcing can reduce long hospital waiting lists.</p>
+      <div style="text-align: center">
+        <iframe src="https://player.vimeo.com/video/385479762" width="800" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>  
+       </div> 
+    </div> 
+    <!-- end of video content -->
+    
+<!-- rosette content -->
+<div class="info-banner">
     <h1 class="white">We drive down hospital waiting lists while keeping patients at the heart of our insourcing
         model</h1>
 </div>
