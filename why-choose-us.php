@@ -357,20 +357,6 @@
     </div>
     </div>
 
-
-
-<div class="ui main fluid container">
-    <div class="info-banner" id="hero-banner">
-        <h1 class="white">Our senior team has more than 40 years' combined experience within insourcing</h1>
-    </div>
-</div>
-    <div class="ui mini-container">
-        <!-- rosette content -->
-        <p>Totally Healthcare supports trusts and hospitals to deliver patient waiting time initiatives across specialties throughout the UK and Ireland.</p>
-        <p>Our Management and clinical teams have more than 40 years of healthcare experience within insourcing in the UK and Republic of Ireland and have helped treat more than 620,000 patients across all specialties.</p>
-        <p>Totally Healthcare is part of <a href="https://www.totallyplc.com">Totally plc</a> – one of England’s leading healthcare providers, working across more than 230 locations nationwide to address the challenges of increased demand on health services by delivering high-quality care.</p>
-</div>
-
     <?php require_once('footer.php'); ?>
 </div>
 </body>
