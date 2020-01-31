@@ -50,7 +50,7 @@
                         <span class="le-purp">Managing Director</span>
                     </div>
                     <div class="description">
-                        <p>Marie Lee is passionate and committed to helping hospitals reduce their patient waiting times. Marie was one of the original founders and CEO of Medinet Insourcing business, treating more than 620,000 patients across the UK and Ireland.</p>
+                        <p>Marie Lee is passionate and committed to helping hospitals reduce their patient waiting times. Marie was one of the original founders and CEO of Medinet Insourcing business, treating just under a million patients across the UK and Ireland.</p>
                         <p>Marie has worked with more than 100 Hospitals across the UK and Ireland, helping to reduce patient waiting times through cost effective solutions. She is supported by a team of experienced clinicians, including Dr Graham Turner, Medical Advisor for Totally Healthcare and Consultant Gastroenterologist at the Belfast Health and Social Care Trust.</p>
                     </div>
                 </div>
