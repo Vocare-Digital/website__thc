@@ -132,7 +132,7 @@
 <!-- start of video content -->
      <div class="ui mini-container">
          <p>Totally Healthcare is part of <a href="https://www.totallyplc.com" title="Totally plc website">Totally plc</a> – one of England’s leading healthcare providers, working across more than 230 locations nationwide to address the challenges of increased demand on health services by delivering high-quality care.</p>
-         <p>Totally Healthcare supports trusts and hospitals to deliver patient waiting time initiatives across specialties throughout the UK and Ireland. Our Management and clinical teams have more than 40 years of healthcare experience within insourcing in the UK and Republic of Ireland and have helped treat more than 620,000 patients across all specialties.</p>
+         <p>Totally Healthcare supports trusts and hospitals to deliver patient waiting time initiatives across specialties throughout the UK and Ireland. Our Management and clinical teams have more than 40 years of healthcare experience within insourcing in the UK and Republic of Ireland and have helped treat just under a million patients across all specialties.</p>
          <p>Watch how insourcing can reduce long hospital waiting lists.</p>
          <div style="text-align: center">
             <iframe src="https://player.vimeo.com/video/385479762" width="800" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>  
