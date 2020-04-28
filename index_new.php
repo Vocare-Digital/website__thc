@@ -131,11 +131,7 @@
   <!-- end of rosette content -->  
 <!-- start of video content -->
      <div class="ui mini-container">
-         <p>Our ongoing services continue to support hospitals across the UK and Ireland. We are strictly following all the latest guidance to keep our patients, staff and their families protected from the risks associated with the COVID-19 pandemic. 
-             For the latest advice on COVID-19, and how to access care should you need to, please visit <a href="https://www.nhs.uk/conditions/coronavirus-covid-19/" target="_blank" title="NHS">NHS website</a>, 
-             <a href="https://www.gov.uk/government/organisations/public-health-england" target="_blank" title="Public Health England">PHE website</a>, 
-             <a href="https://www.publichealth.hscni.net/news/covid-19-coronavirus" target="_blank" title="HSCNI">HSCNI website</a> or <a href="https://www2.hse.ie/conditions/coronavirus/coronavirus.html" target="_blank" title="HSE">HSE website</a></p> 
-         <p>Totally Healthcare is part of <a href="https://www.totallyplc.com" title="Totally plc website">Totally plc</a> – one of England’s leading healthcare providers, working across more than 230 locations nationwide to address the challenges of increased demand on health services by delivering high-quality care.</p>
+            <p>Totally Healthcare is part of <a href="https://www.totallyplc.com" title="Totally plc website">Totally plc</a> – one of England’s leading healthcare providers, working across more than 230 locations nationwide to address the challenges of increased demand on health services by delivering high-quality care.</p>
          <p>Totally Healthcare supports trusts and hospitals to deliver patient waiting time initiatives across specialties throughout the UK and Ireland. Our Management and clinical teams have more than 40 years of healthcare experience within insourcing in the UK and Republic of Ireland and have helped treat just under a million patients across all specialties.</p>
          <p>Watch how insourcing can reduce long hospital waiting lists.</p>
          <div style="text-align: center">
