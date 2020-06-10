@@ -332,6 +332,21 @@
         <div class="column">
             <h3>Latest News</h3>
             <div class="ui feed">
+                 <div class="event">
+                    <div class="content">
+                        <div class="summary">
+                            <a href="news.php#c19">
+                                How we are supporting hospitals to move into the next phase of recovery from COVID-19
+                            </a>
+                        </div>
+                        <div class="extra text">
+                            The NHS Confederation has today warned that recovery from COVID-19 could continue for a very long time. <a href="news.php#c19">Read more</a>
+                        </div>
+                        <div class="meta">
+                            10 June 2020
+                        </div>
+                    </div>
+                </div>
                 <div class="event">
                     <div class="content">
                         <div class="summary">
@@ -348,26 +363,12 @@
                         </div>
                     </div>
                 </div>
-                  <div class="event">
-                    <div class="content">
-                        <div class="summary">
-                            <a href="news.php">
-                                A day in the work-life - insourcing with Totally Healthcare
-                            </a>
-                        </div>
-                        <div class="extra text">
-                            Christine Roberts, Endoscopy Sister, describes working with Totally Healthcare (THC) to deliver high-quality patient care. <a href="news.php#dil-news">Read more</a>
-                        </div>
-                        <div class="meta">
-                            28 November 2019
-                        </div>
-                    </div>
-                </div>
+                 
                 
               
             </div>
 
-            <a href="news.html">See all latest news</a>
+            <a href="news.php">See all latest news</a>
         </div>
 
         <div class="center aligned column">
