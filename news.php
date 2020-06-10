@@ -30,6 +30,22 @@
     <div class="ui stackable grid">
       <div class="ten wide column">
         <div class="ui divided items">
+             <div class="item">
+            <div class="content">
+              <a class="header" name="sbs"><h2>How we are supporting hospitals to move into the next phase of recovery from COVID-19</h2> - 10 June 2020</a>
+               <div class="description">
+                <img class="ui small left floated image" src="assets/images/COVID-19.webp">
+                   <p>The NHS Confederation has today warned that recovery from COVID-19 could continue for a very long time with 10 million patients potentially left waiting for important treatment. It warns that the NHS faces an uphill battle as it continues to manage thousands of very sick and recovering COVID-19 patients, maintain social distancing and restart services to treat cancer, stroke and heart care.</p>
+                <p>Marie Lee, Managing Director of Totally Healthcare, describes how the team is working in partnership with hospitals as they begin inviting patients back for elective treatment following suspension of many services during the first phase of the COVID-19 pandemic.</p> 
+                <img class="ui small left floated image" src="assets/images/marie-lee-new.jpg">
+                 <p>The insourcing healthcare division of Totally plc specialises in working with hospitals to reduce their patient waiting lists. Our expert insourcing teams utilise the hospitals infrastructure to deliver services across multiple specialties during times when the hospitals are not using some of the clinic spaces and equipment, often at evenings and weekends.</p>
+                 <p>In March this year, in response to the pandemic, hospitals were forced to focus on reducing the public health threat from COVID-19 and this meant many elective treatments were put on hold. I commend the hard work of the NHS and healthcare providers across UK and Ireland in their committed fight against the pandemic.</p>
+                   <p>Now as we move into a new 'business as usual', we have taken expert advice from our colleagues on the frontline and are working directly with hospitals to continue provision of multiple speciality services through our high-quality service delivery model. All our clinicians are highly experienced and have been working under new COVID-19 restrictions, so we are extremely well-placed to help reduce the ever-increasing pressure caused by long waiting lists, while managing all the new healthcare risks associated with COVID-19. We are currently performing procedures in several hospitals now and we are reaching out to expand our team to respond to the high demand from hospitals requiring help with this critical next phase of restarting elective procedures.</p>
+                   <p>All Totally Healthcare's insourcing clinics maintain a safe environment where clinicians work to robust national quality standards, as well as local policies to ensure every patient is seen as quickly as possible by the most appropriate clinician in the most appropriate place.</p>
+               /div>
+            </div>
+          </div>  
+            
                <div class="item">
             <div class="content">
               <a class="header" name="sbs"><h2>How does clinical insourcing work? NHS SBS experiences first-hand</h2> - 17 January 2020</a>
