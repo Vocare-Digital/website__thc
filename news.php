@@ -32,7 +32,7 @@
         <div class="ui divided items">
              <div class="item">
             <div class="content">
-              <a class="header" name="sbs"><h2>How we are supporting hospitals to move into the next phase of recovery from COVID-19</h2> - 10 June 2020</a>
+              <a class="header" name="c19"><h2>How we are supporting hospitals to move into the next phase of recovery from COVID-19</h2> - 10 June 2020</a>
                <div class="description">
                 <img class="ui small left floated image" src="assets/images/COVID-19.webp">
                    <p>The NHS Confederation has today warned that recovery from COVID-19 could continue for a very long time with 10 million patients potentially left waiting for important treatment. It warns that the NHS faces an uphill battle as it continues to manage thousands of very sick and recovering COVID-19 patients, maintain social distancing and restart services to treat cancer, stroke and heart care.</p>
