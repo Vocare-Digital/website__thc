@@ -332,6 +332,22 @@
         <div class="column">
             <h3>Latest News</h3>
             <div class="ui feed">
+                <div class="event">
+                    <div class="content">
+                        <div class="summary">
+                            <a href="news.php#june24">
+                                The COVID-19 experience&hellip;
+                            </a>
+                        </div>
+                        <div class="extra text">
+                            How we put new guidance and restrictions into practice to develop updated, high-quality insourcing processes and a safe environment for our patients. <a href="news.php#june24">Read
+                                more</a>
+                        </div>
+                        <div class="meta">
+                            24 June 2020
+                        </div>
+                    </div>
+                </div>
                  <div class="event">
                     <div class="content">
                         <div class="summary">
@@ -347,22 +363,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="event">
-                    <div class="content">
-                        <div class="summary">
-                            <a href="news.php#sbs">
-                                How does clinical insourcing work? NHS SBS experiences first-hand
-                            </a>
-                        </div>
-                        <div class="extra text">
-                            Totally Healthcare (THC) recently welcomed the NHS Shared Business Services (SBS) team to one of our services. <a href="news.php#sbs">Read
-                                more</a>
-                        </div>
-                        <div class="meta">
-                            17 January 2020
-                        </div>
-                    </div>
-                </div>
+                
                  
                 
               
