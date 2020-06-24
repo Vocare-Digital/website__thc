@@ -32,6 +32,29 @@
         <div class="ui divided items">
              <div class="item">
             <div class="content">
+              <a class="header" name="june24"><h2>The COVID-19 experience&hellip; how we put new guidance and restrictions into practice to develop updated, high-quality insourcing processes and a safe environment for our patients</h2> - 24 June 2020</a>
+               <div class="description">
+                   <p style="font-style: italic;">Dr Graham Turner, Medical Director for Totally Healthcare and Clinical Lead for Endoscopy and Gastroenterology at the Belfast Trust, describes how he has worked with hospitals to understand how new guidance can be combined into standard working practice to continue rolling out insourcing services across the UK and Ireland. </p>
+                <img class="ui small left floated image" src="assets/images/outfit.png" alt="PPE" />                  
+                   <p>I'm sure I am not alone in wondering where the first half of 2020 has gone and how our world of healthcare has changed in what seems like the blink of an eye. Huge efforts and sacrifices by society and key workers have required us to adapt our day-to-day lives significantly. Many of the UK’s core healthcare services were paused to direct important resources towards managing the effects of the COVID-19 pandemic. In addition to the horrible toll of COVID-19 itself, this pause has created its own difficulties for patients and medical teams alike.</p>
+                    <p>As the number of cases of COVID-19 falls, our focus has shifted back to rebuilding our services and in the world of endoscopy, there are new challenges to overcome. It has been a privilege, once again, to witness our teams coming together and creating ways to adapt to the new realm of social distancing and enhanced PPE. New ways of working have been and continue to be developed across the entire healthcare system. </p>
+                   <p>While the postponement of services was very difficult for patients, the time was used by healthcare professionals to ensure all practices are fully in line with the latest government and NHS guidelines in COVID-19 and infection control procedures. The emerging and regularly updated guidance from the British Society of Gastroenterology and other professional bodies was also incredibly important, and we have been working hard to ensure that our patients will continue to get the best and safest treatment. </p>
+                   <p>Three weeks ago, we successfully restarted our endoscopy insourcing services after an 11-week pause. Behind the scenes, we have held many discussions with the hospitals we support around COVID-19 and the safest way to restart services. One thing was very clear from the outset – the landscape has significantly changed. Specifically, we have looked at:</p>
+                   <ul>
+                       <li>Aerosol generating procedures</li>
+                       <li>Settling times and air exchanges</li>
+                       <li>PPE and fit testing for FFP3 masks</li>
+                       <li>Donning and doffing protocols</li>
+                   </ul>
+                   <p>We have also met with local staff to help ensure adequate flow and social distancing for our patients. Despite these changes, we are all so pleased to be back to treating our patients. There was genuine and palpable excitement when the teams regrouped to allow many patients to have their deferred but important investigations. </p>
+                   <p>Since restarting our insourcing services, we are proud to have been able to build on our experience and increase patient numbers without compromising any of the important principles we have set out. The admission, endoscopy and recovery processes are all working brilliantly, and feedback has been excellent from clients and staff alike. We have now created a safe and reassuring environment for a worried public, and we are eager to continue our ambition to reduce hospital waiting lists and get care to patients in a timely way. Thank you to everyone involved in our return.</p>
+                   <p>It has been hot work in our new outfits though&hellip;</p>
+                </div>
+            </div>
+          </div>
+            
+             <div class="item">
+            <div class="content">
               <a class="header" name="c19"><h2>How we are supporting hospitals to move into the next phase of recovery from COVID-19</h2> - 10 June 2020</a>
                <div class="description">
                 <img class="ui small left floated image" src="assets/images/covid19.JPG">
