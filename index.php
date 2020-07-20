@@ -332,6 +332,21 @@
         <div class="column">
             <h3>Latest News</h3>
             <div class="ui feed">
+                 <div class="event">
+                    <div class="content">
+                        <div class="summary">
+                            <a href="news.php#july16">
+                                Kaye Drew blog
+                            </a>
+                        </div>
+                        <div class="extra text">
+                        Kaye Drew, Clinical Mobilisation Lead for THC, shares key insights on delivering healthcare post-COVID-19 following a recent endoscopy service mobilisation. <a href="news.php#july16">Read more</a>
+                        </div>
+                        <div class="meta">
+                            16 July 2020
+                        </div>
+                    </div>
+                </div>
                 <div class="event">
                     <div class="content">
                         <div class="summary">
@@ -348,21 +363,7 @@
                         </div>
                     </div>
                 </div>
-                 <div class="event">
-                    <div class="content">
-                        <div class="summary">
-                            <a href="news.php#c19">
-                                How we are supporting hospitals to move into the next phase of recovery from COVID-19
-                            </a>
-                        </div>
-                        <div class="extra text">
-                            The NHS Confederation has today warned that recovery from COVID-19 could continue for a very long time. <a href="news.php#c19">Read more</a>
-                        </div>
-                        <div class="meta">
-                            10 June 2020
-                        </div>
-                    </div>
-                </div>
+                
                 
                  
                 
