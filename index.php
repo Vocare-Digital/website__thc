@@ -340,7 +340,7 @@
                             </a>
                         </div>
                         <div class="extra text">
-                        Kaye Drew, Clinical Mobilisation Lead for THC, shares key insights on delivering healthcare post-COVID-19 following a recent endoscopy service mobilisation. <a href="news.php#july16">Read more</a>
+                        Kaye Drew, Clinical Mobilisation Lead for THC, shares key insights on delivering healthcare post-COVID-19 following a recent endoscopy service mobilisation. <a href="news.php#july20">Read more</a>
                         </div>
                         <div class="meta">
                             20 July 2020
