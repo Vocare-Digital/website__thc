@@ -336,7 +336,7 @@
                     <div class="content">
                         <div class="summary">
                             <a href="news.php#july20">
-                                Mobilising endoscopy services post-COVID-19
+                                Mobilising endoscopy services following first phase of the COVID-19 pandemic 
                             </a>
                         </div>
                         <div class="extra text">
