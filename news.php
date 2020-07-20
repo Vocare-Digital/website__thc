@@ -32,7 +32,7 @@
         <div class="ui divided items">
              <div class="item">
             <div class="content">
-              <a class="header" name="july20"><h2>Mobilising endoscopy services post-COVID-19</h2> - 20 July 2020</a>
+              <a class="header" name="july20"><h2>Mobilising endoscopy services following first phase of the COVID-19 pandemic</h2> - 20 July 2020</a>
                <div class="description">
                    <p style="font-style: italic;">Following the pause of many elective procedures during COVID-19, Totally Healthcare (THC) continues forward into the new 'business as usual' as it restarts its services across the UK and Ireland. In the most recent THC blog Kaye Drew, Clinical Mobilisation Lead for THC, Totally plc's insourcing division, shares key insights on delivering healthcare following phase one of the COVID-19 pandemic after a recent endoscopy service mobilisation.</p>
                 <img class="ui small left floated image" src="assets/images/KayePPE.jpg" alt="Kaye wearing PPE" />                  
