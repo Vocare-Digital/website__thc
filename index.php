@@ -335,15 +335,15 @@
                  <div class="event">
                     <div class="content">
                         <div class="summary">
-                            <a href="news.php#july16">
-                                Kaye Drew blog
+                            <a href="news.php#july20">
+                                Mobilising endoscopy services post-COVID-19
                             </a>
                         </div>
                         <div class="extra text">
                         Kaye Drew, Clinical Mobilisation Lead for THC, shares key insights on delivering healthcare post-COVID-19 following a recent endoscopy service mobilisation. <a href="news.php#july16">Read more</a>
                         </div>
                         <div class="meta">
-                            16 July 2020
+                            20 July 2020
                         </div>
                     </div>
                 </div>
