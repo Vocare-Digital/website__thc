@@ -379,7 +379,7 @@
             <a href="https://www.totallyplc.com" class="ui medium centered"><img src="assets/images/totally_lg.PNG"
                                                                                  width="30%"></a>
             <br />
-             <img src="assets/images/ASF_blue.jpg" class="ui centered image" width="60%">
+             <img src="assets/images/ASF_Blue.jpg" class="ui centered image" width="60%">
         </div>
 
         <div class="right aligned column">
