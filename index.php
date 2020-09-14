@@ -378,6 +378,8 @@
             <p style="margin-top:0 !important">is part of</p>
             <a href="https://www.totallyplc.com" class="ui medium centered"><img src="assets/images/totally_lg.PNG"
                                                                                  width="30%"></a>
+            <br />
+             <img src="assets/images/ASF_blue.jpg" class="ui centered image" width="60%">
         </div>
 
         <div class="right aligned column">
