@@ -374,10 +374,7 @@
         </div>
 
         <div class="center aligned column">
-            <img src="assets/images/thlogo-aligned-trans-sm.png" class="ui centered image" width="60%">
-            <p style="margin-top:0 !important">is part of</p>
-            <a href="https://www.totallyplc.com" class="ui medium centered"><img src="assets/images/totally_lg.PNG"
-                                                                                 width="30%"></a>
+            <img src="assets/images/thlogo-aligned-trans-sm.png" class="ui centered image" width="60%">        
             <br />
              <img src="assets/images/ASF_Blue.jpg" class="ui centered image" width="20%">
         </div>
