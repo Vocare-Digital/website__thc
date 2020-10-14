@@ -6,8 +6,8 @@ echo '
             <a class="item white" href="sitemap.php">Site Map</a>
             <a class="item white" href="contact-us.php">Contact Us</a>
             <a class="item white" href="privacy-policy.php">Privacy Policy &amp; Modern Slavery Statement</a>
-            <a href="https://www.totallyplc.com" class="ui medium right"><img src="assets/images/totally_lg.PNG"
-                                                                                 width="30%"></a>
+            <a href="https://www.totallyplc.com" class="ui medium"><img src="assets/images/totally_lg.PNG"
+                                                                                 width="10%"></a>
             
         </div>
     </div>
