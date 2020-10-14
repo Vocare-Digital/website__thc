@@ -1,6 +1,6 @@
 <?php
 echo '
-        <a href="https://www.totallyplc.com" class="ui medium"><img src="assets/images/totally_lg.PNG" style="float: right; margin-right: 1%;" width="15%"></a>
+        <a href="https://www.totallyplc.com" class="ui medium"><img src="assets/images/totally_lg.PNG" style="float: right; padding-right: 4.5em;" width="12%"></a>
 <div class="ui  vertical footer segment" style="margin-top: 8em; background-color: #00887A">
     <div class="ui center aligned container">
         <div class="ui horizontal inverted  small divided link list ">
