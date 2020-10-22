@@ -49,7 +49,7 @@
             Derby<br>
             DE1 3QT<br>
             Telephone: +44 (0)20 3866 3330<br>
-            Email: <a href="mailto:info@totallyplc.com">info@totallyplc.com</a>
+            Email: <a href="mailto:info@totallyhealthcarelimited.com">info@totallyhealthcarelimited.com</a>
         </address>
             </div>
             <div class="column" >
