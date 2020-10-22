@@ -43,7 +43,7 @@
         <div class="ui  two columns doubling stackable grid">
             <div class="column">
         <address>
-            Totally plc<br>
+            Totally Healthcare Ltd.<br>
             Cardinal Square West<br>
             10 Nottingham Road<br>
             Derby<br>
