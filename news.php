@@ -30,7 +30,21 @@
     <div class="ui stackable grid">
       <div class="ten wide column">
         <div class="ui divided items">
-             <div class="item">
+          <div class="item">
+            <div class="content">
+              <a class="header" name="nov20"><h2>Totally Healthcare welcomes NHS funding boost</h2> - 23 November 2020</a>
+                <div class="description">
+                   <p style="font-style: italic;">Following yesterday’s announcement from the Chancellor of increased NHS investment in England to help tackle the backlog of patients waiting for treatment, Marie Lee, Managing Director of Totally Healthcare welcomes the news and describes how insourcing is continuing to support hospitals to reduce the increasing backlog during the pandemic.</p>
+                     <img class="ui small left floated image" src="assets/images/marie-lee-new.jpg" alt="photo of Marie Lee">  
+<p>According to recent reports from the BBC the number of patients waiting a year for treatment has risen from about 1,500 in February to 140,000 in September. When we launched Totally Healthcare one year ago, our mission was to support hospitals across the UK and Ireland through insourcing to reduce patient waiting lists and increase the number of patients receiving their treatment within 18 weeks.</p>
+<p>Insourcing is an innovative way to support hospitals to meet their patient waiting time targets following a GP referral. It works by bringing specialist clinicians to hospitals during evenings and weekends to carry out outpatient appointments and surgery across a wide-range of healthcare specialities.</p>
+ <img class="ui small left floated image" src="assets/images/covid19.JPG" alt="image of covid virus">
+<p>COVID-19 has had a negative effect on waiting lists for elective procedures since it hit the UK and Ireland at the beginning of the year, and the impact this has had on patients still waiting for treatment is significant. </p>
+<p>We have been working tirelessly alongside NHS colleagues to help reduce the mounting pressure on hospitals caused by patient backlogs, and I’m proud of the impact we have been able to have, especially at such a challenging time for healthcare. But more is needed, and I know from discussions with our NHS partners that this additional funding will be hugely welcomed and will help to continue reducing patient treatment waiting times.</p>
+                </div>
+            </div>
+          </div>
+          <div class="item">
             <div class="content">
               <a class="header" name="july20"><h2>Mobilising endoscopy services following first phase of the COVID-19 pandemic</h2> - 20 July 2020</a>
                <div class="description">
