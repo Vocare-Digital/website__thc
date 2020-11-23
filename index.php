@@ -332,6 +332,22 @@
         <div class="column">
             <h3>Latest News</h3>
             <div class="ui feed">
+                <div class="event">
+                    <div class="content">
+                        <div class="summary">
+                            <a href="news.php#nov20">
+                                Totally Healthcare welcomes NHS funding boost
+                            </a>
+                        </div>
+                        <div class="extra text">Following yesterday’s announcement from the Chancellor of increased NHS investment in England to help tackle the 
+                            backlog of patients waiting for treatment, Marie Lee, Managing Director of Totally Healthcare welcomes the news&hellip; <a href="news.php#nov20">Read
+                        more</a>
+                        </div>
+                        <div class="meta">
+                            23 November 2020
+                        </div>
+                    </div>
+                </div>
                  <div class="event">
                     <div class="content">
                         <div class="summary">
@@ -347,26 +363,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="event">
-                    <div class="content">
-                        <div class="summary">
-                            <a href="news.php#june24">
-                                The COVID-19 experience&hellip;
-                            </a>
-                        </div>
-                        <div class="extra text">
-                            How we put new guidance and restrictions into practice to develop updated, high-quality insourcing processes and a safe environment for our patients. <a href="news.php#june24">Read
-                                more</a>
-                        </div>
-                        <div class="meta">
-                            24 June 2020
-                        </div>
-                    </div>
-                </div>
-                
-                
-                 
-                
+                               
               
             </div>
 
