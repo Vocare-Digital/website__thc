@@ -38,7 +38,7 @@
                      <img class="ui small left floated image" src="assets/images/marie-lee-new.jpg" alt="photo of Marie Lee">  
 <p>According to recent reports from the BBC the number of patients waiting a year for treatment has risen from about 1,500 in February to 140,000 in September. When we launched Totally Healthcare one year ago, our mission was to support hospitals across the UK and Ireland through insourcing to reduce patient waiting lists and increase the number of patients receiving their treatment within 18 weeks.</p>
 <p>Insourcing is an innovative way to support hospitals to meet their patient waiting time targets following a GP referral. It works by bringing specialist clinicians to hospitals during evenings and weekends to carry out outpatient appointments and surgery across a wide-range of healthcare specialities.</p>
- <img class="ui small left floated image" src="assets/images/covid19.JPG" alt="image of covid virus">
+ <img class="ui small right floated image" src="assets/images/covid%20virus.jpg" alt="image of virus">
 <p>COVID-19 has had a negative effect on waiting lists for elective procedures since it hit the UK and Ireland at the beginning of the year, and the impact this has had on patients still waiting for treatment is significant. </p>
 <p>We have been working tirelessly alongside NHS colleagues to help reduce the mounting pressure on hospitals caused by patient backlogs, and I’m proud of the impact we have been able to have, especially at such a challenging time for healthcare. But more is needed, and I know from discussions with our NHS partners that this additional funding will be hugely welcomed and will help to continue reducing patient treatment waiting times.</p>
                 </div>
